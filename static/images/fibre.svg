@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Ellipse_47" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle" x="16" y="19.207" width="26" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="14" y="23" width="30" height="25" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fibre" transform="translate(14 10.621)">
+    <g transform="matrix(1, 0, 0, 1, -14, -10.62)" filter="url(#Ellipse_47)">
+      <circle id="Ellipse_47-2" data-name="Ellipse 47" cx="20" cy="20" r="20" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="iocne-fibre" transform="translate(-298.792 -192.621)">
+      <g id="haut" transform="translate(309.923 198)">
+        <g id="_4" data-name="4" transform="translate(5.703 2.931)">
+          <path id="Ligne_17" data-name="Ligne 17" d="M-2.207,3.128A.293.293,0,0,1-2.5,2.835V-2.207A.293.293,0,0,1-2.207-2.5a.293.293,0,0,1,.293.293V2.835A.293.293,0,0,1-2.207,3.128Z" transform="translate(3.203 4.2)" fill="#ffae00"/>
+          <path id="Ellipse_11" data-name="Ellipse 11" d="M1,.352A.645.645,0,1,0,1.641,1,.646.646,0,0,0,1,.352M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" fill="#ffae00"/>
+        </g>
+        <g id="_3" data-name="3" transform="translate(3.907 5.042)">
+          <path id="Ligne_18" data-name="Ligne 18" d="M-2.207,1.017A.293.293,0,0,1-2.5.724V-2.207A.293.293,0,0,1-2.207-2.5a.293.293,0,0,1,.293.293V.724A.293.293,0,0,1-2.207,1.017Z" transform="translate(3.208 4.2)" fill="#ffae00"/>
+          <path id="Ellipse_10" data-name="Ellipse 10" d="M1,.352A.645.645,0,1,0,1.641,1,.646.646,0,0,0,1,.352M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" fill="#ffae00"/>
+        </g>
+        <g id="_2" data-name="2" transform="translate(1.795)">
+          <path id="Ligne_19" data-name="Ligne 19" d="M-2.207,6.059A.293.293,0,0,1-2.5,5.766V-2.207A.293.293,0,0,1-2.207-2.5a.293.293,0,0,1,.293.293V5.766A.293.293,0,0,1-2.207,6.059Z" transform="translate(3.199 4.2)" fill="#ffae00"/>
+          <path id="Ellipse_9" data-name="Ellipse 9" d="M1,.352A.645.645,0,1,0,1.641,1,.646.646,0,0,0,1,.352M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" fill="#ffae00"/>
+        </g>
+        <g id="_1" data-name="1" transform="translate(0 2.931)">
+          <path id="Ligne_20" data-name="Ligne 20" d="M-2.207,3.128A.293.293,0,0,1-2.5,2.835V-2.207A.293.293,0,0,1-2.207-2.5a.293.293,0,0,1,.293.293V2.835A.293.293,0,0,1-2.207,3.128Z" transform="translate(3.203 4.2)" fill="#ffae00"/>
+          <path id="Ellipse_8" data-name="Ellipse 8" d="M1,.352A.645.645,0,1,0,1.641,1,.646.646,0,0,0,1,.352M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" fill="#ffae00"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 284.79, 182)" filter="url(#Rectangle)">
+        <path id="Rectangle-3" data-name="Rectangle" d="M1,0H7A1,1,0,0,1,8,1V4A0,0,0,0,1,8,4H0A0,0,0,0,1,0,4V1A1,1,0,0,1,1,0Z" transform="translate(25 25.21)" fill="#ffae00"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 284.79, 182)" filter="url(#Rectangle-2)">
+        <path id="Rectangle-4" data-name="Rectangle" d="M1,0H11a1,1,0,0,1,1,1V7a0,0,0,0,1,0,0H0A0,0,0,0,1,0,7V1A1,1,0,0,1,1,0Z" transform="translate(23 29)" fill="#ffae00"/>
+      </g>
+    </g>
+  </g>
+</svg>

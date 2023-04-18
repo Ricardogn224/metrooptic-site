@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74.839" height="68.455" viewBox="0 0 74.839 68.455">
+  <g id="icone_plug_and_play" data-name="icone plug and play" transform="translate(-385.137 -1703.721)">
+    <g id="prise" transform="translate(385.137 1703.721)">
+      <g id="Rectangle" fill="#fff" stroke="#101041" stroke-width="3">
+        <rect width="52" height="49" rx="10" stroke="none"/>
+        <rect x="1.5" y="1.5" width="49" height="46" rx="8.5" fill="none"/>
+      </g>
+      <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(14 12)" fill="none" stroke="#101041" stroke-width="2">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="13" fill="none"/>
+      </g>
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="3" cy="3" r="3" transform="translate(27 21)" fill="#101041"/>
+      <circle id="Ellipse_32" data-name="Ellipse 32" cx="3" cy="3" r="3" transform="translate(19 21)" fill="#101041"/>
+    </g>
+    <g id="charge" transform="translate(425 1732)">
+      <g id="Rectangle-2" data-name="Rectangle" transform="translate(0 8)" fill="#fff" stroke="#101041" stroke-width="3">
+        <path d="M0,0H30a0,0,0,0,1,0,0V8A15,15,0,0,1,15,23h0A15,15,0,0,1,0,8V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M3,1.5H27A1.5,1.5,0,0,1,28.5,3V8A13.5,13.5,0,0,1,15,21.5h0A13.5,13.5,0,0,1,1.5,8V3A1.5,1.5,0,0,1,3,1.5Z" fill="none"/>
+      </g>
+      <line id="Ligne_143" data-name="Ligne 143" y2="8" transform="translate(22)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="3"/>
+      <line id="Ligne_144" data-name="Ligne 144" y2="8" transform="translate(9)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="3"/>
+      <path id="Tracé_586" data-name="Tracé 586" d="M4594,5994c.646,3.411,2.2,6.294,6.018,7.782,4.234.157,9,2.172,11.7-7.782" transform="translate(-4578.578 -5963.331)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

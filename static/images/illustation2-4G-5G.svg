@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="357.66" viewBox="0 0 590 357.66">
+  <g id="illustation_2_-_4G-5G" data-name="illustation 2 - 4G-5G" transform="translate(-6430.5 -4504.167)">
+    <line id="Ligne_152" data-name="Ligne 152" x2="75.463" transform="translate(6808.467 4663.75)" fill="none" stroke="#3f8fb9" stroke-linecap="round" stroke-width="6" stroke-dasharray="22"/>
+    <line id="Ligne_153" data-name="Ligne 153" y2="30.185" transform="translate(6718.396 4692.498)" fill="none" stroke="#3f8fb9" stroke-linecap="round" stroke-width="6" stroke-dasharray="15"/>
+    <line id="Ligne_151" data-name="Ligne 151" x2="75.463" transform="translate(6577.928 4663.75)" fill="none" stroke="#3f8fb9" stroke-linecap="round" stroke-width="6" stroke-dasharray="22"/>
+    <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="79.656" cy="27.251" rx="79.656" ry="27.251" transform="translate(6638.332 4634.37)" fill="#f2e6c4"/>
+    <ellipse id="Ellipse_39" data-name="Ellipse 39" cx="79.5" cy="27.5" rx="79.5" ry="27.5" transform="translate(6638.534 4806.827)" fill="#f2e6c4" opacity="0.997"/>
+    <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="79.656" cy="27.251" rx="79.656" ry="27.251" transform="translate(6430.5 4666.43)" fill="#f2e6c4"/>
+    <ellipse id="Ellipse_37" data-name="Ellipse 37" cx="79.656" cy="33.12" rx="79.656" ry="33.12" transform="translate(6861.189 4650.436)" fill="#f2e6c4"/>
+    <g id="Rectangle" transform="translate(6661.387 4554.766)" fill="#fff" stroke="#101041" stroke-width="6">
+      <rect width="113.195" height="104.81" rx="16" stroke="none"/>
+      <rect x="3" y="3" width="107.195" height="98.81" rx="13" fill="none"/>
+    </g>
+    <g id="ordi" transform="translate(6445.173 4594.773)">
+      <g id="Rectangle-2" data-name="Rectangle" transform="translate(0)" fill="#fff" stroke="#101041" stroke-width="6">
+        <rect width="129.964" height="83.848" rx="12" stroke="none"/>
+        <rect x="3" y="3" width="123.964" height="77.848" rx="9" fill="none"/>
+      </g>
+    </g>
+    <line id="Ligne_148" data-name="Ligne 148" x2="29.347" transform="translate(6495.482 4607.739)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="6.708" cy="6.708" r="6.708" transform="translate(6735.087 4568.516)" fill="#101041"/>
+    <g id="tel" transform="translate(6685.701 4723.478)">
+      <g id="Rectangle-3" data-name="Rectangle" fill="#fff" stroke="#101041" stroke-width="6">
+        <rect width="64.563" height="113.195" rx="12" stroke="none"/>
+        <rect x="3" y="3" width="58.563" height="107.195" rx="9" fill="none"/>
+      </g>
+      <line id="Ligne_149" data-name="Ligne 149" x2="17.608" transform="translate(23.477 15.931)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="6.708" cy="6.708" r="6.708" transform="translate(25.993 86.363)" fill="#101041"/>
+    </g>
+    <g id="tablette" transform="translate(6898.92 4576.26)">
+      <g id="Rectangle-4" data-name="Rectangle" fill="#fff" stroke="#101041" stroke-width="6">
+        <rect width="83.848" height="113.195" rx="12" stroke="none"/>
+        <rect x="3" y="3" width="77.848" height="107.195" rx="9" fill="none"/>
+      </g>
+      <line id="Ligne_150" data-name="Ligne 150" x2="17.608" transform="translate(33.12 15.931)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="6.708" cy="6.708" r="6.708" transform="translate(35.216 86.363)" fill="#101041"/>
+    </g>
+    <g id="onde" transform="translate(6764.683 4506.827)">
+      <path id="Tracé_588" data-name="Tracé 588" d="M6829.254,4542.185s25.471,4.385,25.151,26.832" transform="translate(-6828.858 -4512.693)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+      <path id="Tracé_589" data-name="Tracé 589" d="M6830.528,4524.638s41.171,4.217,41.873,42.394" transform="translate(-6830.528 -4509.704)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+      <path id="Tracé_590" data-name="Tracé 590" d="M6885.165,4564.155c-3.875-53.928-55.186-57.328-55.186-57.328" transform="translate(-6828.49 -4506.827)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="5"/>
+    </g>
+    <text id="_4G_5G" data-name="4G
+5G" transform="translate(6692.409 4615.097)" fill="#101041" font-size="33" font-family="Avenir-Heavy, Avenir" font-weight="800" letter-spacing="0.15em"><tspan x="0" y="0">4G</tspan><tspan x="0" y="31">5G</tspan></text>
+  </g>
+</svg>

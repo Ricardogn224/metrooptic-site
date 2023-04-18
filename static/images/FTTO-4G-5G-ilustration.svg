@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="518" height="418" viewBox="0 0 518 418">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="518" height="418" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="FTTO_-_4G-5G" data-name="FTTO - 4G-5G" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="500" height="400" rx="15" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="Internet_de_secours_4G_5G_" data-name="Internet de secours 4G/5G " transform="translate(270 243)" fill="#101041" font-size="28" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-75" y="28">Internet De</tspan><tspan y="28" fill="#3f8fb9"> </tspan><tspan x="-99" y="60" fill="#3f8fb9">Secours 4G/5G </tspan></text>
+    <text id="_Internet_Fibre_Optique_FTTO" data-name=" Internet Fibre Optique FTTO" transform="translate(30 243)" fill="#3f8fb9" font-size="28" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-94" y="28"> </tspan><tspan y="28" fill="#101041">Internet Fibre </tspan><tspan x="-94" y="60" fill="#101041">Optique</tspan><tspan y="60"> </tspan><tspan y="60" fill="#ffae00">FTTO</tspan></text>
+    <g id="iocne-fibre" transform="translate(-212.5 -120)">
+      <g id="bas" transform="translate(307.5 250.476)">
+        <path id="Ligne_10" data-name="Ligne 10" d="M18.6.723H-1.164A1.493,1.493,0,0,1-2.5-.889,1.493,1.493,0,0,1-1.164-2.5H18.6A1.493,1.493,0,0,1,19.938-.889,1.493,1.493,0,0,1,18.6.723Z" transform="translate(2.5 28.283)" fill="#101041"/>
+        <path id="Ligne_11" data-name="Ligne 11" d="M-.889,34.241A1.611,1.611,0,0,1-2.5,32.629V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V32.629A1.611,1.611,0,0,1-.889,34.241Z" transform="translate(2.5 28.283)" fill="#101041"/>
+        <path id="Ligne_12" data-name="Ligne 12" d="M30.171.723H-1.46C-2.034.723-2.5,0-2.5-.889S-2.034-2.5-1.46-2.5H30.171c.575,0,1.04.721,1.04,1.611S30.746.723,30.171.723Z" transform="translate(38.788 28.283)" fill="#101041"/>
+        <path id="Ligne_13" data-name="Ligne 13" d="M-.889,34.241A1.611,1.611,0,0,1-2.5,32.629V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V32.629A1.611,1.611,0,0,1-.889,34.241Z" transform="translate(69.277 28.283)" fill="#101041"/>
+        <path id="Ligne_14" data-name="Ligne 14" d="M-.889,25.861A1.611,1.611,0,0,1-2.5,24.25V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V24.25A1.611,1.611,0,0,1-.889,25.861Z" transform="translate(15.249 3.145)" fill="#101041"/>
+        <path id="Ligne_15" data-name="Ligne 15" d="M-1.467,1.045c-.568,0-1.03-.716-1.033-1.6s.457-1.615,1.028-1.619L40.679-2.5h.005c.568,0,1.03.716,1.033,1.6S41.26.718,40.689.723l-42.151.322Z" transform="translate(15.714 2.5)" fill="#101041"/>
+        <path id="Ligne_16" data-name="Ligne 16" d="M-.889,26.506A1.611,1.611,0,0,1-2.5,24.894V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V24.894A1.611,1.611,0,0,1-.889,26.506Z" transform="translate(57.166 2.5)" fill="#101041"/>
+      </g>
+      <g id="haut" transform="translate(321.229 198)">
+        <g id="_4" data-name="4" transform="translate(31.35 16.114)">
+          <path id="Ligne_17" data-name="Ligne 17" d="M-.889,28.439A1.611,1.611,0,0,1-2.5,26.828V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V26.828A1.611,1.611,0,0,1-.889,28.439Z" transform="translate(6.367 11.846)" fill="#101041"/>
+          <path id="Ellipse_11" data-name="Ellipse 11" d="M5.479,1.934A3.545,3.545,0,1,0,9.024,5.479,3.549,3.549,0,0,0,5.479,1.934M5.479,0A5.479,5.479,0,1,1,0,5.479,5.479,5.479,0,0,1,5.479,0Z" fill="#101041"/>
+        </g>
+        <g id="_3" data-name="3" transform="translate(21.48 27.717)">
+          <path id="Ligne_18" data-name="Ligne 18" d="M-.889,16.837A1.611,1.611,0,0,1-2.5,15.226V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V15.226A1.611,1.611,0,0,1-.889,16.837Z" transform="translate(6.394 11.846)" fill="#101041"/>
+          <path id="Ellipse_10" data-name="Ellipse 10" d="M5.479,1.934A3.545,3.545,0,1,0,9.024,5.479,3.549,3.549,0,0,0,5.479,1.934M5.479,0A5.479,5.479,0,1,1,0,5.479,5.479,5.479,0,0,1,5.479,0Z" fill="#101041"/>
+        </g>
+        <g id="_2" data-name="2" transform="translate(9.87)">
+          <path id="Ligne_19" data-name="Ligne 19" d="M-.889,44.554A1.611,1.611,0,0,1-2.5,42.942V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V42.942A1.611,1.611,0,0,1-.889,44.554Z" transform="translate(6.34 11.846)" fill="#101041"/>
+          <path id="Ellipse_9" data-name="Ellipse 9" d="M5.479,1.934A3.545,3.545,0,1,0,9.024,5.479,3.549,3.549,0,0,0,5.479,1.934M5.479,0A5.479,5.479,0,1,1,0,5.479,5.479,5.479,0,0,1,5.479,0Z" fill="#101041"/>
+        </g>
+        <g id="_1" data-name="1" transform="translate(0 16.114)">
+          <path id="Ligne_20" data-name="Ligne 20" d="M-.889,28.439A1.611,1.611,0,0,1-2.5,26.828V-.889A1.611,1.611,0,0,1-.889-2.5,1.611,1.611,0,0,1,.723-.889V26.828A1.611,1.611,0,0,1-.889,28.439Z" transform="translate(6.367 11.846)" fill="#101041"/>
+          <path id="Ellipse_8" data-name="Ellipse 8" d="M5.479,1.934A3.545,3.545,0,1,0,9.024,5.479,3.549,3.549,0,0,0,5.479,1.934M5.479,0A5.479,5.479,0,1,1,0,5.479,5.479,5.479,0,0,1,5.479,0Z" fill="#101041"/>
+        </g>
+      </g>
+    </g>
+    <g id="icone-4G_5G" data-name="icone-4G/5G" transform="translate(334.301 114.767)">
+      <path id="Union_1" data-name="Union 1" d="M0,115v0H0ZM70,50.046v0ZM0,0H0Z" transform="translate(0.699 -36.767)" fill="none" stroke="#101041" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <text id="_4G" data-name="4G" transform="translate(29.713 11.034)" fill="#101041" font-size="23" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="-16" y="0">4G</tspan></text>
+      <g id="wifi" transform="translate(25.02 -23.048) rotate(9)">
+        <path id="Tracé_62" data-name="Tracé 62" d="M32.718,6.833a1.064,1.064,0,0,0-.105-1.614,27.423,27.423,0,0,0-32.186,0A1.064,1.064,0,0,0,.322,6.833a1.136,1.136,0,0,0,1.465.11,25.232,25.232,0,0,1,29.466,0,1.136,1.136,0,0,0,1.465-.107Z" transform="translate(0 0)" fill="#101041"/>
+        <path id="Tracé_63" data-name="Tracé 63" d="M13.681,3.19a1.022,1.022,0,0,0-.219-1.646,14.292,14.292,0,0,0-12.924,0A1.022,1.022,0,0,0,.319,3.19l.033.033a1.167,1.167,0,0,0,1.34.2,12.092,12.092,0,0,1,10.616,0,1.164,1.164,0,0,0,1.34-.2l.033-.033Z" transform="translate(9.52 7.311)" fill="#101041"/>
+        <path id="Tracé_64" data-name="Tracé 64" d="M23.264,4.981a1.055,1.055,0,0,0-.138-1.634,20.852,20.852,0,0,0-22.661,0A1.053,1.053,0,0,0,.325,4.981a1.151,1.151,0,0,0,1.43.142,18.664,18.664,0,0,1,20.078,0A1.15,1.15,0,0,0,23.264,4.981Z" transform="translate(4.725 3.656)" fill="#101041"/>
+      </g>
+      <text id="_5G" data-name="5G" transform="translate(30.042 59.233)" fill="#101041" font-size="24" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="-16" y="0">5G</tspan></text>
+      <g id="wifi-2" data-name="wifi" transform="translate(25.02 25.04) rotate(9)">
+        <path id="Tracé_62-2" data-name="Tracé 62" d="M32.718,6.833a1.064,1.064,0,0,0-.105-1.614,27.423,27.423,0,0,0-32.186,0A1.064,1.064,0,0,0,.322,6.833a1.136,1.136,0,0,0,1.465.11,25.232,25.232,0,0,1,29.466,0,1.136,1.136,0,0,0,1.465-.107Z" transform="translate(0 0)" fill="#101041"/>
+        <path id="Tracé_63-2" data-name="Tracé 63" d="M13.681,3.19a1.022,1.022,0,0,0-.219-1.646,14.292,14.292,0,0,0-12.924,0A1.022,1.022,0,0,0,.319,3.19l.033.033a1.167,1.167,0,0,0,1.34.2,12.092,12.092,0,0,1,10.616,0,1.164,1.164,0,0,0,1.34-.2l.033-.033Z" transform="translate(9.52 7.311)" fill="#101041"/>
+        <path id="Tracé_64-2" data-name="Tracé 64" d="M23.264,4.981a1.055,1.055,0,0,0-.138-1.634,20.852,20.852,0,0,0-22.661,0A1.053,1.053,0,0,0,.325,4.981a1.151,1.151,0,0,0,1.43.142,18.664,18.664,0,0,1,20.078,0A1.15,1.15,0,0,0,23.264,4.981Z" transform="translate(4.725 3.656)" fill="#101041"/>
+      </g>
+    </g>
+    <g id="plus" transform="translate(0 30)">
+      <line id="Ligne_204" data-name="Ligne 204" y2="35" transform="translate(251 88)" fill="none" stroke="#101041" stroke-width="4"/>
+      <line id="Ligne_205" data-name="Ligne 205" x2="35" transform="translate(233 105.5)" fill="none" stroke="#101041" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

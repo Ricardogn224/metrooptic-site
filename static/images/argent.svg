@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="75" viewBox="0 0 55 75">
+  <g id="argent" transform="translate(-96.38 -304.834)">
+    <path id="Tracé" d="M133.961,329.7c-.141-1.43-1.421-5.606-4.867-11.57s-.675-9.6,4.59-9.385,4.582-3.907,8.866-3.907,3.6,4.121,8.867,3.907,8.036,3.421,4.59,9.385-4.726,10.14-4.867,11.57C149.889,342.375,135.211,342.375,133.961,329.7Z" transform="translate(-18.535)" fill="#3f8fb9" fill-rule="evenodd"/>
+    <path id="Tracé-2" data-name="Tracé" d="M123.88,360.921c15.184,0,27.492,11.7,27.492,26.122s1.247,26.121-27.492,26.121S96.388,401.47,96.388,387.043,108.7,360.921,123.88,360.921Z" transform="translate(0 -33.331)" fill="#62a6c9" fill-rule="evenodd"/>
+    <path id="Tracé-3" data-name="Tracé" d="M123.954,360.921a27.983,27.983,0,0,1,19.527,7.828,25.734,25.734,0,0,1,2.671,11.437c0,14.7,1.251,26.608-27.566,26.608-10.512,0-17.02-1.587-21.05-4.314-1.325-4.261-1.148-9.408-1.148-14.951C96.388,372.834,108.73,360.921,123.954,360.921Z" transform="translate(0 -34.303)" fill="#3f8fb9" fill-rule="evenodd"/>
+    <path id="Tracé-4" data-name="Tracé" d="M133.253,350.387h21.9a1.527,1.527,0,0,1,1.522,1.522h0a1.527,1.527,0,0,1-1.522,1.523h-21.9a1.527,1.527,0,0,1-1.522-1.523h0A1.527,1.527,0,0,1,133.253,350.387Z" transform="translate(-20.322 -27.317)" fill="#ffae00" fill-rule="evenodd"/>
+    <path id="Tracé-5" data-name="Tracé" d="M183.284,362.439c4.075,4.821,6.082,10.71,4.343,19.945" transform="translate(-50.65 -34.638)" fill="none" stroke="#ffd573" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.8"/>
+    <path id="Tracé-6" data-name="Tracé" d="M183.284,362.439c5.632,2.85,9.778,7.49,11.777,16.672" transform="translate(-50.272 -34.616)" fill="none" stroke="#ffd573" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.8"/>
+    <path id="Tracé-7" data-name="Tracé" d="M133.253,357.892h21.9a1.526,1.526,0,0,1,1.522,1.522h0a1.527,1.527,0,0,1-1.522,1.522h-21.9a1.527,1.527,0,0,1-1.522-1.522h0A1.526,1.526,0,0,1,133.253,357.892Z" transform="translate(-20.322 -31.818)" fill="#ffae00" fill-rule="evenodd"/>
+    <path id="Tracé-8" data-name="Tracé" d="M130.1,320.155q-.5-.976-1.076-2.029c-3.288-5.964-.644-9.6,4.379-9.385s4.372-3.907,8.46-3.907,3.437,4.121,8.46,3.907a7.807,7.807,0,0,1,2.63.3c-.636,1.868-.969,3.233-1.319,4.1C148.554,320.824,137.828,322.9,130.1,320.155Z" transform="translate(-17.92)" fill="#62a6c9" fill-rule="evenodd"/>
+    <text id="_" data-name="€" transform="translate(108.248 362.249)" fill="#f6f8f9" font-size="38" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="0" y="0">€</tspan></text>
+  </g>
+</svg>

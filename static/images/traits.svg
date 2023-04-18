@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="191.301" height="127.301" viewBox="0 0 191.301 127.301">
+  <g id="traits" transform="translate(1.15 -3222.35)">
+    <g id="point">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="1.75" cy="1.75" r="1.75" transform="translate(108 3344.5)" fill="#fff"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="1.75" cy="1.75" r="1.75" transform="translate(117 3338.5)" fill="#fff"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.75" cy="1.75" r="1.75" transform="translate(125 3333.5)" fill="#fff"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.75" cy="1.75" r="1.75" transform="translate(134 3327.5)" fill="#fff"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.75" cy="1.75" r="1.75" transform="translate(142 3321.5)" fill="#fff"/>
+    </g>
+    <line id="Ligne_9" data-name="Ligne 9" y1="61" x2="94" transform="translate(57 3285.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Ligne_8" data-name="Ligne 8" x1="183" y2="119" transform="translate(3 3226.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+  </g>
+</svg>

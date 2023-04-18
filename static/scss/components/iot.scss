@@ -1,0 +1,118 @@
+.iot-header {
+    margin-top: 140px;
+
+    margin-bottom: 140px;
+
+    h1 {
+        font: normal normal 900 50px Avenir-900;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        text-align: center;
+    }
+
+    p {
+        font: normal normal 500 20px Avenir-500;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        text-align: center;
+
+    }
+}
+
+.avantage-iot {
+    margin-top: 140px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.zone-pres-lot {
+
+
+
+    background: #101041 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    width: 40%;
+    color: #FFFFFF;
+
+    padding: 20px;
+
+    .img-ilustra {
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font: normal normal 900 25px Avenir-900;
+    }
+
+    p {
+        font: normal normal 900 17px Avenir-900;
+    }
+}
+
+.resume-lot {
+
+    width: 40%;
+
+    h1 {
+        font: normal normal 900 50px Avenir-900;
+        letter-spacing: 0px;
+        color: #020101;
+        opacity: 1;
+        text-align: center;
+    }
+
+    p {
+        font: normal normal 500 20px Avenir-500;
+        letter-spacing: 0px;
+        color: #030303;
+        opacity: 1;
+        text-align: center;
+    }
+
+
+}
+
+.contact-bloc {
+    margin-top: 80px;
+    background: #FFAE00 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 20px;
+
+    h1 {
+        font: normal normal 900 45px/61px Avenir-500;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    p {
+
+        text-align: left;
+        font: normal normal normal 20px Avenir-500;
+        letter-spacing: 0px;
+        color: #101041;
+        opacity: 1;
+    }
+
+    .btn-contact {
+        background: white;
+        border-radius: 12px;
+        opacity: 1;
+        padding: 20px;
+        color: #000000;
+
+    }
+
+    a {
+        font: normal normal normal 20px Avenir-500;
+        text-align: left;
+
+    }
+
+}

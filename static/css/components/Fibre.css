@@ -1,0 +1,311 @@
+.illustration {
+  height: 330px;
+  width: 90%;
+}
+
+.titre1 {
+  font: normal normal 600 40px/53px Avenir-900;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #101041;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: left;
+}
+
+.titre2 {
+  color: var(--unnamed-color-101041);
+  text-align: left;
+  font: normal normal normal 25px Avenir;
+  letter-spacing: 0px;
+  color: #101041;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.bg-white {
+  background-color: #ECF6FB;
+}
+
+.fibre-offre {
+  /* Layout Properties */
+  top: 760px;
+  left: 460px;
+  width: 500px;
+  height: 100px;
+  /* UI Properties */
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 20px 20px 0px 0px;
+  opacity: 1;
+}
+.fibre-offre h1 {
+  text-align: center;
+  font: normal normal 900 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.fibre-offre h2 {
+  text-align: center;
+  font: normal normal 900 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.contenu-offre {
+  background: #ECF6FB 0% 0% no-repeat padding-box;
+  padding-bottom: 80px;
+}
+.contenu-offre .test-add {
+  color: var(--unnamed-color-3f8fb9);
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+  padding-top: 50px;
+}
+.contenu-offre .test-add h1 {
+  margin: 0;
+  font: normal normal 500 35px Avenir-500;
+}
+.contenu-offre .presentation {
+  text-align: center;
+  font: normal normal 500 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.contenu-offre .presentation p {
+  width: 50%;
+}
+
+.offre .titre {
+  text-align: center;
+  font: normal normal 900 20px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.offre .start {
+  text-align: center;
+  font: normal normal normal 12px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+}
+.offre .price {
+  text-align: center;
+  font: normal normal medium 55px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+}
+.offre .devise {
+  text-align: center;
+  font: normal normal 900 18px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+}
+.offre .sous-titre {
+  margin-top: 20px;
+  text-align: left;
+  font: normal normal 900 20px Avenir-900;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre .elt {
+  text-align: left;
+  font: normal medium 22px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin: 0;
+}
+.offre button {
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  background: #3F8FB9 0% 0% no-repeat padding-box;
+  border: 2px solid #3F8FB9;
+  border-radius: 8px;
+  opacity: 1;
+}
+.offre ul {
+  list-style: none;
+}
+.offre .bottom-offre {
+  background: #73acc8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 10px;
+  opacity: 1;
+}
+.offre .bottom-offre h1 {
+  margin: 0px;
+}
+
+.info_pub {
+  background: #3F8FB9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 80px;
+}
+.info_pub h1 {
+  text-align: left;
+  font: normal normal normal 30px Avenir-900;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 0px;
+  text-align: center;
+}
+.info_pub p {
+  text-align: left;
+  font: normal normal normal 18px Avenir-900;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.info_pub button {
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  opacity: 1;
+  padding: 20px;
+  background: #3F8FB9 0% 0% no-repeat padding-box;
+  color: white;
+}
+.info_pub .h-80 {
+  height: 80px;
+}
+
+.backup4g {
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.backup4g .title {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.backup4g .box {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 10px;
+  opacity: 1;
+}
+.backup4g .box button {
+  background: #3F8FB9 0% 0% no-repeat padding-box;
+  border: 2px solid #3F8FB9;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 10px;
+}
+.backup4g .box h1 {
+  text-align: center;
+  font: normal normal 900 25px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+}
+.backup4g .box .content {
+  text-align: left;
+  font: normal normal 500 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.backup4g .box .content .notice {
+  text-align: right;
+  font: normal normal normal 20px/34px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.backup4g .box .flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.backup4g .box .img-box {
+  width: 40%;
+}
+.backup4g .contenu-offre {
+  width: 40%;
+  background-color: white;
+}
+
+.form-section h1 {
+  text-align: left;
+  font: normal normal 900 30px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  opacity: 1;
+  margin-left: 40px;
+}
+.form-section .div-form {
+  background: #F6F8F9 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin: 40px;
+}
+.form-section .div-form .subtitle {
+  text-align: left;
+  font: normal normal 900 16px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.form-section .div-form .checkbox input {
+  font: normal normal medium 22px/30px Avenir-500;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 30px;
+}
+.form-section .div-form label {
+  text-align: left;
+  font: normal normal medium 20px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.form-section .div-form .action-button {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  height: 20px;
+}
+.form-section .div-form .input-form {
+  padding: 20px;
+}
+
+.section-carousel h1 {
+  text-align: center;
+  font: normal normal 900 40px/55px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+}
+.section-carousel h2 {
+  text-align: center;
+  font: normal normal 900 40px/55px Avenir-500;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+}
+
+/*# sourceMappingURL=Fibre.css.map */

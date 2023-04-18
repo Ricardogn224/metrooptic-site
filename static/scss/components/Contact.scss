@@ -1,0 +1,137 @@
+.contact-presentation {
+    margin-bottom: 80px;
+
+    .box-add {
+        background: #E5F0F5 0% 0% no-repeat padding-box;
+        border: 1px solid #C9C9CD;
+        border-radius: 8px;
+        opacity: 1;
+
+        b {
+            color: #3F8FB9;
+        }
+    }
+
+    .title {
+        margin: 50px 0px;
+
+        h1 {
+            text-align: center;
+            font: normal normal 900 50px Avenir-900;
+            letter-spacing: 0px;
+            color: #101041;
+            opacity: 1;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font: normal normal 30px Avenir-500;
+            letter-spacing: 0px;
+            color: #101041;
+            opacity: 1;
+        }
+    }
+
+    .box {
+        margin: 20px;
+
+        h1 {
+            text-align: left;
+            font: normal normal normal 18px Avenir-500;
+            letter-spacing: 0px;
+            color: #FFAE00;
+            opacity: 1;
+            font-size: 25px;
+        }
+
+        p {
+            text-align: left;
+            letter-spacing: 0px;
+            opacity: 1;
+        }
+    }
+
+
+}
+
+input {
+    padding: 1px 10px;
+}
+
+.form-content {
+    padding: 40px;
+    width: 60%;
+    background: #E5F0F5 0% 0% no-repeat padding-box;
+    margin-bottom: 80px;
+}
+
+form {
+
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+
+    .c-red {
+        color: red;
+    }
+
+
+    label {
+        margin: 5px 0px;
+        text-align: left;
+        font: normal normal normal 15px Avenir-500;
+        font-size: 25px;
+        letter-spacing: 0px;
+        opacity: 1;
+        margin-top: 20px;
+    }
+
+    input {
+        padding: 10px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #CFD6E0;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    textarea {
+
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #CFD6E0;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .send-form {
+        margin-top: 20px;
+
+
+
+        a {
+            text-align: center;
+            width: 50%;
+            background: #3F8FB9 0% 0% no-repeat padding-box;
+            border-radius: 8px;
+            opacity: 1;
+            padding: 10px 10px;
+            color: #F7F8F9;
+            font: normal normal normal 15px Avenir-500;
+        }
+    }
+
+}
+
+.section-style {
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+
+    .style {
+        height: 200px;
+
+        border-radius: 0% 0% 60% 60%;
+        background-color: white;
+        transform: translateY(-80px);
+
+    }
+}

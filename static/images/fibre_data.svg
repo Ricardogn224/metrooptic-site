@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <filter id="Ellipse_47" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle" x="29" y="33" width="30" height="25" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="26" y="40" width="36" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fibre" transform="translate(29 25.621)">
+    <g transform="matrix(1, 0, 0, 1, -29, -25.62)" filter="url(#Ellipse_47)">
+      <circle id="Ellipse_47-2" data-name="Ellipse 47" cx="35" cy="35" r="35" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="iocne-fibre" transform="translate(-301.5 -197.621)">
+      <g id="haut" transform="translate(310.966 198)">
+        <g id="_4" data-name="4" transform="translate(8.157 4.193)">
+          <path id="Ligne_17" data-name="Ligne 17" d="M-2.081,5.55A.419.419,0,0,1-2.5,5.131V-2.081A.419.419,0,0,1-2.081-2.5a.419.419,0,0,1,.419.419V5.131A.419.419,0,0,1-2.081,5.55Z" transform="translate(3.506 4.932)" fill="#0998ea"/>
+          <path id="Ellipse_11" data-name="Ellipse 11" d="M1.426.5a.922.922,0,1,0,.922.922A.923.923,0,0,0,1.426.5m0-.5A1.426,1.426,0,1,1,0,1.426,1.426,1.426,0,0,1,1.426,0Z" fill="#0998ea"/>
+        </g>
+        <g id="_3" data-name="3" transform="translate(5.589 7.212)">
+          <path id="Ligne_18" data-name="Ligne 18" d="M-2.081,2.532A.419.419,0,0,1-2.5,2.112V-2.081A.419.419,0,0,1-2.081-2.5a.419.419,0,0,1,.419.419V2.112A.419.419,0,0,1-2.081,2.532Z" transform="translate(3.513 4.932)" fill="#0998ea"/>
+          <path id="Ellipse_10" data-name="Ellipse 10" d="M1.426.5a.922.922,0,1,0,.922.922A.923.923,0,0,0,1.426.5m0-.5A1.426,1.426,0,1,1,0,1.426,1.426,1.426,0,0,1,1.426,0Z" fill="#0998ea"/>
+        </g>
+        <g id="_2" data-name="2" transform="translate(2.568)">
+          <path id="Ligne_19" data-name="Ligne 19" d="M-2.081,9.743A.419.419,0,0,1-2.5,9.324v-11.4A.419.419,0,0,1-2.081-2.5a.419.419,0,0,1,.419.419v11.4A.419.419,0,0,1-2.081,9.743Z" transform="translate(3.499 4.932)" fill="#0998ea"/>
+          <path id="Ellipse_9" data-name="Ellipse 9" d="M1.426.5a.922.922,0,1,0,.922.922A.923.923,0,0,0,1.426.5m0-.5A1.426,1.426,0,1,1,0,1.426,1.426,1.426,0,0,1,1.426,0Z" fill="#0998ea"/>
+        </g>
+        <g id="_1" data-name="1" transform="translate(0 4.193)">
+          <path id="Ligne_20" data-name="Ligne 20" d="M-2.081,5.55A.419.419,0,0,1-2.5,5.131V-2.081A.419.419,0,0,1-2.081-2.5a.419.419,0,0,1,.419.419V5.131A.419.419,0,0,1-2.081,5.55Z" transform="translate(3.506 4.932)" fill="#0998ea"/>
+          <path id="Ellipse_8" data-name="Ellipse 8" d="M1.426.5a.922.922,0,1,0,.922.922A.923.923,0,0,0,1.426.5m0-.5A1.426,1.426,0,1,1,0,1.426,1.426,1.426,0,0,1,1.426,0Z" fill="#0998ea"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 272.5, 172)" filter="url(#Rectangle)">
+        <path id="Rectangle-3" data-name="Rectangle" d="M1,0H11a1,1,0,0,1,1,1V7a0,0,0,0,1,0,0H0A0,0,0,0,1,0,7V1A1,1,0,0,1,1,0Z" transform="translate(38 39)" fill="#0998ea"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 272.5, 172)" filter="url(#Rectangle-2)">
+        <path id="Rectangle-4" data-name="Rectangle" d="M1,0H17a1,1,0,0,1,1,1v9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(35 46)" fill="#0998ea"/>
+      </g>
+    </g>
+  </g>
+</svg>

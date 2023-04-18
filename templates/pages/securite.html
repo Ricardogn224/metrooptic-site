@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{url_for('static', filename='js/index.js')}}"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+    <title>Sécurité</title>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="  flex space-between top-nav">
+                <div class="flex liens">
+                    <a class="/"><img class="mr-40"
+                            src="{{ url_for('static', filename='images/logo.svg') }}" alt=""></a>
+                    <div>
+                        <a class="options-select" href="/">A Propos</a>
+                        <a href=""><img class="" src="{{ url_for('static', filename='images/chevron.svg') }}"
+                                alt=""></a>
+                    </div>
+                </div>
+
+                <div class="flex options ">
+                    <div class="flex mr-20 ">
+                        <a class="mr-10" href="/"><img class=""
+                                src="{{ url_for('static', filename='images/telephone.svg') }}" alt=""></a>
+                        <a class="number" href="/contact">01.76.49.48.60</a>
+                    </div>
+                    <div class="flex space-between">
+                        <a class="button-devis mr-10 " href="/contact">Obtenir un devis</a>
+                        <a class="button-client" href="http://192.168.115.100:6001/">Espace client</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-between">
+                <div class="service-bloc">
+                    <div>
+                        <div class="bloc-choice">
+                            <a class="mr-10" >Accès Internet</a>
+                            <a href="/"><img class=""
+                                    src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>
+                        </div>
+                        <div class="dropdown-content flex option-nav  space-between hide">
+                            
+                            <div class="service">
+                                <a href="/FTTH_pro">
+                                <img class="icone-service" src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                                <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
+                                </a>
+                            </div>
+                            
+
+                            <div class="line-sh"></div>
+
+                            <div class="service">
+                                <a href="/FTTO_pro">
+                                <img class="icone-service"
+                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                                <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
+                                </a>
+                            </div>
+
+                            <div class="line-sh"></div>
+
+                            <div class="service">
+                                <a href="/solution_data">
+                                <img class="icone-service"
+                                    src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
+                                <p class="subtitle">Solutions 4G/5G</p>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-bloc">
+                    <div class="dropdown " >
+                        <div class="bloc-choice">
+                            <a class="mr-10">Cyber-Sécurité</a>
+                            <a class="dropbtn" href="/"> 
+                                <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
+                           </a> 
+                        </div>
+                        <div class=" flex option-nav hide">
+                            
+                                <div class="service w-50">
+                                    <a href="/secutite">
+                                        <img class="icone-service"
+                                            src="{{ url_for('static', filename='images/securite-entreprise.svg') }}" alt="">
+                                        <p class="subtitle">Sécurité entreprise</p>
+                                    </a>
+                                </div>
+                     
+
+                            <div class="line-sh"></div>
+
+                            
+                            <div class="service w-50">
+                                <a href="/iot">
+                                    <img class="icone-service"
+                                        src="{{ url_for('static', filename='images/IoT.svg') }}" alt="">
+                                    <p class="subtitle">Solutions IoT</p>
+                                </a>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-bloc">
+                  
+                        <div class="bloc-choice">
+                            <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
+                            {# <a href="about.html"><img class=""
+                                    src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
+                        </div>
+
+                        {# <div class="dropdown-content flex space-between hide">
+                            <div class="service">
+                                <img class="icone-service"
+                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                                <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
+                            </div>
+                            <div class="line-sh" ></div>
+                            <div class="service">
+                                <img class="icone-service"
+                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                                <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
+                            </div>
+                            <div class="line-sh" ></div>
+                            <div class="service">
+                                <img class="icone-service"
+                                    src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
+                                <p class="subtitle">Solutions 4G/5G</p>
+                            </div>
+                        </div>  #}
+                   
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+
+    <section>
+        <div class="flex space-between ma-80 mtb">
+            <div class="w-50">
+                <p class="titre1">PROTÉGER VOUS, VOS DONNÉES ET VOTRE RÉSEAU D’ENTREPRISE!</p>
+
+                <p class="titre2">
+                    Explorez un large éventail de solutions pour optimiser la sécurité de votre réseau d’entreprise.
+                </p>
+
+            </div>
+            
+            <div class="w-50">
+                <img class="illustration" src="{{ url_for('static', filename='images/illustration-securite-entreprise.svg') }}" alt="">
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="">
+
+        <div>
+            <div class="flex flex-center ">
+                <div class="bg-white fibre-offre flex-center flex-column " onclick="showFTTO()">
+                    <a href="/secutite">
+                        <h1>Cyber-Défense Max</h1>
+                    </a>
+                    
+                </div>
+                <div class="fibre-offre flex-center flex-column" onclick="showFTTH()">
+                    <a href="/secutite_ultra">
+                        <h1>Cyber-Défense Ultra</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- offre Fibre-->
+        <div  id="id_fibre_FTTO" class="contenu-offre ">
+            <div class="">
+                <div class="test-add ">
+                    <h1 class="">Protégez vos données d’entreprises des cyber-menaces</h1>
+                </div>
+                
+                {# <div class="presentation flex-center">
+                    <p class="flex-center"> La gamme FTTH Pro Metro Optic permet de bénéficier d’un accès internet aux 
+                        débits asymétriques allant jusqu’à 1 Gbps.
+                    </p>
+                </div> #}
+                
+            </div>
+
+            <div class="flex  space-around">
+                
+                <div class="offre mtb">
+                    <article class="">
+                        <div>
+                            <h1 class="titre">Cyber-Défense Max</h1>
+                            <p class="start"> A partir de </p>
+                            <div class="flex flex-center">
+                                <div class="flex flex-center">
+                                    <p class="price">59,99</p>
+                                </div>
+                                <div class="flex flex-column flex-center">
+                                    <p class="devise">$ HT</p>
+                                    <p class="devise">/mois</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="flex-center">
+                                <button>En savoir plus</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-center" >
+                                <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <p class="sous-titre"> Protégez tous vos flux et accès internet 
+                                </p>
+                                <p> des cyber-menaces :</p>
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            <div class="flex">
+                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div><p class="sous-titre">Décontamination des flux</p></div>
+                            </div>
+                            
+                            <ul>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Sonde de prévention</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Firewall NextGen</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Filtrage des usages internet de vos collaborateurs</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>
+
+                    
+
+                        <div>
+                            <div class="flex">
+                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                <div> <p class="sous-titre">Gestion simple via votre espace client :</p></div>
+                            </div>
+                           
+                            <ul>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">5 profils de sécurité aux choix</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">5 profils de sécurité aux choix</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                     </article>
+                    
+                </div>
+
+               
+            </div>
+
+
+        </div>
+        
+
+
+    </section>
+
+    <section>
+
+        <div class="backup4g">
+
+            <div>
+                <h1 class="title">Vous avez besoin de protéger vos données d’entreprises ET votre connexion internet lors de vos déplacements ?</h1>
+            </div>
+
+            <div class="flex space-around" >
+                <div class="offre ">
+                    <article class="">
+                        <div>
+                            <h1 class="titre">Cyber-Défense Max</h1>
+                            <p class="start"> A partir de </p>
+                            <div class="flex flex-center">
+                                <div class="flex flex-center">
+                                    <p class="price">59,99</p>
+                                </div>
+                                <div class="flex flex-column flex-center">
+                                    <p class="devise">$ HT</p>
+                                    <p class="devise">/mois</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="flex-center">
+                                <button>En savoir plus</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-center" >
+                                <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <p class="sous-titre"> Protégez votre accès internet des cyber-menaces lors de vos déplacements :
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            <div class="flex">
+                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div><p class="sous-titre">Décontamination des flux</p></div>
+                            </div>
+                            
+                            <ul>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Sonde de préventiont</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Firewall NextGen</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Filtrage des usages internet de vos collaborateurs</p>
+                                        </div>
+                                    </div>  
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Seuils de détection adaptés à vos usages</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>
+
+                    
+
+                        
+                     </article>
+                    <div class="bottom-offre">
+                        <div class="ma-80 space-around">
+                            <div>
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <h1>Possibilité en option</h1>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="flex space-between">
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <p class="elt">Cybersécurité</p>
+                                    </div>
+                                </div> 
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <p class="elt"> IP public</p>
+                                    </div>
+                                </div> 
+                                <div>
+                                    <h1 class=" elt">Pare-feu nouvelle génération</h1>
+                                </div>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" img-box">
+                    <div>
+                        <img height="300px" width="100%" class="" src="{{ url_for('static', filename="images/securite-entreprise-image.svg") }}" alt="">
+                    </div>
+                    <div>
+                        <img height="300px" width="100%" class="" src="{{ url_for('static', filename="images/nomade.svg") }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+           
+          
+        </div>
+    </section>
+
+    
+    
+    <footer class="flex space-between footer-section">
+        
+
+        <div class="flex space-between zone-nav" >
+
+            <div>
+                <h1 class="title">Navigation</h1>
+                <p>Acceuil</p>
+                <p>A propos </p>
+                <p>Blog </p>
+                <p>Contact </p>
+            </div>
+
+            <div>
+                <h1 class="title">Offres</h1>
+                <p>SOS 4G/5G</p>
+                <p>FIbre optique pro </p>
+                <p>Cloud </p>
+                <p>IoT </p>
+                <p>Devenir partenaire </p>
+            </div>
+
+        </div>
+
+        <div class="flex-column zone-action  space-around">
+            <div class=" flex-column flex-center space-between">
+                <div class="flex follow ">
+                    <a class="flex-center">Suivrez-Nous</a> 
+                    <a class="" href="http://"><img width="50px" height="40px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> 
+                </div>
+                <div class="client"><a>Espace Client</a></div>
+                <div class="call"><a>Etre rappelé</a></div> 
+            </div>
+        </div>
+
+        <div class="zone-info">
+            <ul>
+
+                <li><img width="100%" class="" src="{{ url_for('static', filename="./images/logo-black.svg") }}" alt=""></li> 
+                <li><p>72 Rue Sadi Carnot, 92170 Vanves</p></li> 
+                <li><p>© 2023 Métro Optic. Tous droits réservés</p></li>
+                <li><p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p></li>
+               
+            </ul>
+            
+        </div>
+    </footer>
+
+    <div class="flex space-between">
+        <a href="">2022 - Tous droits réservés</a>
+        <a href="">Mentions légales et CGU | Politique de confidentialité | CGV | Cookies</a>
+    </div>
+</body>
+</html>

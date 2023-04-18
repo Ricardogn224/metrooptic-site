@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+}
+
+.top-nav {
+  padding: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.navbar {
+  background-color: #3F8FB9;
+  font-family: Avenir-500, sans-serif;
+  font-size: 20px;
+  background: #3F8FB9 0% 0% no-repeat padding-box;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.liens {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #F6F8F9;
+}
+
+.button-devis {
+  padding: 10px 18px;
+  background: #F6F8F9;
+  border-radius: 10px;
+  opacity: 1;
+  color: #3F8FB9;
+  font-weight: bold;
+}
+
+.button-client {
+  padding: 10px 18px;
+  background: #FFAE00 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  font-weight: bold;
+  color: #101041;
+}
+
+.number {
+  color: #F6F8F9;
+}
+
+.options-select {
+  color: #F6F8F9;
+  font-size: 22px;
+}
+
+.service-bloc {
+  width: 33.33%;
+  text-align: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  color: #101041;
+}
+.service-bloc .bloc-choice {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  opacity: 1;
+  color: #101041;
+  padding: 10px;
+}
+.service-bloc a {
+  color: #101041;
+  font-size: 20px;
+}
+.service-bloc img {
+  width: 18px;
+  height: 12px;
+}
+.service-bloc .service {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-bloc .service .subtitle {
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 14px;
+}
+.service-bloc .icone-service {
+  width: 50px;
+  height: 50px;
+}
+.service-bloc .line-sh {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  opacity: 0.05;
+  border: 1px solid;
+}
+
+.service-bloc:hover {
+  height: 0px;
+  display: block;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+.service-bloc:hover .option-nav {
+  display: flex;
+  background-color: white;
+}
+
+/* dropdown about*/
+.dropdown-about {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-about-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-about-content a {
+  float: none;
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-about-content a:hover {
+  background-color: #ddd;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-about-content {
+  display: block;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+background-color: #3e8e41;
+} */
+
+/*# sourceMappingURL=navbar.css.map */

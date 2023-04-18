@@ -1,0 +1,2 @@
+sudo sass --watch static/scss/:static/css
+python3 app.py

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <g id="IoT" transform="translate(-1384.007 551.993)">
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(1384.007 -551.993)" fill="none" stroke="#101041" stroke-width="2">
+      <circle cx="33.5" cy="33.5" r="33.5" stroke="none"/>
+      <circle cx="33.5" cy="33.5" r="32.5" fill="none"/>
+    </g>
+    <path id="Tracé_80" data-name="Tracé 80" d="M1388.8-521.523s34.118-8.08,58.178,26.463" transform="translate(-1.25 -8.27)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+    <path id="Tracé_81" data-name="Tracé 81" d="M1387.671-499.439s34.184,12.137,61.7-19.2" transform="translate(-0.957 -9.228)" fill="none" stroke="#101041" stroke-width="2"/>
+    <path id="Tracé_82" data-name="Tracé 82" d="M1427.583-550.055s-27.92,19.071-17.135,61.246" transform="translate(-6.616 -0.507)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+    <path id="Tracé_83" data-name="Tracé 83" d="M1446.743-545.441s12.531,28.5-9.758,60.5" transform="translate(-14.53 -1.71)" fill="none" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+    <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(1399.726 -535.286)" fill="#fff" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(1430.196 -521.528)" fill="#fff" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(1396.783 -511.7)" fill="#fff" stroke="#101041" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>
