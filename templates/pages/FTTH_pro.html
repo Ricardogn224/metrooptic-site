@@ -156,47 +156,216 @@
                     Votre activité dépend de la fiabilité de votre connexion internet et de la protection de vos outils informatiques.
                 </p>
             </div>
-            <div class="w-50">
-                <img class="illustration" src="{{ url_for('static', filename='images/illustration.svg') }}" alt="">
+            <div class="w-50 flex-center">
+                <img class="illustration flex-center" src="{{ url_for('static', filename='images/illustration.svg') }}" alt="">
             </div>
         </div>
        
     </section>
 
-    <section class="">
-
-        <div>
-            <div class="flex flex-center ">
-                <div class="bg-white fibre-offre flex-center flex-column " onclick="showFTTO()">
-                    <a href="/FTTH_pro">
-                        <h1>La Fibre Entreprise </h1>
-                        <h2>FTTH Pro</h2>
-                    </a>
+    <section class="flex-center">
+        <div class="annonce ">
+           <div class="conteneur">
+                <div class="annonce-plus">
+                    <img src="" alt="logo" srcset=""/>
                 </div>
-                
-                <div class="fibre-offre flex-center flex-column" onclick="showFTTH()">
-                    <a href="/FTTH_pro_secure">
-                        <h1>La Fibre Entreprise </h1>
-                        <h2>Sécurisée FTTH Pro</h2>
-                    </a>
+                <div class="flex-center">
+                    <p>Métro Optic propose plusieurs gammes d’abonnements internet fibre optique. Chacune de ces gammes ont été imaginées pour répondre aux besoins des entreprises. La gamme FTTH Pro Metro Optic permet de bénéficier d’un accès internet aux débits asymétriques allant jusqu’à 1 Gbps.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="">
+
+        <!-- bandeau noire -->
+        <div class="bandeau-noire">
+
         </div>
 
         <!-- offre Fibre-->
         <div  id="id_fibre_FTTO" class="contenu-offre ">
-            <div class="">
-                <div class="test-add">
-                    <h1>Tester mon éligibilité</h1>
-                </div>
+           
+
+            <div class="flex  space-around">
                 
-                <div class="presentation flex-center">
-                    <p class="flex-center"> La gamme FTTH Pro Metro Optic permet de bénéficier d’un accès internet aux 
-                        débits asymétriques allant jusqu’à 1 Gbps.
-                    </p>
+                <div class="offre ">
+                    <article class="">
+                        <div>
+                            <h1 class="titre">La Fibre Entreprise Mutualisée</h1>
+                            <p class="start"> A partir de </p>
+                            <div class="flex flex-center">
+                                <div class="flex flex-center">
+                                    <p class="price">59,99</p>
+                                </div>
+                                <div class="flex flex-column flex-center">
+                                    <p class="devise">$ HT</p>
+                                    <p class="devise">/mois</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="flex-center">
+                                <button>Commander</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-center" >
+                                <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <p class="sous-titre"> La performance de la fibre FTTH
+                                </p>
+                                <p> essentielle à votre entreprise</p>
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            <div class="flex">
+                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div><p class="sous-titre">Fibre mutualisée FTTH</p></div>
+                            </div>
+                            
+                            <ul>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">J'usqua 1Gbps en descendant</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">J'usqua 20 Mbs en montant</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Garantie de temps d'intervention 8h</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>                  
+
+                        <div>
+                            <div class="flex">
+                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                <div> <p class="sous-titre">Accompagnement proactif</p></div>
+                            </div>
+                           
+                            <ul>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Supervision de votre accès 24h/7J</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Horaires étendus du support technique  :
+                                                Du lundi au samedi de 8h à 22h</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                     </article>
+                    <div class="bottom-offre">
+                        <div class="ma-80 space-around">
+                            <div>
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <h1>Possibilité en option</h1>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="flex space-between">
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <p class="elt">Cybersécurité</p>
+                                    </div>
+                                </div> 
+                                <div class="flex">
+                                    <div>
+                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <p class="elt"> IP public</p>
+                                    </div>
+                                </div> 
+                                <div>
+                                    <h1 class=" elt">Pare-feu nouvelle génération</h1>
+                                </div>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
                 </div>
-                
+                <div>
+                    <img class="" width="500px" height="670px" src="{{ url_for('static', filename="images/schema.svg") }}" alt="">
+                </div>
             </div>
+
+
+        </div>
+        
+
+
+    </section>
+
+    <section class="">
+
+        <!-- bandeau jaune -->
+        <div class="bandeau-jaune">
+
+        </div>
+
+        <!-- offre Fibre-->
+        <div  id="id_fibre_FTTO" class="contenu-offre ">
+           
 
             <div class="flex  space-around">
                 
@@ -451,7 +620,7 @@
                 <form action="" method="post">
                     <div class="flex ">
 
-                        <div>
+                        <div class="flex-center">
                             <h2 class="subtitle">Fibre ou ADSL ? Testez votre éligibilité</h2> 
                         </div>
 

@@ -1,4 +1,5 @@
 .offre {
+  transform: translateY(-4.1rem);
   width: 500px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;

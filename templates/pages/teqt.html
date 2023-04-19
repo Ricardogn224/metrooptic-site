@@ -1,0 +1,85 @@
+<table border="0" cellpadding="0" cellspacing="0" style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;"><tbody><tr><td align="center">
+    <table border="0" cellpadding="0" cellspacing="0" width="590" style="padding: 16px; background-color: white; color: #454748; border-collapse:separate;">
+    <tbody>
+        <!-- HEADER -->
+        <tr>
+            <td align="center" style="min-width: 590px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;">
+                    <tbody><tr><td valign="middle">
+                        <span style="font-size: 10px;">Bienvenue sur Odoo</span><br>
+                        <span style="font-size: 20px; font-weight: bold;">
+                            <t t-out="object.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">Marc Demo</t>
+                        </span>
+                    </td><td valign="middle" align="right">
+                        <img t-attf-src="/logo.png?company={{ object.company_id.id }}" style="padding: 0px; margin: 0px; height: auto; width: 80px;" t-att-alt="object.company_id.name">
+                    </td></tr>
+                    <tr><td colspan="2" style="text-align:center;">
+                      <hr width="100%" style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;" contenteditable="false" oe-keep-contenteditable="">
+                    </td></tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <!-- CONTENT -->
+        <tr>
+            <td align="center" style="min-width: 590px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;">
+                    <tbody><tr><td valign="top" style="font-size: 13px;">
+                        <div>
+                            Bonjour <t t-out="object.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">Marc Demo</t>,<br><br>
+                            Vous avez été invité par <t t-out="object.create_uid.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">OdooBot</t> de <t t-out="object.company_id.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">YourCompany</t> à vous connecter à Odoo.
+                            <div style="margin: 16px 0px 16px 0px;">
+                                <a t-att-href="object.signup_url" style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                                    Accepter l'invitation
+                                </a>
+                            </div>
+                            <t t-set="website_url" t-value="object.get_base_url()" data-oe-t-inline="true"></t>
+                            Votre domaine Odoo est : <b><a t-att-href="website_url" t-out="website_url or ''" contenteditable="false" oe-keep-contenteditable="">http://yourcompany.odoo.com</a></b><br>
+                            Votre adresse e-mail d'identification est : <b><a t-attf-href="/web/login?login={{ object.email }}" target="_blank" t-out="object.email or ''" contenteditable="false" oe-keep-contenteditable="">mark.brown23@example.com</a></b><br><br>
+                            Vous n'avez jamais entendu parlé de Odoo ? C'est un logiciel tout-en-un utilisé par plus de 7 millions d'utilisateurs. Il va considérablement améliorer votre expérience au travail et accroitre votre productivité.
+                            <br><br>
+                            Faites un tour sur le <a href="https://www.odoo.com/page/tour?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo Tour</a> pour découvrir les outils.
+                            <br><br>
+                            Profitez de Odoo!<br>
+                             --<br>L'équipe <t t-out="object.company_id.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">YourCompany</t>
+                        </div>
+                    </td></tr>
+                    <tr><td style="text-align:center;">
+                      <hr width="100%" style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;" contenteditable="false" oe-keep-contenteditable="">
+                    </td></tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <!-- FOOTER -->
+        <tr>
+            <td align="center" style="min-width: 590px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;">
+                    <tbody><tr><td valign="middle" align="left">
+                        <t t-out="object.company_id.name or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">YourCompany</t>
+                    </td></tr>
+                    <tr><td valign="middle" align="left" style="opacity: 0.7;">
+                        <t t-out="object.company_id.phone or ''" contenteditable="false" data-oe-t-inline="true" oe-keep-contenteditable="">+1 650-123-4567</t>
+                        <t t-if="object.company_id.email" data-oe-t-group="0" data-oe-t-group-active="true" data-oe-t-inline="true">
+                            |<a t-att-href=" 'mailto:%s' %{{object.company_id.email}} or ''" style="text-decoration:none; color: #454748;" t-out="object.company_id.email or ''" contenteditable="false" oe-keep-contenteditable="">info@yourcompany.com</a>
+                        </t>
+                        <t t-if="object.company_id.website" data-oe-t-group="1" data-oe-t-group-active="true" data-oe-t-inline="true">
+                            | <a t-att-href="'' % object.company_id.website" style="text-decoration:none; color: #454748;" t-out="object.company_id.website or ''" contenteditable="false" oe-keep-contenteditable="">http://www.example.com</a>
+                        </t>
+                    </td></tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    </td></tr>
+    <!-- POWERED BY -->
+    <tr><td align="center" style="min-width: 590px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
+          <tbody><tr><td style="text-align: center; font-size: 13px;">
+            Propulsé par <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+          </td></tr>
+        </tbody></table>
+    </td></tr>
+    </tbody></table>
+
+
+    
