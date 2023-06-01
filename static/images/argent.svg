@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="55" height="75" viewBox="0 0 55 75">
-  <g id="argent" transform="translate(-96.38 -304.834)">
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="100" viewBox="0 0 55 100">
+  <g id="argent" transform="translate(-96.38 -279.834)">
+    <rect id="fond" width="55" height="100" transform="translate(96.38 279.834)" fill="none"/>
     <path id="Tracé" d="M133.961,329.7c-.141-1.43-1.421-5.606-4.867-11.57s-.675-9.6,4.59-9.385,4.582-3.907,8.866-3.907,3.6,4.121,8.867,3.907,8.036,3.421,4.59,9.385-4.726,10.14-4.867,11.57C149.889,342.375,135.211,342.375,133.961,329.7Z" transform="translate(-18.535)" fill="#3f8fb9" fill-rule="evenodd"/>
     <path id="Tracé-2" data-name="Tracé" d="M123.88,360.921c15.184,0,27.492,11.7,27.492,26.122s1.247,26.121-27.492,26.121S96.388,401.47,96.388,387.043,108.7,360.921,123.88,360.921Z" transform="translate(0 -33.331)" fill="#62a6c9" fill-rule="evenodd"/>
     <path id="Tracé-3" data-name="Tracé" d="M123.954,360.921a27.983,27.983,0,0,1,19.527,7.828,25.734,25.734,0,0,1,2.671,11.437c0,14.7,1.251,26.608-27.566,26.608-10.512,0-17.02-1.587-21.05-4.314-1.325-4.261-1.148-9.408-1.148-14.951C96.388,372.834,108.73,360.921,123.954,360.921Z" transform="translate(0 -34.303)" fill="#3f8fb9" fill-rule="evenodd"/>

@@ -11,8 +11,12 @@ a {
 .navbar {
   background-color: #3F8FB9;
   font-family: Avenir-500, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background: #3F8FB9 0% 0% no-repeat padding-box;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 1;
 }
 
 .options {
@@ -58,7 +62,7 @@ a {
 }
 
 .service-bloc {
-  width: 33.33%;
+  width: 25%;
   text-align: center;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
@@ -74,7 +78,7 @@ a {
 }
 .service-bloc a {
   color: #101041;
-  font-size: 20px;
+  font-size: 18px;
 }
 .service-bloc img {
   width: 18px;
@@ -89,7 +93,7 @@ a {
   margin: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .service-bloc .icone-service {
   width: 50px;
@@ -202,6 +206,10 @@ background-color: #3e8e41;
   width: 99%;
 }
 
+.w-60 {
+  width: 62%;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -224,6 +232,10 @@ background-color: #3e8e41;
 
 .p-20 {
   padding: 20px;
+}
+
+.pt-10 {
+  padding-top: 30px;
 }
 
 .ma-80 {
@@ -255,54 +267,102 @@ body {
 }
 
 .mtb {
-  margin-top: 140px;
-  margin-bottom: 140px;
+  margin-top: 170px;
+  margin-bottom: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 40px;
+}
+
+.m-50 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-20 {
+  margin-left: 20px;
 }
 
 .offre {
   transform: translateY(-4.1rem);
-  width: 500px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
   border-radius: 10px;
   opacity: 1;
+  padding: 20px;
+}
+.offre .m-40 {
+  margin: 20px;
 }
 .offre li {
-  font: normal normal normal 20px Avenir-500;
+  font: normal normal normal 18px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
+  margin-top: 5px;
 }
 .offre p {
-  font: normal normal 500 22px Avenir-500;
+  font: normal normal 500 15px Avenir-500;
   letter-spacing: 0px;
 }
 .offre article {
-  margin-right: 40px;
-  margin-left: 40px;
-  width: 400px;
+  width: 360px;
+}
+.offre .btg {
+  border-top: 1px solid green;
+}
+.offre .bty {
+  border-top: 1px solid #FFAE00;
+  padding-top: 20px;
+}
+
+.img-schema {
+  margin-top: 100px;
+}
+
+.zone-offre-4G {
+  margin-bottom: 100px;
 }
 
 .illustration {
-  height: 330px;
-  width: 90%;
+  height: 250px;
+  margin-left: auto;
+}
+.illustration img {
+  width: 1000px;
+}
+
+.presentation-offre {
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .titre1 {
-  font: normal normal 600 40px/53px Avenir-900;
+  margin: 0px;
+  font: normal normal 600 30px Avenir-900;
   font-size: 30px;
   letter-spacing: 0px;
   color: #101041;
-  text-transform: uppercase;
   opacity: 1;
   text-align: left;
+  line-height: 38px;
 }
 
 .titre2 {
+  margin: 5px;
   color: var(--unnamed-color-101041);
   text-align: left;
-  font: normal normal normal 25px Avenir;
+  font: normal normal normal 21px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
 }
@@ -323,7 +383,7 @@ body {
   height: 100px;
   /* UI Properties */
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1607843137);
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 18px 18px 0px 0px;
   opacity: 1;
 }
 .fibre-offre h1 {
@@ -345,7 +405,10 @@ body {
 
 .contenu-offre {
   background: #ECF6FB 0% 0% no-repeat padding-box;
-  padding-bottom: 80px;
+  border-radius: 0% 0% 20px 20px;
+}
+.contenu-offre .zone-prix {
+  margin-bottom: 15px;
 }
 .contenu-offre .test-add {
   color: var(--unnamed-color-3f8fb9);
@@ -373,44 +436,47 @@ body {
 
 .offre .titre {
   text-align: center;
-  font: normal normal 900 20px Avenir-900;
+  font: normal normal 900 25px Avenir-900;
   letter-spacing: 0px;
   color: #3F8FB9;
   text-transform: capitalize;
   opacity: 1;
 }
+.offre .zone-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .offre .start {
   text-align: center;
-  font: normal normal normal 12px Avenir-900;
+  font: normal normal normal 12px Avenir-500;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
 }
 .offre .price {
   text-align: center;
-  font: normal normal medium 55px Avenir-900;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
+  font-size: 40px;
 }
 .offre .devise {
   text-align: center;
-  font: normal normal 900 18px Avenir-900;
+  font: normal normal 500 18px Avenir-500;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
 }
 .offre .sous-titre {
-  margin-top: 20px;
   text-align: left;
-  font: normal normal 900 20px Avenir-900;
+  font: normal normal 900 16px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
 }
 .offre .elt {
   text-align: left;
-  font: normal medium 22px Avenir-500;
+  font: normal medium 20px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
@@ -420,14 +486,30 @@ body {
   margin-block-end: 0px;
   margin: 0;
 }
-.offre button {
+.offre .buy {
   text-align: center;
   padding: 10px;
-  width: 180px;
+  width: 250px;
   background: #3F8FB9 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  color: #F6F8F9;
+  opacity: 1;
+  font: normal normal 500 18px Avenir-500;
+  height: 45px;
+  border: 0px;
+}
+.offre .compare {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
   border: 2px solid #3F8FB9;
+  color: #3F8FB9;
   border-radius: 8px;
   opacity: 1;
+  font: normal normal normal 16px Avenir-500;
+  height: 45px;
+  background-color: WHITE;
 }
 .offre ul {
   list-style: none;
@@ -448,7 +530,7 @@ body {
 }
 .info_pub h1 {
   text-align: left;
-  font: normal normal normal 30px Avenir-900;
+  font: normal normal normal 30px Avenir-500;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -457,7 +539,7 @@ body {
 }
 .info_pub p {
   text-align: left;
-  font: normal normal normal 18px Avenir-900;
+  font: normal normal normal 18px Avenir-500;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -466,9 +548,10 @@ body {
   border: 1px solid #FFFFFF;
   border-radius: 7px;
   opacity: 1;
-  padding: 20px;
+  padding: 18px;
   background: #3F8FB9 0% 0% no-repeat padding-box;
   color: white;
+  font: normal normal normal 18px Avenir-500;
 }
 .info_pub .h-80 {
   height: 80px;
@@ -480,10 +563,13 @@ body {
   opacity: 1;
 }
 .backup4g .title {
-  font-size: 40px;
   text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  font: normal normal normal 30px Avenir-500;
+}
+.backup4g .img-box {
+  width: 30%;
 }
 .backup4g .box {
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -492,31 +578,41 @@ body {
   opacity: 1;
 }
 .backup4g .box button {
+  text-align: center;
+  padding: 10px;
+  width: 180px;
   background: #3F8FB9 0% 0% no-repeat padding-box;
   border: 2px solid #3F8FB9;
   border-radius: 8px;
+  color: #F6F8F9;
   opacity: 1;
-  padding: 10px;
+  font: normal normal bold 16px Avenir-500;
 }
 .backup4g .box h1 {
+  padding-top: 30px;
   text-align: center;
-  font: normal normal 900 25px Avenir-900;
+  font: normal normal 900 24px Avenir-500;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
+  width: 70%;
+  margin-bottom: 20px;
 }
 .backup4g .box .content {
+  padding: 40px;
   text-align: left;
-  font: normal normal 500 25px Avenir-500;
+  font: normal normal 500 18px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 18px;
+  margin-left: 18px;
+  border-top: 1px solid #FFAE00;
+  margin-top: 30px;
 }
 .backup4g .box .content .notice {
   text-align: right;
-  font: normal normal normal 20px/34px Avenir-500;
+  font: normal normal normal 18px/34px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
@@ -524,7 +620,7 @@ body {
 .backup4g .box .flex-end {
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
+  margin: 18px;
 }
 .backup4g .box .img-box {
   width: 40%;
@@ -536,7 +632,7 @@ body {
 
 .form-section h1 {
   text-align: left;
-  font: normal normal 900 30px Avenir-900;
+  font: normal normal 900 20px Avenir-900;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
@@ -548,36 +644,79 @@ body {
   opacity: 1;
   margin: 40px;
 }
+.form-section .div-form .acces-zone {
+  border-right: 1px solid #707070;
+  width: 30%;
+}
 .form-section .div-form .subtitle {
   text-align: left;
-  font: normal normal 900 16px Avenir-500;
+  font: normal normal 900 20px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .form-section .div-form .checkbox input {
-  font: normal normal medium 22px/30px Avenir-500;
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 30px;
+  height: 23px;
+  padding: 2px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #FFAE00;
+  background-color: wite;
+  border-radius: 50%;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
   margin-left: 30px;
 }
+.form-section .div-form .checkbox input[type=radio]:checked {
+  background-color: #FFAE00;
+}
 .form-section .div-form label {
   text-align: left;
-  font: normal normal medium 20px Avenir-500;
+  font: normal normal 500 18px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 0px;
 }
 .form-section .div-form .action-button {
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 1px solid #707070;
+  border: 1px solid #b8b2b2;
   opacity: 1;
-  height: 20px;
+  margin-top: 25%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  font: normal normal 500 18px Avenir-500;
 }
 .form-section .div-form .input-form {
-  padding: 20px;
+  padding: 18px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid;
+  border-radius: 0px;
+  background-color: #F6F8F9;
+  width: auto;
+}
+.form-section .div-form p {
+  font: normal normal 500 18px Avenir-500;
+}
+.form-section .div-form a {
+  font: normal normal 500 18px Avenir-500;
+  color: #FFAE00;
 }
 
 .section-carousel h1 {
@@ -593,8 +732,14 @@ body {
   color: #3F8FB9;
 }
 
+.schema-fonc {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
 .pres-fibre {
-  padding-top: 150px;
+  padding-top: 195px;
   padding-bottom: 150px;
   background: #F6F8F9 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -605,7 +750,7 @@ body {
 }
 .pres-fibre .section-text .title {
   text-align: left;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 0px;
   color: #101041;
   text-transform: uppercase;
@@ -662,11 +807,18 @@ body {
 }
 
 .pres-4g {
-  margin: 80px 50px;
+  margin: 80px 90px;
   font: normal normal normal 22px/30px Avenir-500;
 }
+.pres-4g p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 .pres-4g .nav-offer {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -678,7 +830,12 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1607843137);
   border-radius: 6px;
   opacity: 1;
-  padding: 20px;
+}
+.pres-4g .nav-offer .offer-box .discover {
+  margin-left: 0px;
+}
+.pres-4g .nav-offer .offer-box .discover .mb-30 {
+  margin-bottom: 30px;
 }
 .pres-4g .nav-offer h1 {
   color: var(--unnamed-color-101041);
@@ -689,12 +846,48 @@ body {
   text-transform: capitalize;
 }
 .pres-4g .offer-content {
-  width: 40%;
+  width: 30%;
 }
-.pres-4g .offre-image {
+.pres-4g .offer-content h1 {
+  font: normal normal normal 30px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  text-transform: capitalize;
+  opacity: 1;
+  margin: 0px;
+}
+.pres-4g .offer-content .bold-12 {
+  font: normal normal bold 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.pres-4g .offer-content .urgence {
+  font: normal normal bold 22px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pres-4g .offer-content .zone-text {
+  height: 350px;
+}
+.pres-4g .offer-content .zone-text .contenu {
+  font: normal normal normal 20px Avenir-500;
+}
+.pres-4g .more {
+  font: normal normal normal 25px Avenir-500;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #FFAE00;
+}
+
+.offre-image {
   width: 25%;
 }
-.pres-4g ul {
+
+ul {
   list-style: none;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -707,10 +900,46 @@ body {
   font: normal normal normal 22px Avenir-500;
   background: #F6F8F9 0% 0% no-repeat padding-box;
   opacity: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pres-why h1 {
   font: normal normal normal 22px Avenir-500;
   font-size: 40px;
+}
+.pres-why h2 {
+  font: normal normal bold 25px Avenir-500;
+}
+.pres-why p {
+  font: normal normal normal 20px Avenir-500;
+  width: 90%;
+}
+.pres-why .title1 {
+  margin: 10px;
+  font: normal normal medium Avenir-500;
+  font-size: 30px;
+}
+.pres-why .title2 {
+  margin: 10px;
+  font: normal normal medium 22px Avenir-500;
+  font-size: 30px;
+  width: 200px;
+}
+
+.section-carousel .zone-add {
+  padding-top: 40px;
+}
+.section-carousel .zone-add h1 {
+  width: 70%;
+  font-size: 30px;
+  line-height: 40px;
+}
+.section-carousel .zone-add b {
+  color: #3F8FB9;
+  margin: 0;
+}
+.section-carousel .mb-30 {
+  margin-bottom: 30px;
 }
 
 .hide {
@@ -722,22 +951,37 @@ body {
 }
 
 .annonce {
-  margin: 40px;
+  margin: 100px 180px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: -20px 50px 1px 0px rgb(230, 225, 144);
-  border: 1px solid #7a7a7d;
+  box-shadow: -20px 20px 1px 0px #FAE0A7;
   opacity: 1;
 }
 .annonce .conteneur {
-  margin: 20px;
+  padding: 30px;
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+.annonce .conteneur .zone-p {
+  height: 80px;
+}
+.annonce .conteneur .btn-annonce {
+  background: #FFAE00 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  color: #ffffff;
+  font-family: Avenir-500;
+  font-size: 18px;
 }
 .annonce .annonce-plus {
   width: 60%;
 }
 .annonce p {
+  margin: 0px 10px;
   text-align: center;
-  font: normal normal normal 22px Avenir-500;
+  font: normal normal normal 20px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
@@ -747,15 +991,97 @@ body {
   margin-top: 20px;
   height: 150px;
   width: 100%;
-  background-color: #101041;
+  background-color: #142635;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .bandeau-jaune {
+  margin-top: 20px;
   height: 150px;
   width: 100%;
   background-color: #FFAE00;
+  border-radius: 20px 20px 0px 0px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.zone-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.white {
+  color: white;
+}
+
+.bg-grey {
+  background: #F6F8F9 0% 0% no-repeat padding-box;
+}
+
+/* medias query for tablette screen */
+@media (max-width: 1200px) {
+  .pres-fibre {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pres-fibre .section-text {
+    margin-top: 80px;
+    width: 80%;
+    font-family: Avenir-500;
+  }
+  .pres-fibre .section-image {
+    margin-top: 20px;
+    width: 80%;
+  }
+  .pres-4g {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pres-4g .nav-offer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+  .pres-4g .offer-content {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .pres-4g .offre-image {
+    width: 62%;
+    margin: auto;
+  }
+}
 .contact-presentation {
   margin-bottom: 80px;
 }
@@ -823,7 +1149,6 @@ form .c-red {
   color: red;
 }
 form label {
-  margin: 5px 0px;
   text-align: left;
   font: normal normal normal 15px Avenir-500;
   font-size: 25px;
@@ -875,7 +1200,7 @@ form .send-form a {
   background: #FBFBFD 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1607843137);
   opacity: 1;
-  font: normal normal 500 14px Avenir-500;
+  font: normal normal 500 18px Avenir-500;
 }
 .footer-section ul {
   list-style: none;
@@ -888,7 +1213,7 @@ form .send-form a {
   width: 20%;
 }
 .footer-section .zone-nav {
-  width: 30%;
+  width: 40%;
 }
 .footer-section .zone-action {
   width: 20%;
@@ -906,16 +1231,23 @@ form .send-form a {
   border-radius: 30px;
   opacity: 1;
   padding: 10px 30px;
-  font: normal normal 900 14px Avenir-900;
+  font: normal normal 500 18px Avenir-500;
+  margin-bottom: 10px;
+}
+.footer-section .touch {
+  border-radius: 30px;
+  opacity: 1;
+  padding: 10px 30px;
+  font: normal normal 500 18px Avenir-500;
   margin-bottom: 10px;
 }
 .footer-section .follow {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1607843137);
-  border-radius: 25px;
   opacity: 1;
-  font: normal normal 900 14px Avenir-900;
-  margin-bottom: 10px;
+  font: normal normal 500 18px Avenir-500;
+  padding: 13px;
+  border-radius: 15px 0px 0px 15px;
 }
 .footer-section .call {
   border: 2px solid #3F8FB9;
@@ -928,23 +1260,16 @@ form .send-form a {
   color: black;
 }
 
-.package h1 {
-  text-align: center;
-  font: normal normal 900 50px/68px Avenir;
-  letter-spacing: 0px;
-  color: #3F8FB9;
-  opacity: 1;
-}
-
 .avantages .avantage-box {
   padding-top: 30px;
   text-align: center;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   opacity: 1;
+  padding: 40px;
 }
 .avantages .avantage-box .subtitle {
-  font: normal normal 500 30px Avenir-500;
+  font: normal normal 900 30px Avenir-900;
   letter-spacing: 0px;
   color: #3F8FB9;
   opacity: 1;
@@ -952,31 +1277,129 @@ form .send-form a {
 }
 .avantages .avantage-box .description {
   text-align: center;
-  font: normal normal normal 26px/36px Avenir;
+  font: normal normal 500 26px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
+  opacity: 1;
+  width: 50%;
+}
+
+.package {
+  margin-top: 80px;
+}
+.package h1 {
+  text-align: center;
+  font: normal normal 900 50px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
   opacity: 1;
 }
 
 .offre-data-center {
-  height: 600px;
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+  margin-left: 120px;
+  margin-right: 180px;
+  margin-top: 160px;
   border-radius: 25px;
   opacity: 1;
 }
+.offre-data-center .titre {
+  text-align: left;
+  font: normal normal 900 30px Avenir-900;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre-data-center .titre1 {
+  text-align: left;
+  font: normal normal 900 24px Avenir;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre-data-center .illustration {
+  height: 260px;
+  margin: auto;
+}
 .offre-data-center .zone-offre {
   padding: 90px;
-  border-radius: 25px;
+  border-radius: 25px 0px 0px;
+  background-color: #FFFFFF;
 }
 .offre-data-center .zone-offre .line {
   margin-bottom: 20px;
 }
+.offre-data-center .zone-offre .line p {
+  font: normal normal 100 18px Avenir-100;
+  margin: 5px 0px;
+}
+.offre-data-center .zone-offre .icone-service {
+  width: 60px;
+  height: 60px;
+}
 .offre-data-center .bg-blue {
   background: #3F8FB9 0% 0% no-repeat padding-box;
-  height: 100%;
   width: 40%;
+  border-radius: 25px;
+  opacity: 1;
+}
+.offre-data-center .demi-arc {
+  width: 150px;
+  border-radius: 0% 60% 60% 0%;
+  background-color: white;
+  height: 100%;
+}
+.offre-data-center .demi-arc-g {
+  width: 150px;
+  border-radius: 60% 0% 0% 60%;
+  background-color: white;
+  margin-left: auto;
+  height: 100%;
+}
+
+.pres-data {
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.pres-data .illustration {
+  height: 220px;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.contenant-blue {
+  background-color: #ECF6FB;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.contenant-blue .data-service p {
+  font: normal normal 500 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+  margin: 10px;
+}
+.contenant-blue .offre-data-center {
+  margin: auto;
+  width: 85%;
+}
+.contenant-blue .offre-data-center .zone-offre {
+  padding: 60px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+
+.data-annonce .annonce {
+  margin-top: 60px;
+  margin-bottom: 180px;
+  margin-right: 180px;
+  margin-left: 180px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: -20px 20px 1px 0px #FAE0A7;
+  opacity: 1;
 }
 
 .iot-header {
@@ -1004,6 +1427,7 @@ form .send-form a {
 }
 
 .zone-pres-lot {
+  font: normal normal 900 25px Avenir-900;
   background: #101041 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   border-radius: 10px;
@@ -1027,41 +1451,48 @@ form .send-form a {
   width: 40%;
 }
 .resume-lot h1 {
-  font: normal normal 900 50px Avenir-900;
+  font: normal normal 900 30px Avenir-900;
   letter-spacing: 0px;
   color: #020101;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .resume-lot p {
   font: normal normal 500 20px Avenir-500;
   letter-spacing: 0px;
   color: #030303;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-bloc {
-  margin: 40px;
+  margin-top: 80px;
+  margin-right: 60px;
+  margin-left: 60px;
   background: #FFAE00 0% 0% no-repeat padding-box;
   border-radius: 12px;
   opacity: 1;
   padding: 20px;
 }
 .contact-bloc h1 {
-  font: normal normal 900 45px/61px Avenir-500;
+  font: normal normal 900 45px Avenir-500;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
+  margin: 0px;
 }
 .contact-bloc p {
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: left;
   font: normal normal normal 20px Avenir-500;
   letter-spacing: 0px;
   color: #101041;
   opacity: 1;
+  width: 50%;
 }
 .contact-bloc .btn-contact {
+  margin-top: 20px;
   background: white;
   border-radius: 12px;
   opacity: 1;
@@ -1071,6 +1502,266 @@ form .send-form a {
 .contact-bloc a {
   font: normal normal normal 20px Avenir-500;
   text-align: left;
+}
+
+.offre-iot {
+  padding: 100px;
+}
+.offre-iot h1 {
+  padding: 40px;
+  font: normal normal 500 25px Avenir-500;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre-iot .offre {
+  transform: translateY(0rem);
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 10px;
+  opacity: 1;
+  margin: 10px;
+  padding: 0px;
+}
+.offre-iot .offre .titre {
+  text-align: center;
+  font: normal normal 900 25px Avenir-900;
+  letter-spacing: 0px;
+  color: #3F8FB9;
+  text-transform: capitalize;
+  opacity: 1;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.offre-iot .contenu-offre {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+/* phone responsive */
+@media (max-width: 767px) {
+  .phone-pres {
+    font: normal normal normal 15px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F6F8F9;
+  }
+  .section-image {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .offer-box {
+    background-color: #F6F8F9;
+    margin-bottom: 20px;
+    font: normal normal 500 20px Avenir-500;
+  }
+  .metro-why {
+    background-color: #F6F8F9;
+  }
+  .zone-ftth {
+    background-color: #F6F8F9;
+  }
+  .zone-ftth .image-dev {
+    padding-top: 150px;
+  }
+  .zone-ftth .titre1 {
+    margin: 0px;
+    font: normal normal 600 10px Avenir-900;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    text-align: center;
+    line-height: 38px;
+  }
+  .zone-ftth .titre2 {
+    margin: 5px;
+    color: var(--unnamed-color-101041);
+    text-align: center;
+    font: normal normal normal 21px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+  }
+  .offre {
+    /* transform: translateY(-4.1rem); */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .offre article {
+    width: 90%;
+    margin: auto;
+  }
+  .box {
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 10px;
+    opacity: 1;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .backup4g .contenu-offre {
+    width: 100%;
+    background: #ECF6FB 0% 0% no-repeat padding-box;
+    padding-bottom: 40px;
+  }
+  .backup4g .title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font: normal normal normal 20px Avenir-500;
+  }
+  .schema-fonc {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+  .zone-option {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ECF6FB;
+    text-align: center;
+    font: normal normal normal 20px Avenir-500;
+    background: #142635 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 10px;
+    opacity: 1;
+    color: #3F8FB9;
+  }
+  .zone-option h1 {
+    font: normal normal normal 20px Avenir-500;
+  }
+  .zone-option p {
+    font: normal normal normal 14px Avenir-500;
+  }
+  .zone-fibre {
+    padding-top: 20px;
+    background: #ECF6FB 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 20px Avenir-500;
+    border-radius: 10px;
+    opacity: 1;
+    color: #3F8FB9;
+  }
+  .zone-fibre p {
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  .btn-eligibilite {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3F8FB9;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 10px;
+    color: #3F8FB9;
+    width: 60%;
+    text-align: center;
+    font: normal normal normal 20px Avenir-500;
+  }
+  .zone-4g {
+    padding-top: 20px;
+    background: #ECF6FB 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 20px Avenir-500;
+    border-radius: 10px;
+    opacity: 1;
+    color: #3F8FB9;
+  }
+  .zone-4g p {
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  .slider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .slider .title-slider {
+    text-align: center;
+    font: normal normal bold 20px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    font: normal normal normal 20px Avenir-500;
+    background: #FBFBFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1607843137);
+    opacity: 1;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  .footer p {
+    color: #3F8FB9;
+    font-weight: 900;
+  }
+  .footer a {
+    color: #3F8FB9;
+  }
+  .footer .follow {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 22px;
+    opacity: 1;
+    color: #3F8FB9;
+    padding: 15px 10px;
+  }
+  .footer .follow a {
+    margin-left: 0px;
+    font: normal normal bold 15px Avenir-500;
+    color: #3F8FB9;
+  }
+  .footer .client {
+    background: #FFAE00 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 22px;
+    opacity: 1;
+    padding: 15px 10px;
+  }
+  .footer .client a {
+    font: normal normal bold 15px Avenir-500;
+    color: black;
+  }
+  .footer-bottom {
+    border-top: 2px solid #CCCCCC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font: normal normal normal 18px Avenir-500;
+    background: #FBFBFD 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .zone-service .service {
+    padding-bottom: 10px;
+  }
+  .zone-service .service .service-image img {
+    height: 60px;
+    width: 80px;
+  }
+  .zone-service .service .service-detail h2 {
+    font: normal normal bold 18px Avenir-500;
+  }
+  .zone-service .service .service-detail p {
+    font: normal normal normal 18px Avenir-500;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

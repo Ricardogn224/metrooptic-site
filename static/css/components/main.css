@@ -48,6 +48,10 @@
   width: 99%;
 }
 
+.w-60 {
+  width: 62%;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -70,6 +74,10 @@
 
 .p-20 {
   padding: 20px;
+}
+
+.pt-10 {
+  padding-top: 30px;
 }
 
 .ma-80 {
@@ -101,8 +109,29 @@ body {
 }
 
 .mtb {
-  margin-top: 140px;
-  margin-bottom: 140px;
+  margin-top: 170px;
+  margin-bottom: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 40px;
+}
+
+.m-50 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-20 {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

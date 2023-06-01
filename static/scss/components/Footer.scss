@@ -3,7 +3,7 @@
     background: #FBFBFD 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 1px #00000029;
     opacity: 1;
-    font: normal normal 500 14px Avenir-500;
+    font: normal normal 500 18px Avenir-500;
 
 
 
@@ -20,7 +20,7 @@
     }
 
     .zone-nav {
-        width: 30%;
+        width: 40%;
     }
 
     .zone-action {
@@ -41,18 +41,26 @@
         border-radius: 30px;
         opacity: 1;
         padding: 10px 30px;
-        font: normal normal 900 14px Avenir-900;
+        font: normal normal 500 18px Avenir-500;
         margin-bottom: 10px;
+    }
 
+    .touch {
+        border-radius: 30px;
+        opacity: 1;
+        padding: 10px 30px;
+        font: normal normal 500 18px Avenir-500;
+        margin-bottom: 10px;
+    
     }
 
     .follow {
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 1px 3px #00000029;
-        border-radius: 25px;
         opacity: 1;
-        font: normal normal 900 14px Avenir-900;
-        margin-bottom: 10px;
+        font: normal normal 500 18px Avenir-500;
+        padding:13px;
+        border-radius: 15px 0px 0px 15px;
 
 
     }

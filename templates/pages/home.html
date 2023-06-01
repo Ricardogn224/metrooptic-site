@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">
     <title>Acceuil</title>
 </head>
 
@@ -15,7 +16,7 @@
         <nav class="navbar">
             <div class="  flex space-between top-nav">
                 <div class="flex liens">
-                    <a class="/"><img class="mr-40"
+                    <a href="/"><img class="mr-40"
                             src="{{ url_for('static', filename='images/logo.svg') }}" alt=""></a>
                     <div>
                         <a class="options-select" href="/">A Propos</a>
@@ -80,12 +81,12 @@
                 <div class="service-bloc">
                     <div class="dropdown " >
                         <div class="bloc-choice">
-                            <a class="mr-10">Cyber-Sécurité</a>
-                            <a class="dropbtn" href="/"> 
+                            <a href="/" class="mr-10">Cyber-Sécurité</a>
+                            {# <a class="dropbtn" href="/"> 
                                 <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
-                           </a> 
+                           </a>  #}
                         </div>
-                        <div class=" flex option-nav hide">
+                        {# <div class=" flex option-nav hide">
                             
                                 <div class="service w-50">
                                     <a href="/secutite">
@@ -108,14 +109,14 @@
                             </div>
                             
 
-                        </div>
+                        </div> #}
                     </div>
                 </div>
 
                 <div class="service-bloc">
                   
                         <div class="bloc-choice">
-                            <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
+                            <a class="mr-10 " href="/iot">Solutions IoT</a>
                             {# <a href="about.html"><img class=""
                                     src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
                         </div>
@@ -142,12 +143,42 @@
                    
                 </div>
 
+                <div class="service-bloc">
+                  
+                    <div class="bloc-choice">
+                        <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
+                        {# <a href="about.html"><img class=""
+                                src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
+                    </div>
+
+                    {# <div class="dropdown-content flex space-between hide">
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                            <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
+                        </div>
+                        <div class="line-sh" ></div>
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                            <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
+                        </div>
+                        <div class="line-sh" ></div>
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
+                            <p class="subtitle">Solutions 4G/5G</p>
+                        </div>
+                    </div>  #}
+               
+            </div>
+
             </div>
         </nav>
     </section>
 
     <section>
-        <div class="flex space-around pres-fibre">
+        <div class="flex flex-center space-around pres-fibre">
             <div class="section-text flex-column">
                 <div>
                     <h1 class="title">FOURNISSEURS </h1>
@@ -183,7 +214,7 @@
             </div>
 
             <div class="section-image">
-                <img width="100%" class="" src="{{ url_for('static', filename="images/illustration-offre.svg") }}"
+                <img width="85%" class="" src="{{ url_for('static', filename="images/illustration-offre.svg") }}"
                     alt="">
             </div>
 
@@ -194,46 +225,62 @@
     <section>
         <div class="flex space-between pres-4g">
             <div class="nav-offer ">
-                <div class="flex offer-box">
+                <div class=" offer-box">
                     <div>
-                        <img width="20px" height="20px" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                        <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
                     </div>
-                    <div>Découvez L'offre SOS 4G/5G</div>
+                    <div class="discover flex-center">
+                        <div class="mb-30">
+                            <p>Découvez </p>
+                            <p class="bold">L'offre SOS 4G/5G</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="flex offer-box">
+                <div class=" offer-box">
                     <div>
-                        <img width="20px" height="20px" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                        <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
                     </div>
-                    <div>Découvrez L'offre Fibre Pro</div>
+                    <div class="discover flex-center">
+                        <div class="mb-30">
+                            <p>Découvez </p>
+                            <p class="bold">L’offre Cyber-Défense</p>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div class="flex offer-box">
+                <div class=" offer-box">
                     <div>
-                        <img width="20px" height="20px" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                        <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
                     </div>
-                    <div>Découvrez L'offre Sécurité</div>
+                    <div class="discover flex-center">
+                        <div class="mb-30">
+                            <p>Découvez </p>
+                            <p class="bold">L'offre SOS 4G/5G</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="offer-content">
                 <div>
-                    <h1>Loffre</h1>
-                    <p>SOS 4G/5G</p>
+                    <h1>L'offre</h1>
+                    <p class="bold-12">SOS 4G/5G</p>
                 </div>
-                <div>
-                    <p>Un besoin urgent ?</p>
+                <div class="flex-column space-between zone-text" >
+                    <p class="urgence">Un besoin urgent ?</p>
+                    
 
-                    <p> Très bonne alternative lorsque vous etes dans une zone non couverte ou mal desservice par l'ADSL
+                    <p class="contenu"> Très bonne alternative lorsque vous etes dans une zone non couverte ou mal desservice par l'ADSL
                         et la fibre.</p>
 
-                    <p>
-                        cette offre vous permet de ployer un accès internet très rapidement sans aucune installation et
+                    <p class="contenu">
+                        Cette offre vous permet de ployer un accès internet très rapidement sans aucune installation et
                         de bénéficier d'une connexion internet fiable et sécurisée.
                     </p>
 
-                    <a href="">En savoir plus</a>
+                    <a class="more" href="">En savoir plus ></a> 
                 </div>
 
             </div>
@@ -246,51 +293,66 @@
     </section>
 
     <section class="pres-why">
-        <div class="flex space-between ma-80 p-20">
+        <div class="flex space-between p-20">
             <div class="flex w-30">
-                <div>
-                    <h1>Pourquoi METRO OPTIC ?</h1>
+                <div class="">
+                    <div class="flex flex-column flex-center">
+                        <div>
+                            <p class="title1">POURQUOI </p>
+                            <p class="title2">METRO OPTIC ?</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div>
-                    <img width="100%" height="100px" class="" src="{{ url_for('static', filename="images/logo-fleche.png") }}" alt="">
+                    <div class="flex flex-center">
+                        <img width="100%" height="160px" class="" src="{{ url_for('static', filename="images/logo-fleche.png") }}" alt="">
+                    </div>
                 </div>
             </div>
 
-            <div class="w-30">
-                <div>
-                    <p>
+            <div class="w-30 zone-service">
+                <div class="service">
+                    <div class="image">
                         <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/porte-document.svg") }}" alt="">
-                    </p>
-                    <h2>Offre sur messure</h2>
+                    </div>
+                    <div>
+                        <h2>Offre sur messure</h2>
                     <p>
                         Des offres modulables et personnalisées pour répondre au mieux à vos besoins.
                     </p>
+                    </div>
                 </div>
 
                 <div>
-                    <p><img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/service client.svg") }}" alt=""></p>
-                    <h2>Offre sur messure</h2>
+                    <div>
+                        <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/service client.svg") }}" alt="">
+                    </div>
+                    <h2>Qualité du Service</h2>
                     <p>
-                        Des offres modulables et personnalisées pour répondre au mieux à vos besoins.
+                        Une écoute attentive avec plus de réactivité pour une vraie relation de proximité.
                     </p>
                 </div>
             </div>
 
             <div class=" w-30">
                 <div>
-                    <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/femme-pouce.svg") }}" alt="">
-                    <h2>Offre sur messure</h2>
+                    <div>
+                        <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/femme-pouce.svg") }}" alt="">
+                    </div>
+                    <h2>Simplicité</h2>
                     <p>
-                        Des offres modulables et personnalisées pour répondre au mieux à vos besoins.
+                        Tous les services dont vous avez besoin auprès d’un seul fournisseur.
                     </p>
                 </div>
 
                 <div>
-                    <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/argent.svg") }}" alt="">
-                    <h2>Offre sur messure</h2>
+                    <div>
+                        <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/argent.svg") }}" alt="">
+                    </div>
+                    <h2>Économique</h2>
                     <p>
-                        Des offres modulables et personnalisées pour répondre au mieux à vos besoins.
+                        Des coûts d’infrastructure et des offres réduits grâce aux solutions Métro Optic..
                     </p>
                 </div>
             </div>
@@ -299,32 +361,34 @@
 
     <section class="section-carousel">
         <div class="ma-80">
-
-            <h1>Plusieurs professionnels nous font déjà confiance,</h1>
-            <h2>
-                pourquoi pas vous ?
-            </h2> 
-
-            <div class="flex space-between ma-80 mtb">
-                <div>
-                    <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/xilam.png")}}" alt="">
+            <div class="zone-add flex-center">
+                <div class="flex-center">
+                    <h1 >Plusieurs professionnels nous font déjà confiance, <b> pourquoi pas vous ?  </b> </h1>
                 </div>
-                <div>
-                    <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/unicef.png")}}" alt="">
-                </div>
+             
+            </div>
 
-                <div>
-                    <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/bjorg.png")}}" alt="">
-                </div>
+            <div class="carousel">
+                <div class="flex space-between ma-80 mb-30 zone-carousel">
+                    <div class="slide">
+                        <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/xilam.png")}}" alt="">
+                    </div>
+                    <div class="slide">
+                        <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/unicef.png")}}" alt="">
+                    </div>
 
-                <div>
-                    <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/hays.png")}}" alt="">
-                </div>
+                    <div class="slide">
+                        <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/bjorg.png")}}" alt="">
+                    </div>
 
-                <div>
-                    <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/FDJ.png")}}" alt="">
-                </div>
+                    <div class="slide">
+                        <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/hays.png")}}" alt="">
+                    </div>
 
+                    <div class="slide">
+                        <img width="200px" height="200px" class="" src="{{ url_for('static', filename="images/FDJ.png")}}" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -339,8 +403,8 @@
             <div class="flex-center">
                 <div class="flex space-between follow ">
                     <a class="flex-center ml-20">Suivrez-Nous</a> 
-                    <a class="flex-center" href="http://"><img width="50px" height="40px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> 
                 </div>
+                <div> <a class="flex-center" href="http://"><img width="50px" height="50px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> </div>
             </div>
             
             
@@ -348,6 +412,13 @@
         
 
         <div class="flex space-between zone-nav" >
+
+            <div>
+                <h1 class="title">Ressources</h1>
+                <p>Fiche router 4G</p>
+                <p>Fiche ROuteur 5G </p>
+                
+            </div>
 
             <div>
                 <h1 class="title">Navigation</h1>
@@ -368,13 +439,10 @@
 
         </div>
 
-        <div class="flex-column zone-action  space-around">
+        <div class="flex-column zone-action  ">
             <div class=" flex-column flex-center space-between">
-                <div class="flex follow ">
-                    <a class="flex-center">Suivrez-Nous</a> 
-                    <a class="" href="http://"><img width="50px" height="40px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> 
-                </div>
                 <div class="client"><a>Espace Client</a></div>
+                <div class="touch"><a>Commander</a></div>
                 <div class="call"><a>Etre rappelé</a></div> 
             </div>
         </div>
@@ -382,7 +450,7 @@
         
     </footer>
 </body>
-            <div class="flex space-between">
+            <div class="flex space-between ma-80">
                 <p>© 2023 Métro Optic. Tous droits réservés</p></li>
                 <p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p>
             </div>

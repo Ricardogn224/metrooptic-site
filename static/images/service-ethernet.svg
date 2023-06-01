@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <filter id="Ellipse_49" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="service_ethernet" data-name="service ethernet" transform="translate(-186 -1143)">
+    <g transform="matrix(1, 0, 0, 1, 186, 1143)" filter="url(#Ellipse_49)">
+      <circle id="Ellipse_49-2" data-name="Ellipse 49" cx="35" cy="35" r="35" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="ethernet" transform="translate(-736 -1265)">
+      <rect id="Rectangle" width="30" height="20" transform="translate(951 2435)" fill="#0998ea"/>
+      <rect id="Rectangle-2" data-name="Rectangle" width="20" height="4" transform="translate(957 2455)" fill="#9fbecf"/>
+      <rect id="Rectangle-3" data-name="Rectangle" width="12" height="4" transform="translate(961 2459)" fill="#0998ea"/>
+      <rect id="Rectangle-4" data-name="Rectangle" width="2" height="8" transform="translate(953 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-5" data-name="Rectangle" width="2" height="8" transform="translate(957 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-6" data-name="Rectangle" width="2" height="8" transform="translate(961 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-7" data-name="Rectangle" width="2" height="8" transform="translate(965 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-8" data-name="Rectangle" width="2" height="8" transform="translate(969 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-9" data-name="Rectangle" width="2" height="8" transform="translate(973 2435)" fill="#9fbecf"/>
+      <rect id="Rectangle-10" data-name="Rectangle" width="2" height="8" transform="translate(977 2435)" fill="#9fbecf"/>
+    </g>
+  </g>
+</svg>

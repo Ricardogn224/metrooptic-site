@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">
+    <title>Acceuil</title>
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <div class="flex space-between  p-10">
+                <div class="flex-center">
+                    <img height="40px" src="{{ url_for('static', filename="images/logo-short.svg") }}" alt="logo">
+                </div>
+                
+                <div class="flex-center">
+                    <img  height="40px" class="" src="{{ url_for('static', filename="images/menu.svg") }}" alt="menu">
+                </div>
+            </div>
+        </div>       
+     </section>
+
+
+     <section class="m-80">
+        <div class="zone-ftth">
+            <div class="flex-center mb-20 image-dev">
+                <img class="w-60"  src="{{ url_for('static', filename='images/illustration.svg') }}" alt="">
+            </div>
+
+            <div class="flex-column flex-center">
+                <div class="flex-column ">
+                    <div class="mb-20">
+                        <p class="titre1">OFFREZ LA PERFORMANCE DE LA FIBRE </p>
+                        <p class="titre1 "> OPTIQUE PRO A VOTRE ACTIVITE !</p>
+                    </div>
+
+                    <div class="mb-20">
+                        <p class="titre2">
+                            Votre activité dépend de la fiabilité de votre connexion internet
+                        </p>
+                        <p class="titre2">et de la protection de vos outils informatiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="  zone-fibre">
+        <div class="flex space-between ma-80 ">
+            <p>La fibre entreprise FTTH Pro</p>
+            <p>v</p>
+        </div>
+
+        <div class="ma-80 ">
+            <p>La gamme FTTH Pro Metro Optic permet de bénéficier d’un accès internet aux débits asymétriques allant jusqu’à 1 Gbps.</p>
+        </div>
+     </section>
+
+     <section>
+        <div  id="id_fibre_FTTO" class="contenu-offre ">
+           
+
+            <div class="flex  space-around">
+                
+                <div class="offre ">
+                    <article class="">
+                        <div>
+                            <h1 class="titre">La Fibre Entreprise Mutualisée</h1>
+                            <p class="start"> A partir de </p>
+                            <div class="flex flex-center zone-prix">
+                                <div class="flex flex-center">
+                                    <p class="price">59,99</p>
+                                </div>
+                                <div class="flex flex-column flex-center">
+                                    <p class="devise">€ HT</p>
+                                    <p class="devise">/mois</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="flex-center flex-column ">
+                                <button class="buy">Commander</button>
+                                <button class="compare">Comparer</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex m-40 bty" >
+                            <div class="flex-center mr-10" >
+                                <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <p class="sous-titre"> La performance de la fibre FTTH
+                                </p>
+                                <p class="sous-titre">  essentielle à votre entreprise</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="m-40">
+                            <div class="flex">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div class="flex-center "><p class="sous-titre ">Fibre mutualisée FTTH</p></div>
+                            </div>
+                            
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div >
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/down.svg') }}" alt=""></div>
+                                        </div>
+                                        <div class="flex-center">
+                                            <p class="elt flex-center ">J'usqu'à 1Gbps en descendant</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/up.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">J'usqu'à 20 Mbs en montant</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Garantie de temps d'intervention 8h</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>                  
+
+                        <div class="m-40">
+                            <div class="flex ">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">Accompagnement proactif</p></div>
+                            </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10 "><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Supervision de votre accès 24h/7J</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Horaires étendus du support technique  :
+                                                Du lundi au samedi de 8h à 22h</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-40">
+                            <div class="flex btg">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">En option</p></div>
+                            </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Cyber-sécurité : Pare-feu nouvelle génération</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">IP publique</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                     </article>
+                    
+                </div>
+               
+            </div>
+
+
+        </div>
+     </section>
+
+     <section>
+        <div class="ma-80 zone-option">
+            <div>
+                <h1 class="white">Possibilité En Option</h1>
+
+                <p>Cyber-sécurité :</p> 
+                <p>Pare-feu nouvelle génération</p>
+                <p>IP publique</p>
+            </div>
+        </div>
+
+        <div class="flex-center">
+            <a class="btn-eligibilite" href="">Testez mon éligibilité</a>
+        </div>
+        
+     </section>
+
+
+     <section>
+        <div class="bg-blue zone-4g">
+            <div class="ma-80">
+                <div class="flex space-between ">
+                    <p>Solution de secours 4G/5G</p>
+                    <p>v</p>
+                </div>
+        
+                <div>
+                    <p>Sécurisez votre accès internet principal avec notre solution de secours 4G/5G</p>
+                </div>
+            </div>
+        </div>
+        
+     </section>
+
+
+     <section>
+        <div class="backup4g">
+            <div class="flex space-around zone-offre-4G" >
+                <div class="contenu-offre offre4G">
+                    <div class="box">
+                        <div class="flex-center flex-column">
+                            <h1>Le back-up 4G/5G c'est bien ! Mais comment ça marche ?</h1>
+                            <button>Commander</button>
+                        </div>
+                        <div class="content">
+                            <p>L’option back-up 4G+ illimité vous permet de palier à toute coupure de votre connexion fibre principale. Simple à installer, le modem 4G se branche directement sur notre routeur Métro Optic. Vous n’avez rien à faire d’autre. </p>
+                                
+                            <p>En cas d’incident sur l’accès internet fixe principal, la bascule est immédiate et transparente. Tous les appareils initialement connectés bénéficient à nouveau d’internet</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="flex-center schema-fonc">
+                <img width="100%" class="" src="{{ url_for('static', filename="images/schema-fonc.svg") }}" alt="">
+            </div>
+          
+        </div>
+     </section>
+
+
+
+
+</body>
+
+</html>

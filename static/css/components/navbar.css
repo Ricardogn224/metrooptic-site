@@ -11,8 +11,12 @@ a {
 .navbar {
   background-color: #3F8FB9;
   font-family: Avenir-500, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background: #3F8FB9 0% 0% no-repeat padding-box;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 1;
 }
 
 .options {
@@ -58,7 +62,7 @@ a {
 }
 
 .service-bloc {
-  width: 33.33%;
+  width: 25%;
   text-align: center;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
@@ -74,7 +78,7 @@ a {
 }
 .service-bloc a {
   color: #101041;
-  font-size: 20px;
+  font-size: 18px;
 }
 .service-bloc img {
   width: 18px;
@@ -89,7 +93,7 @@ a {
   margin: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .service-bloc .icone-service {
   width: 50px;

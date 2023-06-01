@@ -1,22 +1,108 @@
 .offre-data-center {
-  height: 600px;
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+  margin-left: 120px;
+  margin-right: 180px;
+  margin-top: 160px;
   border-radius: 25px;
   opacity: 1;
 }
+.offre-data-center .titre {
+  text-align: left;
+  font: normal normal 900 30px Avenir-900;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre-data-center .titre1 {
+  text-align: left;
+  font: normal normal 900 24px Avenir;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+}
+.offre-data-center .illustration {
+  height: 260px;
+  margin: auto;
+}
 .offre-data-center .zone-offre {
   padding: 90px;
-  border-radius: 25px;
+  border-radius: 25px 0px 0px;
+  background-color: #FFFFFF;
 }
 .offre-data-center .zone-offre .line {
   margin-bottom: 20px;
 }
+.offre-data-center .zone-offre .line p {
+  font: normal normal 100 18px Avenir-100;
+  margin: 5px 0px;
+}
+.offre-data-center .zone-offre .icone-service {
+  width: 60px;
+  height: 60px;
+}
 .offre-data-center .bg-blue {
   background: #3F8FB9 0% 0% no-repeat padding-box;
-  height: 100%;
   width: 40%;
+  border-radius: 25px;
+  opacity: 1;
+}
+.offre-data-center .demi-arc {
+  width: 150px;
+  border-radius: 0% 60% 60% 0%;
+  background-color: white;
+  height: 100%;
+}
+.offre-data-center .demi-arc-g {
+  width: 150px;
+  border-radius: 60% 0% 0% 60%;
+  background-color: white;
+  margin-left: auto;
+  height: 100%;
+}
+
+.pres-data {
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.pres-data .illustration {
+  height: 220px;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.contenant-blue {
+  background-color: #ECF6FB;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.contenant-blue .data-service p {
+  font: normal normal 500 25px Avenir-500;
+  letter-spacing: 0px;
+  color: #101041;
+  opacity: 1;
+  margin: 10px;
+}
+.contenant-blue .offre-data-center {
+  margin: auto;
+  width: 85%;
+}
+.contenant-blue .offre-data-center .zone-offre {
+  padding: 60px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+
+.data-annonce .annonce {
+  margin-top: 60px;
+  margin-bottom: 180px;
+  margin-right: 180px;
+  margin-left: 180px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: -20px 20px 1px 0px #FAE0A7;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=data_center.css.map */

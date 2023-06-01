@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">
+    <title>Acceuil</title>
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <div class="flex space-between  p-10">
+                <div class="flex-center">
+                    <img height="40px" src="{{ url_for('static', filename="images/logo-short.svg") }}" alt="logo">
+                </div>
+                
+                <div class="flex-center">
+                    <img  height="40px" class="" src="{{ url_for('static', filename="images/menu.svg") }}" alt="menu">
+                </div>
+            </div>
+        </div>       
+     </section>
+
+
+     <section>
+        <div class="phone-pres">
+            <div class="section-text flex-column">
+
+                <div class="section-image flex-center mb-20 mt-40">
+                    <img width="85%" class="" src="{{ url_for('static', filename="images/illustration-offre.svg") }}"
+                        alt="">
+                </div>
+
+                <div class="ma-80">
+                    <div>
+                        <h1 class="title">FOURNISSEURS D’ACCÈS</h1>
+                     
+                    </div>
+
+                    <div>
+                        <p>
+                            Besoin d’une liaison internet rapide et fiable ?
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2>
+                            Fibre Optique, 4G/5G, XDSL …
+                        </h2>
+                    </div>
+                </div>
+
+
+
+                <div class="ma-80">
+                    <p>
+                        Métro Optic est un fournisseur d’accès internet et vous accompagne dans toutes vos démarches
+                    </p>
+                </div>
+
+                <div class="btn-action mb-20">
+                    <ul class="flex-center">
+                        <li><a class="mr-20 rdv" href="">Obtenir un rendez vous </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+     <section>
+        <div class="nav-offer ma-80 mb-20">
+            <div class=" offer-box">
+                <div>
+                    <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                </div>
+                <div class="discover flex-center">
+                    <div class="mb-30">
+                        <p>Découvez </p>
+                        <p class="bold">L'offre SOS 4G/5G</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" offer-box">
+                <div>
+                    <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                </div>
+                <div class="discover flex-center">
+                    <div class="mb-30">
+                        <p>Découvez </p>
+                        <p class="bold">L’offre Cyber-Défense</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" offer-box">
+                <div>
+                    <img width="40px" height="" class="" src="{{ url_for('static', filename="images/dome-bas.png") }}" alt="">
+                </div>
+                <div class="discover flex-center">
+                    <div class="mb-30">
+                        <p>Découvez </p>
+                        <p class="bold">L'offre SOS 4G/5G</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="metro-why">
+        <div class="flex-center space-between ma-80 ">
+            <div class="">
+                <div class="flex flex-column flex-center">
+                    <div>
+                        <p class="title1">POURQUOI </p>
+                        <p class="title2">METRO OPTIC ?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex flex-center">
+                    <img width="100%" height="100px" class="" src="{{ url_for('static', filename="images/logo-fleche.png") }}" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section >
+        <div class="zone-service">
+            
+            <div class="service ">
+                <div class="ma-80">
+                <div class="service-image">
+                    <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/porte-document.svg") }}" alt="">
+                </div>
+                <div class="service-detail">
+                    <h2>Offre sur messure</h2>
+                    <p>
+                        Des offres modulables et personnalisées pour répondre au mieux à vos besoins.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="service bg-grey ">
+                <div class="ma-80">
+                    <div class="service-image">
+                        <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/service client.svg") }}" alt="">
+                    </div>
+                    <div class="service-detail">
+                        <h2>Qualité du Service</h2>
+                        <p>
+                            Une écoute attentive avec plus de réactivité pour une vraie relation de proximité.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="service">
+                <div class="ma-80">
+                    <div class="service-image">
+                        <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/femme-pouce.svg") }}" alt="">
+                    </div>
+
+                    <div class="service-detail">
+                        <h2>Simplicité</h2>
+                        <p>
+                            Tous les services dont vous avez besoin auprès d’un seul fournisseur.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="service bg-grey ">
+                <div class="ma-80">
+                <div class="service-image">
+                    <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/argent.svg") }}" alt="">
+                </div>
+
+                <div class="service-detail">
+                    <h2>Économique</h2>
+                    <p>
+                        Des coûts d’infrastructure et des offres réduits grâce aux solutions Métro Optic..
+                    </p>
+                </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+     <section>
+        <div class="slider">
+        <h1 class="title-slider">Plusieurs professionnels nous font déjà confiance, pourquoi pas vous ?</h1>
+
+        <div class="flex-center">
+            <div class="slide">
+                <img width="140px" height="140px" class="" src="{{ url_for('static', filename="images/xilam.png")}}" alt="">
+            </div>
+            <div class="slide">
+                <img width="140px" height="140px" class="" src="{{ url_for('static', filename="images/unicef.png")}}" alt="">
+            </div>
+        </div>
+        </div>
+     </section>
+
+
+     <section class="footer">
+        <div class="flex-column ma-80">
+            <div>
+                <div class="flex space-between">
+                    <p>Entreprise</p>
+                    <p>X</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li> <a href="http://"> A propos</a> </li>
+                        <li><a href="http://">Blog </a> </li>
+                        <li><a href="http://">Contact </a> </li>
+                        <li><a href="http://">FAQ </a></li>
+                        <li><a href="">Devenir Partenaire</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex space-between">
+                    <p>Offres</p>
+                    <p>X</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li> <a href="http://">Secours 4G/5G</a> </li>
+                        <li> <a href="">Fibre Optique Pro</a>  </li>
+                        <li> <a href="http://">Cyber-Défense</a>  </li>
+                        <li><a href="http://">IoT </a> </li>
+                        <li><a href="http://">Cloud </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex space-between ma-80 mt-20">
+            <div class="flex space-between follow ">
+                <a class="flex-center ml-20">Suivrez-Nous</a> 
+            </div>
+
+            <div class="client">
+                <a>Espace Client</a>
+            </div>
+        </div>
+        
+     </section>
+
+
+     <section class="footer-bottom">
+        <div class="ma-80 ">
+            <div>
+                <img width="80%" class="" src="{{ url_for('static', filename="./images/logo-black.svg") }}" alt="">
+
+                <p>72 Rue Sadi Carnot, 92170 Vanves</p>
+            </div>
+
+            <div>
+                <p>© 2023 Métro Optic | Tous droits réservés</p>
+
+                <p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p>
+            </div>
+        </div>
+
+        
+     </section>
+    
+</body>
+    
+</html>

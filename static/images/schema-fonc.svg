@@ -1,20 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1802" height="522" viewBox="0 0 1802 522">
-  <g id="schema" transform="translate(0)">
-    <rect id="Rectangle_96" data-name="Rectangle 96" width="776.207" height="520" rx="6" transform="translate(1024.793 1)" fill="none" stroke="#101041" stroke-width="2"/>
-    <line id="Ligne_79" data-name="Ligne 79" x2="772" transform="translate(308.414 168.525)" fill="none" stroke="#3f8fb9" stroke-width="5"/>
-    <line id="Ligne_81" data-name="Ligne 81" x2="547" transform="translate(542.598 396.24)" fill="none" stroke="#3f8fb9" stroke-width="4" stroke-dasharray="12 12"/>
-    <path id="Tracé_376" data-name="Tracé 376" d="M1189.8,167.213a50,50,0,1,1-50-50,50,50,0,0,1,50,50" transform="translate(1.089 0.239)" fill="#fff" stroke="#101041" stroke-width="2"/>
-    <path id="Tracé_377" data-name="Tracé 377" d="M1189.8,392.142a50,50,0,1,1-50-50,50,50,0,0,1,50,50" transform="translate(0.088 1.489)" fill="#fff" stroke="#101041" stroke-width="2"/>
-    <g id="réseau_4G" data-name="réseau 4G" transform="translate(653.547 292.236)">
+<svg xmlns="http://www.w3.org/2000/svg" width="1517" height="522" viewBox="0 0 1517 522">
+  <g id="schema" transform="translate(-70)">
+    <rect id="Rectangle" width="630" height="520" rx="6" transform="translate(956 1)" fill="#fff" stroke="#101041" stroke-width="2"/>
+    <g id="immeuble" transform="matrix(0.999, 0.035, -0.035, 0.999, 1398.116, 166)">
+      <g id="face_2" data-name="face 2" transform="translate(72.931 12.491)">
+        <path id="Tracé_858" data-name="Tracé 858" d="M0,205.33V10.412L59.016,0l3.053,188.459Z" transform="translate(0)" fill="#fff" stroke="#000" stroke-width="0.5"/>
+        <path id="Tracé_859" data-name="Tracé 859" d="M1.125,26.575C.815,22.044.445,16.932.134,12.4-.9,5.254,4.265-.1,8.6,0,12.409.1,16.692,4.442,16.81,10.5c.358,3.666.725,6.769,1.085,10.433" transform="matrix(0.998, 0.07, -0.07, 0.998, 10.805, 175.373)" fill="#abc8ce"/>
+        <g id="fenetre" transform="translate(5.857 13.532)">
+          <path id="Tracé_860" data-name="Tracé 860" d="M0,10.41,45.8,0V143.135L0,155.677Z" transform="translate(0.001 0)" fill="#add9e1" stroke="#000" stroke-width="0.5"/>
+          <path id="Tracé_862" data-name="Tracé 862" d="M2.609,144.176,0,0" transform="translate(16.013 6.341)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne" x1="2.794" y1="142.925" transform="translate(31.374 3.546)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-2" data-name="Ligne" y1="10.41" x2="45.802" transform="translate(0 33.31)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-3" data-name="Ligne" y1="10.41" x2="45.802" transform="translate(0 64.539)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-4" data-name="Ligne" y1="10.41" x2="45.802" transform="translate(0 93.686)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-5" data-name="Ligne" y1="12.512" x2="45.825" transform="translate(0 118.648)" fill="none" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="face_1" data-name="face 1" transform="translate(0.001 10.409)">
+        <path id="fond_bleu" data-name="fond bleu" d="M0,188.719l72.867,18.872V12.494L0,0Z" transform="translate(0)" fill="#fcfcfc" stroke="#000" stroke-width="0.5"/>
+        <g id="fenetre-2" data-name="fenetre" transform="translate(5.204 17.696)">
+          <path id="Tracé_855" data-name="Tracé 855" d="M0,0,60.375,8.328l4.164,147.815L4.164,141.57Z" transform="translate(0.001 0)" fill="none" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_854" data-name="Tracé 854" d="M0,0,61.974,8.7l-1.6,146.177L0,141.33Z" transform="translate(0.001 0)" fill="#b6d8e0" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-6" data-name="Ligne" y2="141.57" transform="translate(12.492 2.082)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <path id="Tracé_861" data-name="Tracé 861" d="M.211,0,0,143.808" transform="translate(27.645 4.007)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-7" data-name="Ligne" y2="145.733" transform="translate(43.94 6.246)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-8" data-name="Ligne" x2="60.521" y2="6.983" transform="translate(0.001 34.986)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-9" data-name="Ligne" x2="60.375" y2="9.017" transform="translate(0.001 63.85)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-10" data-name="Ligne" x2="60.521" y2="10.175" transform="translate(0 89.522)" fill="none" stroke="#000" stroke-width="0.5"/>
+          <line id="Ligne-11" data-name="Ligne" x2="60.375" y2="10.643" transform="translate(0.001 116.353)" fill="none" stroke="#000" stroke-width="0.5"/>
+        </g>
+        <path id="Tracé_856" data-name="Tracé 856" d="M.665,22.634c-.156-3.4-.484-8.7-.64-12.1C-.312,5.22,2.786.863,6.273.121c4.266-.91,10.189,3.362,10.41,10.41-.067,5.221.067,11.157,0,16.379" transform="translate(46.815 177.932)" fill="#abc8ce"/>
+        <path id="Tracé_857" data-name="Tracé 857" d="M.633,21.264c-.156-3.4-.451-7.333-.607-10.733C-.314,5.22,2.786.863,6.271.121c4.268-.91,10.191,3.362,10.41,10.41-.065,5.221.065,9.8,0,15.017" transform="translate(17.67 171.687)" fill="#abc8ce"/>
+      </g>
+      <g id="toit" transform="translate(0 0)">
+        <path id="Tracé_851" data-name="Tracé 851" d="M59.757,0,0,10.407,72.12,22.9l59.757-10.412Z" fill="#fff" stroke="#000" stroke-width="0.5"/>
+        <path id="Tracé_852" data-name="Tracé 852" d="M27.065,0,0,6.246l39.556,8.328L70.785,8.328Z" transform="translate(30.601 4.204)" fill="#c2e5ee"/>
+      </g>
+    </g>
+    <text id="Immeuble_d_entreprise" data-name="Immeuble 
+d’entreprise" transform="translate(1465 109)" fill="#101041" font-size="20" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="-49" y="0">Immeuble </tspan><tspan x="-57" y="25">d’entreprise</tspan></text>
+    <line id="Ligne-12" data-name="Ligne" x1="145" transform="translate(1274 373)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="4.086 4.086"/>
+    <line id="Ligne-13" data-name="Ligne" y2="198.573" transform="translate(1269.521 174.927)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="4.012 4.012"/>
+    <line id="Ligne-14" data-name="Ligne" x2="171.308" transform="translate(1098.115 168.526)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="3.996 3.996"/>
+    <text id="Routeur_4G_Back-up" data-name="Routeur 4G
+Back-up" transform="translate(1054.497 468.631)" fill="#101041" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-54" y="0">Routeur 4G</tspan><tspan x="-37" y="20">Back-up</tspan></text>
+    <g id="_4G" data-name="4G" transform="translate(1003.686 343.631)">
+      <path id="Tracé_377" data-name="Tracé 377" d="M1189.8,392.142a50,50,0,1,1-50-50,50,50,0,0,1,50,50" transform="translate(-1089.799 -342.142)" fill="#fff" stroke="#101041" stroke-width="2"/>
+      <g id="routeur_4G" data-name="routeur 4G" transform="translate(27.994 28.635)">
+        <g id="routeur_4G-2" data-name="routeur 4G">
+          <rect id="Rectangle-2" data-name="Rectangle" width="44" height="40" rx="5" fill="none" stroke="#101041" stroke-width="2"/>
+          <path id="Tracé_393" data-name="Tracé 393" d="M1155.45,383.79c0,1.381-2.239,2.5-5,2.5s-5-1.119-5-2.5,2.239-2.5,5-2.5,5,1.119,5,2.5" transform="translate(-1117.45 -376.29)" fill="#101041"/>
+          <line id="Ligne-15" data-name="Ligne" x2="18" transform="translate(6 8)" fill="none" stroke="#101041" stroke-width="2"/>
+        </g>
+        <text id="_4G-2" data-name="4G" transform="translate(22 33)" fill="#101041" font-size="25" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="-17" y="0">4G</tspan></text>
+      </g>
+    </g>
+    <line id="Ligne-16" data-name="Ligne" y2="125" transform="translate(1054.912 217.896)" fill="none" stroke="#3f8fb9" stroke-width="4" stroke-dasharray="12 12"/>
+    <text id="Bascule_automatique_sur_le_réseau_4G" data-name="Bascule
+automatique sur
+le réseau 4G" transform="translate(1155.266 269.896)" fill="#3f8fb9" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-35" y="0">Bascule</tspan><tspan x="-76" y="20">automatique sur</tspan><tspan x="-58" y="40">le réseau 4G</tspan></text>
+    <g id="_2" data-name="2" transform="translate(1035.359 262.89)">
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="20" cy="20" r="20" fill="#3f8fb9"/>
+      <text id="_2-2" data-name="2" transform="translate(20 28)" fill="#fff" font-size="25" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="-7" y="0">2</tspan></text>
+    </g>
+    <g id="icone_routeur" transform="translate(1004.602 117.452)">
+      <path id="Tracé_376" data-name="Tracé 376" d="M1189.8,167.213a50,50,0,1,1-50-50,50,50,0,0,1,50,50" transform="translate(-1089.799 -117.213)" fill="#fff" stroke="#101041" stroke-width="2"/>
+      <g id="routeur_principal" data-name="routeur principal" transform="translate(19.389 28.154)">
+        <g id="Rectangle-3" data-name="Rectangle" transform="translate(0 23)" fill="none" stroke="#101041" stroke-width="1">
+          <rect width="62" height="17" stroke="none"/>
+          <rect x="0.5" y="0.5" width="61" height="16" fill="none"/>
+        </g>
+        <g id="Rectangle-4" data-name="Rectangle" transform="translate(0 25)" fill="none" stroke="#101041" stroke-width="1">
+          <rect width="62" height="13" stroke="none"/>
+          <rect x="0.5" y="0.5" width="61" height="12" fill="none"/>
+        </g>
+        <rect id="Rectangle-5" data-name="Rectangle" width="7" height="3" transform="translate(24 30)" fill="#101041"/>
+        <rect id="Rectangle-6" data-name="Rectangle" width="7" height="3" transform="translate(32 30)" fill="#101041"/>
+        <rect id="Rectangle-7" data-name="Rectangle" width="6" height="3" transform="translate(40 30)" fill="#101041"/>
+        <rect id="Rectangle-8" data-name="Rectangle" width="6" height="3" transform="translate(48 30)" fill="#101041"/>
+        <g id="Rectangle-9" data-name="Rectangle" transform="translate(8)" fill="none" stroke="#101041" stroke-width="1">
+          <path d="M3,0H3A3,3,0,0,1,6,3V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
+          <path d="M3,.5H3A2.5,2.5,0,0,1,5.5,3V23.368a.132.132,0,0,1-.132.132H.632A.132.132,0,0,1,.5,23.368V3A2.5,2.5,0,0,1,3,.5Z" fill="none"/>
+        </g>
+        <g id="Rectangle-10" data-name="Rectangle" transform="translate(50)" fill="none" stroke="#101041" stroke-width="1">
+          <path d="M3,0H3A3,3,0,0,1,6,3V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
+          <path d="M3,.5H3A2.5,2.5,0,0,1,5.5,3V23.368a.132.132,0,0,1-.132.132H.632A.132.132,0,0,1,.5,23.368V3A2.5,2.5,0,0,1,3,.5Z" fill="none"/>
+        </g>
+        <g id="Rectangle-11" data-name="Rectangle" transform="translate(6 39)" fill="none" stroke="#101041" stroke-width="1">
+          <rect width="11" height="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="3" fill="none"/>
+        </g>
+        <g id="Rectangle-12" data-name="Rectangle" transform="translate(48 39)" fill="none" stroke="#101041" stroke-width="1">
+          <rect width="11" height="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="3" fill="none"/>
+        </g>
+        <path id="off" d="M3.625,7.249A3.613,3.613,0,0,1,.485,5.444,3.558,3.558,0,0,1,0,3.625,3.575,3.575,0,0,1,.935,1.2l.081-.085.1-.1A.439.439,0,0,1,1.221.942.293.293,0,0,1,1.359.906a.435.435,0,0,1,.319.135.435.435,0,0,1,.135.319.71.71,0,0,1-.025.2.281.281,0,0,1-.053.113l-.021.035a2.7,2.7,0,0,0-.595.871A2.631,2.631,0,0,0,.906,3.625a2.662,2.662,0,0,0,.365,1.363,2.7,2.7,0,0,0,.991.991,2.729,2.729,0,0,0,2.725,0,2.7,2.7,0,0,0,.991-.991A2.72,2.72,0,0,0,6.13,2.573,2.74,2.74,0,0,0,5.543,1.7a.466.466,0,0,1-.106-.34.435.435,0,0,1,.135-.319A.435.435,0,0,1,5.89.906a.325.325,0,0,1,.1.014A.476.476,0,0,1,6.06.949a.373.373,0,0,1,.074.057.634.634,0,0,1,.06.06l.064.074.057.064a3.6,3.6,0,0,1,.648,3.83A3.547,3.547,0,0,1,5.033,6.962a3.556,3.556,0,0,1-1.409.287Zm0-3.625a.447.447,0,0,1-.453-.453V.453A.432.432,0,0,1,3.306.131.445.445,0,0,1,3.628,0a.435.435,0,0,1,.319.131.437.437,0,0,1,.131.322V3.171a.447.447,0,0,1-.453.453Z" transform="translate(5.284 27.616)" fill="#101041"/>
+      </g>
+    </g>
+    <text id="Routeur_principal-2" data-name="Routeur principal" transform="translate(1053.756 95)" fill="#101041" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-80" y="0">Routeur principal</tspan></text>
+    <rect id="Rectangle-13" data-name="Rectangle" width="815" height="520" rx="6" transform="translate(71 1)" fill="none" stroke="#101041" stroke-width="2"/>
+    <text id="Réseau_4G" data-name="Réseau 4G" transform="translate(676.235 469.631)" fill="#101041" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-49" y="0">Réseau 4G</tspan></text>
+    <g id="réseau_4G-2" data-name="réseau 4G" transform="translate(602.691 292.236)">
       <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="74" cy="35.5" rx="74" ry="35.5" transform="translate(0 71.037)" fill="#d0dddf"/>
-      <g id="routeur_4G" data-name="routeur 4G" transform="translate(46.125)">
+      <g id="routeur_4G-3" data-name="routeur 4G" transform="translate(46.125)">
         <path id="Tracé_394" data-name="Tracé 394" d="M3292.038,9627.453l25.529-78.484,27.225,78.484-27.225-11.187Z" transform="translate(-3290.08 -9520.916)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_101" data-name="Ligne 101" x2="20" y2="19" transform="translate(21.42 47.553)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_102" data-name="Ligne 102" x1="20" y2="19" transform="translate(14.42 47.553)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_103" data-name="Ligne 103" x1="33" y1="19" transform="translate(14.42 66.553)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_104" data-name="Ligne 104" y1="19" x2="33" transform="translate(8.42 66.553)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_105" data-name="Ligne 105" x1="20" y1="9" transform="translate(8.42 85.553)" fill="none" stroke="#101041" stroke-width="2"/>
-        <line id="Ligne_106" data-name="Ligne 106" x1="19" y2="9" transform="translate(28.42 85.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-17" data-name="Ligne" x2="20" y2="19" transform="translate(21.42 47.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-18" data-name="Ligne" x1="20" y2="19" transform="translate(14.42 47.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-19" data-name="Ligne" x1="33" y1="19" transform="translate(14.42 66.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-20" data-name="Ligne" y1="19" x2="33" transform="translate(8.42 66.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-21" data-name="Ligne" x1="20" y1="9" transform="translate(8.42 85.553)" fill="none" stroke="#101041" stroke-width="2"/>
+        <line id="Ligne-22" data-name="Ligne" x1="19" y2="9" transform="translate(28.42 85.553)" fill="none" stroke="#101041" stroke-width="2"/>
         <g id="Ellipse_27" data-name="Ellipse 27" transform="translate(17.92 8.053)" fill="none" stroke="#101041" stroke-width="3">
           <circle cx="10" cy="10" r="10" stroke="none"/>
           <circle cx="10" cy="10" r="8.5" fill="none"/>
@@ -25,62 +119,71 @@
         <path id="Tracé_398" data-name="Tracé 398" d="M3335.114,9529.957s-12.221,15.357,1.42,27.424" transform="translate(-3320.784 -9522.947)" fill="none" stroke="#101041" stroke-width="2"/>
       </g>
     </g>
-    <rect id="Rectangle_95" data-name="Rectangle 95" width="970.886" height="520" rx="6" transform="translate(1 1)" fill="none" stroke="#101041" stroke-width="2"/>
-    <line id="Ligne_85" data-name="Ligne 85" x2="2" transform="translate(1195.639 169.498)" fill="none" stroke="#000" stroke-width="1"/>
-    <line id="Ligne_86" data-name="Ligne 86" x2="204.973" transform="translate(1201.032 168.526)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="3.996 3.996"/>
-    <line id="Ligne_88" data-name="Ligne 88" y2="2" transform="translate(1405.414 169.5)" fill="none" stroke="#000" stroke-width="1"/>
-    <line id="Ligne_89" data-name="Ligne 89" y2="214" transform="translate(1405.08 174.927)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="4.012 4.012"/>
-    <line id="Ligne_90" data-name="Ligne 90" y2="2" transform="translate(1405.414 392.874)" fill="none" stroke="#000" stroke-width="1"/>
-    <line id="Ligne_91" data-name="Ligne 91" x1="2" transform="translate(1583.418 285.05)" fill="none" stroke="#000" stroke-width="1"/>
-    <line id="Ligne_92" data-name="Ligne 92" x1="170" transform="translate(1409.384 284.891)" fill="none" stroke="#101041" stroke-width="1" stroke-dasharray="4.086 4.086"/>
-    <line id="Ligne_93" data-name="Ligne 93" x1="2" transform="translate(1405.415 285.05)" fill="none" stroke="#000" stroke-width="1"/>
-    <line id="Ligne_96" data-name="Ligne 96" x1="2" transform="translate(1405.415 396.391)" fill="none" stroke="#000" stroke-width="1"/>
-    <path id="Cloud" d="M151,238.3C98.05,237.14,53.044,274.944,45.237,323.5c-8.731,54.313,31.1,109.5,90.208,117.8l350.584-1.041c47.172-8.232,77.5-52.772,69.824-94.876C549.3,309.434,516.1,281,475.925,279.745c4.184-23.812-5.113-47.716-23.781-60.995-22.412-15.944-54.555-13.886-76.625,5.966-17.3-49.163-65.17-81.165-116.92-78.232-52.071,2.951-96.229,40.6-107.6,91.812" transform="translate(0.962 -0.247)" fill="#3f8fb9"/>
-    <g id="LOGO" transform="translate(176.247 225.107)">
-      <g id="OPÉRATEUR_DATA_SÉCURISÉ" data-name="OPÉRATEUR DATA SÉCURISÉ" transform="translate(0 164.376)" style="mix-blend-mode: normal;isolation: isolate">
+    <line id="Ligne-23" data-name="Ligne" x2="579" transform="translate(425.5 396.24)" fill="none" stroke="#3f8fb9" stroke-width="4" stroke-dasharray="12 12"/>
+    <line id="Ligne-24" data-name="Ligne" x2="402" transform="translate(387.5 168.525)" fill="none" stroke="#3f8fb9" stroke-width="5"/>
+    <line id="Ligne-25" data-name="Ligne" x2="226.245" transform="translate(778.255 168.525)" fill="none" stroke="#f02016" stroke-width="5"/>
+    <g id="croix" transform="translate(756.792 136.485)">
+      <g id="Ellipse_25" data-name="Ellipse 25" fill="#fff" stroke="#f02016" stroke-width="2">
+        <circle cx="32.5" cy="32.5" r="32.5" stroke="none"/>
+        <circle cx="32.5" cy="32.5" r="31.5" fill="none"/>
+      </g>
+      <line id="Ligne-26" data-name="Ligne" y1="28" x2="27" transform="translate(19 19)" fill="none" stroke="#f02016" stroke-width="5"/>
+      <line id="Ligne-27" data-name="Ligne" x1="27" y1="28" transform="translate(19 19)" fill="none" stroke="#f02016" stroke-width="5"/>
+    </g>
+    <text id="Coupure_de_l_accès_internet" data-name="Coupure de 
+l’accès internet" transform="translate(789.983 93)" fill="#f02016" font-size="22" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-63" y="0">Coupure de </tspan><tspan x="-78" y="25">l’accès internet</tspan></text>
+    <g id="_1" data-name="1" transform="translate(769.692 26)">
+      <circle id="Ellipse_26-2" data-name="Ellipse 26" cx="20" cy="20" r="20" fill="#f02016"/>
+      <text id="_1-2" data-name="1" transform="translate(20 28)" fill="#fff" font-size="25" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="-7" y="0">1</tspan></text>
+    </g>
+    <text id="Accès_internet_réseau_principal" data-name="Accès internet 
+réseau principal" transform="translate(499.479 121.346)" fill="#101041" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-70" y="0">Accès internet </tspan><tspan x="-73" y="20">réseau principal</tspan></text>
+    <path id="moonfirstquarter" d="M175,350a171.668,171.668,0,0,1-68.017-13.844,171.234,171.234,0,0,1-93.139-93.139,174,174,0,0,1,0-136.033,171.234,171.234,0,0,1,93.139-93.139,174,174,0,0,1,136.033,0,171.234,171.234,0,0,1,93.139,93.139,174,174,0,0,1,0,136.033,171.234,171.234,0,0,1-93.139,93.139A171.667,171.667,0,0,1,175,350Z" transform="translate(109 128)" fill="#3f8fb9"/>
+    <g id="LOGO" transform="translate(182 217)">
+      <g id="OPÉRATEUR_DATA_SÉCURISÉ" data-name="OPÉRATEUR DATA SÉCURISÉ" transform="translate(0 163.815)" style="mix-blend-mode: normal;isolation: isolate">
         <g id="baseline" style="mix-blend-mode: normal;isolation: isolate">
           <path id="Tracé_29" data-name="Tracé 29" d="M725.981,467.423a2.74,2.74,0,0,1,1.105.221,2.437,2.437,0,0,1,.852.607,2.809,2.809,0,0,1,.54.919,3.324,3.324,0,0,1,.194,1.147,3.2,3.2,0,0,1-.33,1.455,2.584,2.584,0,0,1-2.362,1.439,2.615,2.615,0,0,1-1.417-.387,2.558,2.558,0,0,1-.949-1.044,3.214,3.214,0,0,1-.33-1.463,3.18,3.18,0,0,1,.336-1.465,2.581,2.581,0,0,1,.958-1.044A2.611,2.611,0,0,1,725.981,467.423Zm0,.389a2.28,2.28,0,0,0-.953.2,1.987,1.987,0,0,0-.714.534,2.463,2.463,0,0,0-.44.8,3.025,3.025,0,0,0-.156.979,2.858,2.858,0,0,0,.272,1.253,2.2,2.2,0,0,0,.793.907,2.14,2.14,0,0,0,1.2.342,2.082,2.082,0,0,0,1.646-.7,2.625,2.625,0,0,0,.618-1.8,2.944,2.944,0,0,0-.272-1.287,2.1,2.1,0,0,0-.789-.893A2.211,2.211,0,0,0,725.981,467.812Z" transform="translate(-723.285 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
           <path id="Tracé_30" data-name="Tracé 30" d="M743.892,467.623a2.116,2.116,0,0,1,1.47.529,1.854,1.854,0,0,1-.025,2.728,2.261,2.261,0,0,1-1.526.524h-1.757v1.773h-.433v-5.554Zm-1.837,3.4h1.724a1.868,1.868,0,0,0,1.253-.407,1.38,1.38,0,0,0,.479-1.111,1.4,1.4,0,0,0-.453-1.1,1.776,1.776,0,0,0-1.223-.4h-1.781Z" transform="translate(-730.889 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
           <path id="Tracé_31" data-name="Tracé 31" d="M761.692,465.842v.373h-3.465v2.112h3.023v.373h-3.023v2.315h3.623v.38h-4.056v-5.554Zm-1.012-2.307-.745,1.368h-.348l.712-1.575Z" transform="translate(-737.594 -463.329)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
           <path id="Tracé_32" data-name="Tracé 32" d="M775.9,467.623a2.08,2.08,0,0,1,1.421.488,1.6,1.6,0,0,1,.559,1.269,1.652,1.652,0,0,1-.4,1.1,1.9,1.9,0,0,1-1.038.623l1.534,2.072h-.538L776,471.2h-2v1.979h-.433v-5.554ZM774,470.813H775.8a1.73,1.73,0,0,0,1.2-.4,1.329,1.329,0,0,0,.443-1.034,1.251,1.251,0,0,0-.431-1.016,1.785,1.785,0,0,0-1.18-.361H774Z" transform="translate(-744.134 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_33" data-name="Tracé 33" d="M792.137,467.6l2.429,5.569h-.457l-.6-1.4h-3.352l-.6,1.4H789.1l2.429-5.569Zm-1.818,3.781h3.012l-1.437-3.343h-.129Z" transform="translate(-750.739 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_34" data-name="Tracé 34" d="M811.361,467.623V468h-2.214v5.173h-.433V468H806.5v-.38Z" transform="translate(-757.998 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_35" data-name="Tracé 35" d="M827.4,467.623V468h-3.465v2.113h3.024v.373h-3.024V472.8h3.623v.38h-4.056v-5.554Z" transform="translate(-765.089 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_36" data-name="Tracé 36" d="M839.709,467.623V470.6a2.522,2.522,0,0,0,.524,1.71,1.809,1.809,0,0,0,1.439.6,1.86,1.86,0,0,0,1.441-.573,2.471,2.471,0,0,0,.526-1.722v-2.992h.429V470.6a2.93,2.93,0,0,1-.621,1.971,2.55,2.55,0,0,1-3.548.012,2.863,2.863,0,0,1-.623-1.952v-3.008Z" transform="translate(-771.668 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_37" data-name="Tracé 37" d="M859.006,467.623a2.08,2.08,0,0,1,1.421.488,1.605,1.605,0,0,1,.558,1.269,1.648,1.648,0,0,1-.4,1.1,1.9,1.9,0,0,1-1.038.623l1.534,2.072h-.538L859.1,471.2h-2v1.979h-.433v-5.554Zm-1.906,3.19H858.9a1.728,1.728,0,0,0,1.2-.4,1.327,1.327,0,0,0,.443-1.034,1.25,1.25,0,0,0-.431-1.016,1.785,1.785,0,0,0-1.18-.361H857.1Z" transform="translate(-778.922 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_38" data-name="Tracé 38" d="M885.663,467.623a3.252,3.252,0,0,1,1.546.354,2.488,2.488,0,0,1,1.024.984,2.868,2.868,0,0,1,.356,1.439,2.778,2.778,0,0,1-.371,1.433,2.581,2.581,0,0,1-1.044.988,3.237,3.237,0,0,1-1.536.356h-1.9v-5.554Zm-1.49,5.165h1.465a2.855,2.855,0,0,0,1.3-.285,2.128,2.128,0,0,0,.893-.832,2.453,2.453,0,0,0,.324-1.271,2.274,2.274,0,0,0-.678-1.769,2.63,2.63,0,0,0-1.844-.619h-1.457Z" transform="translate(-790.216 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_39" data-name="Tracé 39" d="M903.2,467.6l2.429,5.569h-.457l-.6-1.4h-3.352l-.6,1.4h-.45L902.6,467.6Zm-1.817,3.781H904.4l-1.437-3.343h-.129Z" transform="translate(-797.069 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_40" data-name="Tracé 40" d="M922.428,467.623V468h-2.214v5.173h-.433V468h-2.21v-.38Z" transform="translate(-804.328 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_41" data-name="Tracé 41" d="M936.973,467.6l2.429,5.569h-.457l-.6-1.4H934.99l-.6,1.4h-.449l2.429-5.569Zm-1.817,3.781h3.011l-1.437-3.343H936.6Z" transform="translate(-811.156 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_42" data-name="Tracé 42" d="M964.489,467.8a1.927,1.927,0,0,0-1.2.306.966.966,0,0,0-.391.8.871.871,0,0,0,.3.708,1.9,1.9,0,0,0,.913.344l.931.133a2.294,2.294,0,0,1,1.237.49,1.286,1.286,0,0,1,.431,1.016,1.379,1.379,0,0,1-.626,1.154,2.8,2.8,0,0,1-1.69.458,4.109,4.109,0,0,1-1.154-.15,3.3,3.3,0,0,1-1-.5l.223-.34a3.014,3.014,0,0,0,.915.464,3.7,3.7,0,0,0,1.032.132,2.394,2.394,0,0,0,1.374-.34,1.041,1.041,0,0,0,.492-.894.947.947,0,0,0-.316-.73,1.791,1.791,0,0,0-.987-.379l-.976-.133q-1.526-.211-1.526-1.425a1.28,1.28,0,0,1,.551-1.093,2.421,2.421,0,0,1,1.457-.4,3.991,3.991,0,0,1,1.069.146,2.82,2.82,0,0,1,.911.425l-.231.324a2.764,2.764,0,0,0-.808-.378A3.269,3.269,0,0,0,964.489,467.8Z" transform="translate(-822.96 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_43" data-name="Tracé 43" d="M982.547,465.842v.373h-3.465v2.112h3.023v.373h-3.023v2.315H982.7v.38h-4.056v-5.554Zm-1.012-2.307-.745,1.368h-.348l.712-1.575Z" transform="translate(-829.803 -463.329)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_44" data-name="Tracé 44" d="M996.957,467.8a2.473,2.473,0,0,0-1.819.7,2.507,2.507,0,0,0,1.8,4.328,2.909,2.909,0,0,0,1.963-.729l.259.292a3.261,3.261,0,0,1-2.262.822,3.178,3.178,0,0,1-1.506-.344,2.473,2.473,0,0,1-1.02-1,3.084,3.084,0,0,1-.368-1.534,3.049,3.049,0,0,1,.215-1.15,2.656,2.656,0,0,1,1.566-1.538,3.449,3.449,0,0,1,1.259-.222,3.329,3.329,0,0,1,1.991.712l-.231.307A2.789,2.789,0,0,0,996.957,467.8Z" transform="translate(-836.209 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_45" data-name="Tracé 45" d="M1011.876,467.623V470.6a2.523,2.523,0,0,0,.524,1.71,1.81,1.81,0,0,0,1.439.6,1.862,1.862,0,0,0,1.441-.573,2.473,2.473,0,0,0,.526-1.722v-2.992h.429V470.6a2.927,2.927,0,0,1-.622,1.971,2.549,2.549,0,0,1-3.548.012,2.862,2.862,0,0,1-.623-1.952v-3.008Z" transform="translate(-843.628 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_46" data-name="Tracé 46" d="M1031.172,467.623a2.081,2.081,0,0,1,1.421.488,1.605,1.605,0,0,1,.558,1.269,1.647,1.647,0,0,1-.4,1.1,1.9,1.9,0,0,1-1.038.623l1.534,2.072h-.538l-1.437-1.979h-2v1.979h-.433v-5.554Zm-1.906,3.19h1.805a1.728,1.728,0,0,0,1.2-.4,1.327,1.327,0,0,0,.443-1.034,1.251,1.251,0,0,0-.431-1.016,1.786,1.786,0,0,0-1.18-.361h-1.837Z" transform="translate(-850.838 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_47" data-name="Tracé 47" d="M1045.437,467.623v5.554H1045v-5.554Z" transform="translate(-857.544 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_48" data-name="Tracé 48" d="M1056.7,467.8a1.932,1.932,0,0,0-1.2.306.968.968,0,0,0-.39.8.869.869,0,0,0,.3.708,1.894,1.894,0,0,0,.913.344l.931.133a2.293,2.293,0,0,1,1.237.49,1.286,1.286,0,0,1,.431,1.016,1.378,1.378,0,0,1-.625,1.154,2.8,2.8,0,0,1-1.69.458,4.116,4.116,0,0,1-1.154-.15,3.3,3.3,0,0,1-1-.5l.223-.34a3.011,3.011,0,0,0,.915.464,3.7,3.7,0,0,0,1.032.132,2.393,2.393,0,0,0,1.375-.34,1.042,1.042,0,0,0,.492-.894.946.946,0,0,0-.316-.73,1.793,1.793,0,0,0-.987-.379l-.976-.133q-1.526-.211-1.526-1.425a1.282,1.282,0,0,1,.55-1.093,2.424,2.424,0,0,1,1.457-.4,3.989,3.989,0,0,1,1.069.146,2.815,2.815,0,0,1,.911.425l-.231.324a2.755,2.755,0,0,0-.807-.378A3.269,3.269,0,0,0,1056.7,467.8Z" transform="translate(-861.463 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_49" data-name="Tracé 49" d="M1074.759,465.842v.373h-3.465v2.112h3.024v.373h-3.024v2.315h3.623v.38h-4.056v-5.554Zm-1.012-2.307L1073,464.9h-.348l.712-1.575Z" transform="translate(-868.266 -463.329)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_33" data-name="Tracé 33" d="M792.137,467.6l2.429,5.569h-.457l-.6-1.4h-3.352l-.6,1.4H789.1l2.429-5.569Zm-1.818,3.781h3.012l-1.437-3.343h-.129Z" transform="translate(-751.096 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_34" data-name="Tracé 34" d="M811.361,467.623V468h-2.214v5.173h-.433V468H806.5v-.38Z" transform="translate(-758.448 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_35" data-name="Tracé 35" d="M827.4,467.623V468h-3.465v2.113h3.024v.373h-3.024V472.8h3.623v.38h-4.056v-5.554Z" transform="translate(-765.628 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_36" data-name="Tracé 36" d="M839.709,467.623V470.6a2.522,2.522,0,0,0,.524,1.71,1.809,1.809,0,0,0,1.439.6,1.86,1.86,0,0,0,1.441-.573,2.471,2.471,0,0,0,.526-1.722v-2.992h.429V470.6a2.93,2.93,0,0,1-.621,1.971,2.55,2.55,0,0,1-3.548.012,2.863,2.863,0,0,1-.623-1.952v-3.008Z" transform="translate(-772.295 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_37" data-name="Tracé 37" d="M859.006,467.623a2.08,2.08,0,0,1,1.421.488,1.605,1.605,0,0,1,.558,1.269,1.648,1.648,0,0,1-.4,1.1,1.9,1.9,0,0,1-1.038.623l1.534,2.072h-.538L859.1,471.2h-2v1.979h-.433v-5.554Zm-1.906,3.19H858.9a1.728,1.728,0,0,0,1.2-.4,1.327,1.327,0,0,0,.443-1.034,1.25,1.25,0,0,0-.431-1.016,1.785,1.785,0,0,0-1.18-.361H857.1Z" transform="translate(-779.641 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_38" data-name="Tracé 38" d="M885.663,467.623a3.252,3.252,0,0,1,1.546.354,2.488,2.488,0,0,1,1.024.984,2.868,2.868,0,0,1,.356,1.439,2.778,2.778,0,0,1-.371,1.433,2.581,2.581,0,0,1-1.044.988,3.237,3.237,0,0,1-1.536.356h-1.9v-5.554Zm-1.49,5.165h1.465a2.855,2.855,0,0,0,1.3-.285,2.128,2.128,0,0,0,.893-.832,2.453,2.453,0,0,0,.324-1.271,2.274,2.274,0,0,0-.678-1.769,2.63,2.63,0,0,0-1.844-.619h-1.457Z" transform="translate(-791.083 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_39" data-name="Tracé 39" d="M903.2,467.6l2.429,5.569h-.457l-.6-1.4h-3.352l-.6,1.4h-.45L902.6,467.6Zm-1.817,3.781H904.4l-1.437-3.343h-.129Z" transform="translate(-798.028 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_40" data-name="Tracé 40" d="M922.428,467.623V468h-2.214v5.173h-.433V468h-2.21v-.38Z" transform="translate(-805.378 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_41" data-name="Tracé 41" d="M936.973,467.6l2.429,5.569h-.457l-.6-1.4H934.99l-.6,1.4h-.449l2.429-5.569Zm-1.817,3.781h3.011l-1.437-3.343H936.6Z" transform="translate(-812.298 -465.098)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_42" data-name="Tracé 42" d="M964.489,467.8a1.927,1.927,0,0,0-1.2.306.966.966,0,0,0-.391.8.871.871,0,0,0,.3.708,1.9,1.9,0,0,0,.913.344l.931.133a2.294,2.294,0,0,1,1.237.49,1.286,1.286,0,0,1,.431,1.016,1.379,1.379,0,0,1-.626,1.154,2.8,2.8,0,0,1-1.69.458,4.109,4.109,0,0,1-1.154-.15,3.3,3.3,0,0,1-1-.5l.223-.34a3.014,3.014,0,0,0,.915.464,3.7,3.7,0,0,0,1.032.132,2.394,2.394,0,0,0,1.374-.34,1.041,1.041,0,0,0,.492-.894.947.947,0,0,0-.316-.73,1.791,1.791,0,0,0-.987-.379l-.976-.133q-1.526-.211-1.526-1.425a1.28,1.28,0,0,1,.551-1.093,2.421,2.421,0,0,1,1.457-.4,3.991,3.991,0,0,1,1.069.146,2.82,2.82,0,0,1,.911.425l-.231.324a2.764,2.764,0,0,0-.808-.378A3.269,3.269,0,0,0,964.489,467.8Z" transform="translate(-824.249 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_43" data-name="Tracé 43" d="M982.547,465.842v.373h-3.465v2.112h3.023v.373h-3.023v2.315H982.7v.38h-4.056v-5.554Zm-1.012-2.307-.745,1.368h-.348l.712-1.575Z" transform="translate(-831.177 -463.329)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_44" data-name="Tracé 44" d="M996.957,467.8a2.473,2.473,0,0,0-1.819.7,2.507,2.507,0,0,0,1.8,4.328,2.909,2.909,0,0,0,1.963-.729l.259.292a3.261,3.261,0,0,1-2.262.822,3.178,3.178,0,0,1-1.506-.344,2.473,2.473,0,0,1-1.02-1,3.084,3.084,0,0,1-.368-1.534,3.049,3.049,0,0,1,.215-1.15,2.656,2.656,0,0,1,1.566-1.538,3.449,3.449,0,0,1,1.259-.222,3.329,3.329,0,0,1,1.991.712l-.231.307A2.789,2.789,0,0,0,996.957,467.8Z" transform="translate(-837.674 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_45" data-name="Tracé 45" d="M1011.876,467.623V470.6a2.523,2.523,0,0,0,.524,1.71,1.81,1.81,0,0,0,1.439.6,1.862,1.862,0,0,0,1.441-.573,2.473,2.473,0,0,0,.526-1.722v-2.992h.429V470.6a2.927,2.927,0,0,1-.622,1.971,2.549,2.549,0,0,1-3.548.012,2.862,2.862,0,0,1-.623-1.952v-3.008Z" transform="translate(-845.499 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_46" data-name="Tracé 46" d="M1031.172,467.623a2.081,2.081,0,0,1,1.421.488,1.605,1.605,0,0,1,.558,1.269,1.647,1.647,0,0,1-.4,1.1,1.9,1.9,0,0,1-1.038.623l1.534,2.072h-.538l-1.437-1.979h-2v1.979h-.433v-5.554Zm-1.906,3.19h1.805a1.728,1.728,0,0,0,1.2-.4,1.327,1.327,0,0,0,.443-1.034,1.251,1.251,0,0,0-.431-1.016,1.786,1.786,0,0,0-1.18-.361h-1.837Z" transform="translate(-852.71 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_47" data-name="Tracé 47" d="M1045.437,467.623v5.554H1045v-5.554Z" transform="translate(-859.415 -465.11)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_48" data-name="Tracé 48" d="M1056.7,467.8a1.932,1.932,0,0,0-1.2.306.968.968,0,0,0-.39.8.869.869,0,0,0,.3.708,1.894,1.894,0,0,0,.913.344l.931.133a2.293,2.293,0,0,1,1.237.49,1.286,1.286,0,0,1,.431,1.016,1.378,1.378,0,0,1-.625,1.154,2.8,2.8,0,0,1-1.69.458,4.116,4.116,0,0,1-1.154-.15,3.3,3.3,0,0,1-1-.5l.223-.34a3.011,3.011,0,0,0,.915.464,3.7,3.7,0,0,0,1.032.132,2.393,2.393,0,0,0,1.375-.34,1.042,1.042,0,0,0,.492-.894.946.946,0,0,0-.316-.73,1.793,1.793,0,0,0-.987-.379l-.976-.133q-1.526-.211-1.526-1.425a1.282,1.282,0,0,1,.55-1.093,2.424,2.424,0,0,1,1.457-.4,3.989,3.989,0,0,1,1.069.146,2.815,2.815,0,0,1,.911.425l-.231.324a2.755,2.755,0,0,0-.807-.378A3.269,3.269,0,0,0,1056.7,467.8Z" transform="translate(-863.334 -465.027)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+          <path id="Tracé_49" data-name="Tracé 49" d="M1074.759,465.842v.373h-3.465v2.112h3.024v.373h-3.024v2.315h3.623v.38h-4.056v-5.554Zm-1.012-2.307L1073,464.9h-.348l.712-1.575Z" transform="translate(-870.137 -463.329)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
         </g>
       </g>
-      <g id="METRO_OPTIC" data-name="METRO OPTIC" transform="translate(1.009 139.281)" style="mix-blend-mode: normal;isolation: isolate">
+      <g id="METRO_OPTIC" data-name="METRO OPTIC" transform="translate(1.009 138.72)" style="mix-blend-mode: normal;isolation: isolate">
         <g id="nom" transform="translate(0)" style="mix-blend-mode: normal;isolation: isolate">
           <path id="Tracé_50" data-name="Tracé 50" d="M728.719,421.158l5.455,8.812,5.4-8.812h4.662V440.6h-4.265V427.774h-.255l-4.5,7.4h-2.253l-4.505-7.4H728.2V440.6h-4.236V421.158Z" transform="translate(-723.959 -420.747)" fill="#fff"/>
           <path id="Tracé_51" data-name="Tracé 51" d="M780.924,421.158v3.911H770.681v3.655h9.138v3.811h-9.138v4.151H781.42v3.91H766.388V421.158Z" transform="translate(-741.552 -420.747)" fill="#fff"/>
-          <path id="Tracé_52" data-name="Tracé 52" d="M814.471,421.158V425.1h-6.644v15.5h-4.321V425.1h-6.644v-3.939Z" transform="translate(-754.381 -420.747)" fill="#fff"/>
-          <path id="Tracé_53" data-name="Tracé 53" d="M841.733,421.158a8.105,8.105,0,0,1,5.483,1.806,6.033,6.033,0,0,1,2.1,4.81,6.118,6.118,0,0,1-1.041,3.528,6.463,6.463,0,0,1-2.939,2.324l4.732,6.97h-5.284l-3.571-5.809H837.3V440.6h-4.349V421.158Zm-4.435,9.776h4.123a3.746,3.746,0,0,0,2.508-.794,2.691,2.691,0,0,0,.935-2.167,2.723,2.723,0,0,0-.879-2.16,3.586,3.586,0,0,0-2.451-.773H837.3Z" transform="translate(-769.441 -420.747)" fill="#fff"/>
-          <path id="Tracé_54" data-name="Tracé 54" d="M876.771,420.456a11.232,11.232,0,0,1,4.2.772,9.307,9.307,0,0,1,5.369,5.334,10.615,10.615,0,0,1,.759,4.024,10.284,10.284,0,0,1-.759,3.925,9.986,9.986,0,0,1-2.1,3.23,9.626,9.626,0,0,1-3.287,2.175,11.4,11.4,0,0,1-8.338.021,9.426,9.426,0,0,1-5.383-5.341,10.489,10.489,0,0,1-.765-4.01,10.206,10.206,0,0,1,1.3-5.093,9.608,9.608,0,0,1,3.677-3.677A10.5,10.5,0,0,1,876.771,420.456Zm0,3.9a6.013,6.013,0,0,0-3.195.843,5.449,5.449,0,0,0-2.083,2.246,6.931,6.931,0,0,0-.7,3.145,6.329,6.329,0,0,0,1.63,4.47,5.633,5.633,0,0,0,4.349,1.764,6.011,6.011,0,0,0,3.238-.857,5.4,5.4,0,0,0,2.061-2.252,7.033,7.033,0,0,0,.68-3.124,6.348,6.348,0,0,0-1.615-4.491A5.663,5.663,0,0,0,876.771,424.352Z" transform="translate(-783.436 -420.456)" fill="#fff"/>
-          <path id="Tracé_55" data-name="Tracé 55" d="M931.81,420.456a11.231,11.231,0,0,1,4.2.772,9.311,9.311,0,0,1,5.369,5.334,10.614,10.614,0,0,1,.758,4.024,10.284,10.284,0,0,1-.758,3.925,9.983,9.983,0,0,1-2.1,3.23A9.628,9.628,0,0,1,936,439.916a11.4,11.4,0,0,1-8.337.021,9.43,9.43,0,0,1-5.384-5.341,10.488,10.488,0,0,1-.765-4.01,10.206,10.206,0,0,1,1.3-5.093,9.609,9.609,0,0,1,3.677-3.677A10.505,10.505,0,0,1,931.81,420.456Zm0,3.9a6.017,6.017,0,0,0-3.2.843,5.448,5.448,0,0,0-2.083,2.246,6.939,6.939,0,0,0-.7,3.145,6.328,6.328,0,0,0,1.629,4.47,5.634,5.634,0,0,0,4.35,1.764,6.009,6.009,0,0,0,3.237-.857,5.4,5.4,0,0,0,2.062-2.252,7.043,7.043,0,0,0,.68-3.124,6.346,6.346,0,0,0-1.616-4.491A5.66,5.66,0,0,0,931.81,424.352Z" transform="translate(-806.407 -420.456)" fill="#fff"/>
-          <path id="Tracé_56" data-name="Tracé 56" d="M971.638,421.158a8.078,8.078,0,0,1,5.617,1.92,6.522,6.522,0,0,1,2.132,5.093,6.665,6.665,0,0,1-3.982,6.284,9.881,9.881,0,0,1-4.122.828h-3.939V440.6H963V421.158Zm-4.293,10.272h3.939a4.03,4.03,0,0,0,2.727-.864,2.95,2.95,0,0,0,1-2.352,3.027,3.027,0,0,0-.907-2.331,3.74,3.74,0,0,0-2.635-.843h-4.123Z" transform="translate(-823.707 -420.747)" fill="#fff"/>
-          <path id="Tracé_57" data-name="Tracé 57" d="M1013.112,421.158V425.1h-6.645v15.5h-4.321V425.1H995.5v-3.939Z" transform="translate(-837.412 -420.747)" fill="#fff"/>
-          <path id="Tracé_58" data-name="Tracé 58" d="M1035.967,421.158V440.6h-4.378V421.158Z" transform="translate(-852.376 -420.747)" fill="#fff"/>
-          <path id="Tracé_59" data-name="Tracé 59" d="M1061.148,426.293a7.729,7.729,0,0,0-5.271-1.856,5.861,5.861,0,0,0-6.22,6.148,5.857,5.857,0,0,0,6.163,6.149,7.93,7.93,0,0,0,5.653-2.21l2.465,3.046a11.725,11.725,0,0,1-8.359,3.145,11.192,11.192,0,0,1-5.327-1.233,8.828,8.828,0,0,1-3.62-3.528,10.619,10.619,0,0,1-1.3-5.313,10.443,10.443,0,0,1,.751-3.953,9.477,9.477,0,0,1,5.5-5.426,11.962,11.962,0,0,1,4.456-.808,10.932,10.932,0,0,1,7.509,2.678Z" transform="translate(-858.077 -420.456)" fill="#fff"/>
+          <path id="Tracé_52" data-name="Tracé 52" d="M814.471,421.158V425.1h-6.644v15.5h-4.321V425.1h-6.644v-3.939Z" transform="translate(-754.804 -420.747)" fill="#fff"/>
+          <path id="Tracé_53" data-name="Tracé 53" d="M841.733,421.158a8.105,8.105,0,0,1,5.483,1.806,6.033,6.033,0,0,1,2.1,4.81,6.118,6.118,0,0,1-1.041,3.528,6.463,6.463,0,0,1-2.939,2.324l4.732,6.97h-5.284l-3.571-5.809H837.3V440.6h-4.349V421.158Zm-4.435,9.776h4.123a3.746,3.746,0,0,0,2.508-.794,2.691,2.691,0,0,0,.935-2.167,2.723,2.723,0,0,0-.879-2.16,3.586,3.586,0,0,0-2.451-.773H837.3Z" transform="translate(-770.07 -420.747)" fill="#fff"/>
+          <path id="Tracé_54" data-name="Tracé 54" d="M876.771,420.456a11.232,11.232,0,0,1,4.2.772,9.307,9.307,0,0,1,5.369,5.334,10.615,10.615,0,0,1,.759,4.024,10.284,10.284,0,0,1-.759,3.925,9.986,9.986,0,0,1-2.1,3.23,9.626,9.626,0,0,1-3.287,2.175,11.4,11.4,0,0,1-8.338.021,9.426,9.426,0,0,1-5.383-5.341,10.489,10.489,0,0,1-.765-4.01,10.206,10.206,0,0,1,1.3-5.093,9.608,9.608,0,0,1,3.677-3.677A10.5,10.5,0,0,1,876.771,420.456Zm0,3.9a6.013,6.013,0,0,0-3.195.843,5.449,5.449,0,0,0-2.083,2.246,6.931,6.931,0,0,0-.7,3.145,6.329,6.329,0,0,0,1.63,4.47,5.633,5.633,0,0,0,4.349,1.764,6.011,6.011,0,0,0,3.238-.857,5.4,5.4,0,0,0,2.061-2.252,7.033,7.033,0,0,0,.68-3.124,6.348,6.348,0,0,0-1.615-4.491A5.663,5.663,0,0,0,876.771,424.352Z" transform="translate(-784.275 -420.456)" fill="#fff"/>
+          <path id="Tracé_55" data-name="Tracé 55" d="M931.81,420.456a11.231,11.231,0,0,1,4.2.772,9.311,9.311,0,0,1,5.369,5.334,10.614,10.614,0,0,1,.758,4.024,10.284,10.284,0,0,1-.758,3.925,9.983,9.983,0,0,1-2.1,3.23A9.628,9.628,0,0,1,936,439.916a11.4,11.4,0,0,1-8.337.021,9.43,9.43,0,0,1-5.384-5.341,10.488,10.488,0,0,1-.765-4.01,10.206,10.206,0,0,1,1.3-5.093,9.609,9.609,0,0,1,3.677-3.677A10.505,10.505,0,0,1,931.81,420.456Zm0,3.9a6.017,6.017,0,0,0-3.2.843,5.448,5.448,0,0,0-2.083,2.246,6.939,6.939,0,0,0-.7,3.145,6.328,6.328,0,0,0,1.629,4.47,5.634,5.634,0,0,0,4.35,1.764,6.009,6.009,0,0,0,3.237-.857,5.4,5.4,0,0,0,2.062-2.252,7.043,7.043,0,0,0,.68-3.124,6.346,6.346,0,0,0-1.616-4.491A5.66,5.66,0,0,0,931.81,424.352Z" transform="translate(-807.57 -420.456)" fill="#fff"/>
+          <path id="Tracé_56" data-name="Tracé 56" d="M971.638,421.158a8.078,8.078,0,0,1,5.617,1.92,6.522,6.522,0,0,1,2.132,5.093,6.665,6.665,0,0,1-3.982,6.284,9.881,9.881,0,0,1-4.122.828h-3.939V440.6H963V421.158Zm-4.293,10.272h3.939a4.03,4.03,0,0,0,2.727-.864,2.95,2.95,0,0,0,1-2.352,3.027,3.027,0,0,0-.907-2.331,3.74,3.74,0,0,0-2.635-.843h-4.123Z" transform="translate(-825.082 -420.747)" fill="#fff"/>
+          <path id="Tracé_57" data-name="Tracé 57" d="M1013.112,421.158V425.1h-6.645v15.5h-4.321V425.1H995.5v-3.939Z" transform="translate(-839.284 -420.747)" fill="#fff"/>
+          <path id="Tracé_58" data-name="Tracé 58" d="M1035.967,421.158V440.6h-4.378V421.158Z" transform="translate(-854.247 -420.747)" fill="#fff"/>
+          <path id="Tracé_59" data-name="Tracé 59" d="M1061.148,426.293a7.729,7.729,0,0,0-5.271-1.856,5.861,5.861,0,0,0-6.22,6.148,5.857,5.857,0,0,0,6.163,6.149,7.93,7.93,0,0,0,5.653-2.21l2.465,3.046a11.725,11.725,0,0,1-8.359,3.145,11.192,11.192,0,0,1-5.327-1.233,8.828,8.828,0,0,1-3.62-3.528,10.619,10.619,0,0,1-1.3-5.313,10.443,10.443,0,0,1,.751-3.953,9.477,9.477,0,0,1,5.5-5.426,11.962,11.962,0,0,1,4.456-.808,10.932,10.932,0,0,1,7.509,2.678Z" transform="translate(-859.948 -420.456)" fill="#fff"/>
         </g>
       </g>
-      <g id="mo" transform="translate(38.928)">
+      <g id="mo" transform="translate(37.991)">
         <g id="MO-2">
           <g id="fibre">
-            <path id="Ligne" d="M921.05,393.153l-1.44-3.214L963.645,370.2l1.441,3.214Z" transform="translate(-837.817 -273.415)" fill="#101041"/>
-            <path id="Ligne-2" data-name="Ligne" d="M960.992,374l-.5-1.06,5.583-2.669.5,1.06Z" transform="translate(-837.444 -273.415)" fill="#ff5d41" stroke="#ff5d41" stroke-width="1.5"/>
+            <path id="Ligne-28" data-name="Ligne" d="M921.05,393.153l-1.44-3.214L963.645,370.2l1.441,3.214Z" transform="translate(-837.817 -273.415)" fill="#101041"/>
+            <path id="Ligne-29" data-name="Ligne" d="M960.992,374l-.5-1.06,5.583-2.669.5,1.06Z" transform="translate(-837.444 -273.415)" fill="#ff5d41" stroke="#ff5d41" stroke-width="1.5"/>
             <path id="Tracé_17" data-name="Tracé 17" d="M868.47,392.6l-1.485-.946c-4.339-2.76-26.057-17.9-27.973-45.108-1.11-15.725,4.557-30.631,16.837-44.3,13-14.474,29.74-19.62,36.888-21.818a161.16,161.16,0,0,1,18.372-4.3c4.022-.706,8.1-1.264,12.11-1.664l1.752-.175.349,3.5-1.752.175c-3.927.392-7.918.94-11.858,1.63a157.476,157.476,0,0,0-17.955,4.2c-6.854,2.107-22.941,7.053-35.288,20.8-11.618,12.935-16.983,26.965-15.944,41.7,1.8,25.515,22.266,39.78,26.351,42.383l1.485.945Z" transform="translate(-838.554 -274.291)" fill="#db0011"/>
             <g id="Ellipse" transform="translate(0 19.255)">
               <circle id="Ellipse-2" data-name="Ellipse" cx="48.128" cy="48.128" r="48.128" transform="translate(3.522 3.522)" fill="none"/>
@@ -98,118 +201,13 @@
               <circle id="Ellipse-11" data-name="Ellipse" cx="48.422" cy="48.422" r="48.422" transform="translate(3.522 3.522)" fill="none"/>
               <path id="Ellipse-12" data-name="Ellipse" d="M894.539,291.532A51.943,51.943,0,1,1,842.6,343.475h0A52,52,0,0,1,894.539,291.532Zm0,100.365a48.422,48.422,0,1,0-48.422-48.422h0A48.475,48.475,0,0,0,894.539,391.9Z" transform="translate(-842.596 -291.532)" fill="#fff"/>
             </g>
-            <path id="Ligne-3" data-name="Ligne" d="M921.163,276.871l-.113-1.169,6.156-.6.117,1.17Z" transform="translate(-837.804 -274.284)" fill="#ff5d41" stroke="#ff5d41" stroke-width="1.5"/>
+            <path id="Ligne-30" data-name="Ligne" d="M921.163,276.871l-.113-1.169,6.156-.6.117,1.17Z" transform="translate(-837.804 -274.284)" fill="#ff5d41" stroke="#ff5d41" stroke-width="1.5"/>
           </g>
           <g id="M" transform="translate(24.114 38.446)">
             <path id="M_-_Contour" data-name="M - Contour" d="M862.953,312.889h15.291l16.479,26.619,16.306-26.619h14.99v60.5H912.05V334.071h-.088L898.146,356.75h-7.412l-13.813-22.679h-.088v39.323h-13.88Z" transform="translate(-862.448 -312.384)" fill="#fff" stroke="#101041" stroke-width="1"/>
             <path id="Tracé_61" data-name="Tracé 61" d="M877.343,373.9h-14.89V312.389H878.53l16.2,26.162,16.026-26.162h15.776V373.9H911.551V335.729l-13.118,21.53h-7.978l-.146-.242L877.343,335.73Zm-13.881-1.009h12.871V333.571h.788l.235.243,13.667,22.436h6.843l13.817-22.679h.789l.088.5v38.816h12.958V313.4h-14.2L894.73,340.474,877.968,313.4H863.462Z" transform="translate(-862.453 -312.389)" fill="#101041" stroke="#101041" stroke-width="1"/>
           </g>
         </g>
-      </g>
-    </g>
-    <line id="Ligne_97" data-name="Ligne 97" x2="240" transform="translate(850.754 168.525)" fill="none" stroke="#f02016" stroke-width="5"/>
-    <text id="Accès_internet_réseau_principal" data-name="Accès internet 
-réseau principal" transform="translate(533.384 121.346)" fill="#101041" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-65" y="0">Accès internet </tspan><tspan x="-69" y="20">réseau principal</tspan></text>
-    <text id="Routeur_principal" data-name="Routeur principal" transform="translate(1140.895 95)" fill="#101041" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-75" y="0">Routeur principal</tspan></text>
-    <text id="Bascule_automatique_sur_le_réseau_4G" data-name="Bascule
-automatique sur
-le réseau 4G" transform="translate(1251.987 269.896)" fill="#3f8fb9" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-32" y="0">Bascule</tspan><tspan x="-72" y="20">automatique sur</tspan><tspan x="-54" y="40">le réseau 4G</tspan></text>
-    <text id="Routeur_4G_Back-up" data-name="Routeur 4G
-Back-up" transform="translate(1140.888 468.631)" fill="#101041" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-49" y="0">Routeur 4G</tspan><tspan x="-35" y="20">Back-up</tspan></text>
-    <text id="Réseau_4G-2" data-name="Réseau 4G" transform="translate(727.551 469.631)" fill="#101041" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-46" y="0">Réseau 4G</tspan></text>
-    <g id="croix" transform="translate(818.652 136.486)">
-      <g id="Ellipse_25" data-name="Ellipse 25" fill="#fff" stroke="#f02016" stroke-width="2">
-        <circle cx="32.5" cy="32.5" r="32.5" stroke="none"/>
-        <circle cx="32.5" cy="32.5" r="31.5" fill="none"/>
-      </g>
-      <line id="Ligne_98" data-name="Ligne 98" y1="28" x2="27" transform="translate(19 19)" fill="none" stroke="#f02016" stroke-width="5"/>
-      <line id="Ligne_99" data-name="Ligne 99" x1="27" y1="28" transform="translate(19 19)" fill="none" stroke="#f02016" stroke-width="5"/>
-    </g>
-    <text id="Coupure_de_l_accès_internet" data-name="Coupure de 
-l’accès internet" transform="translate(851.651 93)" fill="#f02016" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="-60" y="0">Coupure de </tspan><tspan x="-72" y="25">l’accès internet</tspan></text>
-    <g id="_1" data-name="1" transform="translate(831.653 26)">
-      <circle id="Ellipse_26" data-name="Ellipse 26" cx="20" cy="20" r="20" fill="#f02016"/>
-      <text id="_1-2" data-name="1" transform="translate(20 28)" fill="#fff" font-size="25" font-family="SegoeUIBlack, Segoe UI"><tspan x="-6" y="0">1</tspan></text>
-    </g>
-    <g id="routeur_4G-2" data-name="routeur 4G" transform="translate(1117.88 372.267)">
-      <g id="routeur_4G-3" data-name="routeur 4G">
-        <rect id="Rectangle_99" data-name="Rectangle 99" width="44" height="40" rx="5" fill="none" stroke="#101041" stroke-width="2"/>
-        <path id="Tracé_393" data-name="Tracé 393" d="M1155.45,383.79c0,1.381-2.239,2.5-5,2.5s-5-1.119-5-2.5,2.239-2.5,5-2.5,5,1.119,5,2.5" transform="translate(-1117.45 -376.29)" fill="#101041"/>
-        <line id="Ligne_84" data-name="Ligne 84" x2="18" transform="translate(6 8)" fill="none" stroke="#101041" stroke-width="2"/>
-      </g>
-      <text id="_4G" data-name="4G" transform="translate(22 33)" fill="#101041" font-size="25" font-family="SegoeUIBlack, Segoe UI"><tspan x="-16" y="0">4G</tspan></text>
-    </g>
-    <line id="Ligne_100" data-name="Ligne 100" y2="125" transform="translate(1139.876 217.896)" fill="none" stroke="#3f8fb9" stroke-width="4" stroke-dasharray="12 12"/>
-    <g id="_2" data-name="2" transform="translate(1120.881 262.89)">
-      <circle id="Ellipse_26-2" data-name="Ellipse 26" cx="20" cy="20" r="20" fill="#3f8fb9"/>
-      <text id="_2-2" data-name="2" transform="translate(20 28)" fill="#fff" font-size="25" font-family="SegoeUIBlack, Segoe UI"><tspan x="-7" y="0">2</tspan></text>
-    </g>
-    <g id="routeur_principal-2" data-name="routeur principal" transform="translate(1110.277 145.606)">
-      <g id="Rectangle_102" data-name="Rectangle 102" transform="translate(0 23)" fill="none" stroke="#101041" stroke-width="1">
-        <rect width="62" height="17" stroke="none"/>
-        <rect x="0.5" y="0.5" width="61" height="16" fill="none"/>
-      </g>
-      <g id="Rectangle_103" data-name="Rectangle 103" transform="translate(0 25)" fill="none" stroke="#101041" stroke-width="1">
-        <rect width="62" height="13" stroke="none"/>
-        <rect x="0.5" y="0.5" width="61" height="12" fill="none"/>
-      </g>
-      <rect id="Rectangle_104" data-name="Rectangle 104" width="7" height="3" transform="translate(24 30)" fill="#101041"/>
-      <rect id="Rectangle_105" data-name="Rectangle 105" width="7" height="3" transform="translate(32 30)" fill="#101041"/>
-      <rect id="Rectangle_106" data-name="Rectangle 106" width="6" height="3" transform="translate(40 30)" fill="#101041"/>
-      <rect id="Rectangle_107" data-name="Rectangle 107" width="6" height="3" transform="translate(48 30)" fill="#101041"/>
-      <g id="Rectangle_108" data-name="Rectangle 108" transform="translate(8)" fill="none" stroke="#101041" stroke-width="1">
-        <path d="M3,0H3A3,3,0,0,1,6,3V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
-        <path d="M3,.5H3A2.5,2.5,0,0,1,5.5,3V23.368a.132.132,0,0,1-.132.132H.632A.132.132,0,0,1,.5,23.368V3A2.5,2.5,0,0,1,3,.5Z" fill="none"/>
-      </g>
-      <g id="Rectangle_109" data-name="Rectangle 109" transform="translate(50)" fill="none" stroke="#101041" stroke-width="1">
-        <path d="M3,0H3A3,3,0,0,1,6,3V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
-        <path d="M3,.5H3A2.5,2.5,0,0,1,5.5,3V23.368a.132.132,0,0,1-.132.132H.632A.132.132,0,0,1,.5,23.368V3A2.5,2.5,0,0,1,3,.5Z" fill="none"/>
-      </g>
-      <g id="Rectangle_110" data-name="Rectangle 110" transform="translate(6 39)" fill="none" stroke="#101041" stroke-width="1">
-        <rect width="11" height="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="10" height="3" fill="none"/>
-      </g>
-      <g id="Rectangle_111" data-name="Rectangle 111" transform="translate(48 39)" fill="none" stroke="#101041" stroke-width="1">
-        <rect width="11" height="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="10" height="3" fill="none"/>
-      </g>
-      <path id="off" d="M3.625,7.249A3.613,3.613,0,0,1,.485,5.444,3.558,3.558,0,0,1,0,3.625,3.575,3.575,0,0,1,.935,1.2l.081-.085.1-.1A.439.439,0,0,1,1.221.942.293.293,0,0,1,1.359.906a.435.435,0,0,1,.319.135.435.435,0,0,1,.135.319.71.71,0,0,1-.025.2.281.281,0,0,1-.053.113l-.021.035a2.7,2.7,0,0,0-.595.871A2.631,2.631,0,0,0,.906,3.625a2.662,2.662,0,0,0,.365,1.363,2.7,2.7,0,0,0,.991.991,2.729,2.729,0,0,0,2.725,0,2.7,2.7,0,0,0,.991-.991A2.72,2.72,0,0,0,6.13,2.573,2.74,2.74,0,0,0,5.543,1.7a.466.466,0,0,1-.106-.34.435.435,0,0,1,.135-.319A.435.435,0,0,1,5.89.906a.325.325,0,0,1,.1.014A.476.476,0,0,1,6.06.949a.373.373,0,0,1,.074.057.634.634,0,0,1,.06.06l.064.074.057.064a3.6,3.6,0,0,1,.648,3.83A3.547,3.547,0,0,1,5.033,6.962a3.556,3.556,0,0,1-1.409.287Zm0-3.625a.447.447,0,0,1-.453-.453V.453A.432.432,0,0,1,3.306.131.445.445,0,0,1,3.628,0a.435.435,0,0,1,.319.131.437.437,0,0,1,.131.322V3.171a.447.447,0,0,1-.453.453Z" transform="translate(5.284 27.616)" fill="#101041"/>
-    </g>
-    <text id="Immeubles_d_entreprise" data-name="Immeubles 
-d’entreprise" transform="translate(1604 106.356)" font-size="25" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Immeubles </tspan><tspan x="0" y="35">d’entreprise</tspan></text>
-    <g id="immeuble" transform="matrix(0.999, 0.035, -0.035, 0.999, 1613.845, 165.316)">
-      <g id="face_2" data-name="face 2" transform="translate(72.931 12.491)">
-        <path id="Tracé_858" data-name="Tracé 858" d="M0,205.33V10.412L59.016,0l3.053,188.459Z" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="0.5"/>
-        <path id="Tracé_859" data-name="Tracé 859" d="M1.125,26.575C.815,22.044.445,16.932.134,12.4-.9,5.254,4.265-.1,8.6,0,12.409.1,16.692,4.442,16.81,10.5c.358,3.666.725,6.769,1.085,10.433" transform="matrix(0.998, 0.07, -0.07, 0.998, 10.805, 175.373)" fill="#abc8ce"/>
-        <g id="fenetre" transform="translate(5.857 13.532)">
-          <path id="Tracé_860" data-name="Tracé 860" d="M0,10.41,45.8,0V143.135L0,155.677Z" transform="translate(0.001 0)" fill="#add9e1" stroke="#000" stroke-width="0.5"/>
-          <path id="Tracé_862" data-name="Tracé 862" d="M2.609,144.176,0,0" transform="translate(16.013 6.341)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_181" data-name="Ligne 181" x1="2.794" y1="142.925" transform="translate(31.374 3.546)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_182" data-name="Ligne 182" y1="10.41" x2="45.802" transform="translate(0 33.31)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_183" data-name="Ligne 183" y1="10.41" x2="45.802" transform="translate(0 64.539)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_184" data-name="Ligne 184" y1="10.41" x2="45.802" transform="translate(0 93.686)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_185" data-name="Ligne 185" y1="12.512" x2="45.825" transform="translate(0 118.648)" fill="none" stroke="#000" stroke-width="0.5"/>
-        </g>
-      </g>
-      <g id="face_1" data-name="face 1" transform="translate(0.001 10.409)">
-        <path id="fond_bleu" data-name="fond bleu" d="M0,188.719l72.867,18.872V12.494L0,0Z" transform="translate(0 0)" fill="#fcfcfc" stroke="#000" stroke-width="0.5"/>
-        <g id="fenetre-2" data-name="fenetre" transform="translate(5.204 17.696)">
-          <path id="Tracé_855" data-name="Tracé 855" d="M0,0,60.375,8.328l4.164,147.815L4.164,141.57Z" transform="translate(0.001 0)" fill="none" stroke="#fff" stroke-width="0.5"/>
-          <path id="Tracé_854" data-name="Tracé 854" d="M0,0,61.974,8.7l-1.6,146.177L0,141.33Z" transform="translate(0.001 0)" fill="#b6d8e0" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_173" data-name="Ligne 173" y2="141.57" transform="translate(12.492 2.082)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <path id="Tracé_861" data-name="Tracé 861" d="M.211,0,0,143.808" transform="translate(27.645 4.007)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_175" data-name="Ligne 175" y2="145.733" transform="translate(43.94 6.246)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_176" data-name="Ligne 176" x2="60.521" y2="6.983" transform="translate(0.001 34.986)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_177" data-name="Ligne 177" x2="60.375" y2="9.017" transform="translate(0.001 63.85)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_178" data-name="Ligne 178" x2="60.521" y2="10.175" transform="translate(0 89.522)" fill="none" stroke="#000" stroke-width="0.5"/>
-          <line id="Ligne_179" data-name="Ligne 179" x2="60.375" y2="10.643" transform="translate(0.001 116.353)" fill="none" stroke="#000" stroke-width="0.5"/>
-        </g>
-        <path id="Tracé_856" data-name="Tracé 856" d="M.665,22.634c-.156-3.4-.484-8.7-.64-12.1C-.312,5.22,2.786.863,6.273.121c4.266-.91,10.189,3.362,10.41,10.41-.067,5.221.067,11.157,0,16.379" transform="translate(46.815 177.932)" fill="#abc8ce"/>
-        <path id="Tracé_857" data-name="Tracé 857" d="M.633,21.264c-.156-3.4-.451-7.333-.607-10.733C-.314,5.22,2.786.863,6.271.121c4.268-.91,10.191,3.362,10.41,10.41-.065,5.221.065,9.8,0,15.017" transform="translate(17.67 171.687)" fill="#abc8ce"/>
-      </g>
-      <g id="toit" transform="translate(0 0)">
-        <path id="Tracé_851" data-name="Tracé 851" d="M59.757,0,0,10.407,72.12,22.9l59.757-10.412Z" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="0.5"/>
-        <path id="Tracé_852" data-name="Tracé 852" d="M27.065,0,0,6.246l39.556,8.328L70.785,8.328Z" transform="translate(30.601 4.204)" fill="#c2e5ee"/>
       </g>
     </g>
   </g>

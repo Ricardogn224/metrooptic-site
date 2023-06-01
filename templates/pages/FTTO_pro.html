@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <script src="{{url_for('static', filename='js/index.js')}}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
-    <title>FTTO</title>
+    <title>FTTH PRO</title>
 </head>
 
 <body>
-    
     <section>
         <nav class="navbar">
             <div class="  flex space-between top-nav">
                 <div class="flex liens">
-                    <a class="/"><img class="mr-40"
+                    <a href="/"><img class="mr-40"
                             src="{{ url_for('static', filename='images/logo.svg') }}" alt=""></a>
                     <div>
                         <a class="options-select" href="/">A Propos</a>
@@ -81,12 +80,12 @@
                 <div class="service-bloc">
                     <div class="dropdown " >
                         <div class="bloc-choice">
-                            <a class="mr-10">Cyber-Sécurité</a>
-                            <a class="dropbtn" href="/"> 
+                            <a href="/" class="mr-10">Cyber-Sécurité</a>
+                            {# <a class="dropbtn" href="/"> 
                                 <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
-                           </a> 
+                           </a>  #}
                         </div>
-                        <div class=" flex option-nav hide">
+                        {# <div class=" flex option-nav hide">
                             
                                 <div class="service w-50">
                                     <a href="/secutite">
@@ -109,14 +108,14 @@
                             </div>
                             
 
-                        </div>
+                        </div> #}
                     </div>
                 </div>
 
                 <div class="service-bloc">
                   
                         <div class="bloc-choice">
-                            <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
+                            <a class="mr-10 " href="/iot">Solutions IoT</a>
                             {# <a href="about.html"><img class=""
                                     src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
                         </div>
@@ -143,152 +142,437 @@
                    
                 </div>
 
+                <div class="service-bloc">
+                  
+                    <div class="bloc-choice">
+                        <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
+                        {# <a href="about.html"><img class=""
+                                src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
+                    </div>
+
+                    {# <div class="dropdown-content flex space-between hide">
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                            <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
+                        </div>
+                        <div class="line-sh" ></div>
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
+                            <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
+                        </div>
+                        <div class="line-sh" ></div>
+                        <div class="service">
+                            <img class="icone-service"
+                                src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
+                            <p class="subtitle">Solutions 4G/5G</p>
+                        </div>
+                    </div>  #}
+               
+            </div>
+
             </div>
         </nav>
     </section>
 
-
-
     <section>
-        <div class="flex space-between ma-80 mtb">
-            <div class="w-50">
-                <p class="titre1">OFFREZ LA PERFORMANCE DE LA FIBRE 
-                    OPTIQUE PRO A VOTRE ACTIVITE !</p>
-                <p class="titre2">
-                    Votre activité dépend de la fiabilité de votre connexion internet et de la protection de vos outils informatiques.
-                </p>
-            </div>
+        <div class="flex space-between presentation-offre mtb">
+            <div class="w-50 flex-column flex-center">
+                <div class="flex-column ">
+                    <div class="mb-20">
+                         
+                        <p class="titre1">LA FIBRE ENTREPRISE DÉDIÉE FTTO : </p>
+                        <p class="titre1 "> UN ACCÈS HAUT DÉBIT PREMIUM,</p>
+                        <p class="titre1 "> LA SÉRÉNITÉ EN PLUS !</p>
+                    </div>
 
-            <div class="w-50 flex-center">
-                <img class="illustration " src="{{ url_for('static', filename='images/illustration-ftto.svg') }}" alt="">
+                    <div class=""0>
+                        <p class="titre2">
+                            La fibre dédiée est la solution d’accès internet recommandée pour
+                        </p>
+                        <p class="titre2">les entreprises souhaitant offrir une expérience optimale à leurs </p>
+                        <p class="titre2">utilisateurs et garantir leur continuité d’activité.</p>
+                    </div>
+                </div>
             </div>
-            
+            <div class="w-50">
+                <img class="illustration flex-center" src="{{ url_for('static', filename='images/illustration-ftto.svg') }}" alt="">
+            </div>
         </div>
        
     </section>
 
-    <section class="">
-
-        <div>
-            <div class="flex flex-center ">
-                <div class="bg-white fibre-offre flex-center flex-column " onclick="showFTTO()">
-                    <a href="/FTTO_pro">
-                        <h1>La Fibre Entreprise </h1>
-                        <h2>FTTO Pro</h2>
-                    </a>
+    <section class="flex-center">
+        <div class="annonce ">
+           <div class="flex flex-column conteneur">
+                <div class="annonce-plus">
+                    <img width="30px" height="30px" src="{{ url_for('static', filename='images/+.svg') }}" alt="logo" srcset=""/>
                 </div>
-                <div class="fibre-offre flex-center flex-column" onclick="showFTTH()">
-                    <a href="/FTTO_pro_secure">
-                        <h1>La Fibre Entreprise </h1>
-                        <h2>Sécurisée FTTO Pro</h2>
-                    </a>
+                <div class="flex-center zone-p">
+                    <p>Métro Optic propose plusieurs gammes d’abonnements internet fibre optique. Chacune de ces gammes ont été imaginées pour répondre aux besoins des entreprises. La gamme FTT0 Metro Optic assure un Haut Débit Symétrique, une Faible latence, une Haute dispobinibilité, SLA entreprise, et un GTR opérateur 4 heures.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="m-50">
+
+        <!-- bandeau noire -->
+        <div class="bandeau-noire">
+
         </div>
 
         <!-- offre Fibre-->
         <div  id="id_fibre_FTTO" class="contenu-offre ">
-            <div class="">
-                <div class="test-add">
-                    <h1>Tester mon éligibilité</h1>
-                </div>
-                
-                <div class="presentation flex-center">
-                    <p class="flex-center"> La gamme FTTH Pro Metro Optic permet de bénéficier d’un accès internet aux 
-                        débits asymétriques allant jusqu’à 1 Gbps.
-                    </p>
-                </div>
-                
-            </div>
+           
 
             <div class="flex  space-around">
                 
                 <div class="offre ">
                     <article class="">
                         <div>
-                            <h1 class="titre">La Fibre Entreprise Mutualisée</h1>
+                            <h1 class="titre">La Fibre Entreprise Dédiée FTTO</h1>
                             <p class="start"> A partir de </p>
                             <div class="flex flex-center">
                                 <div class="flex flex-center">
-                                    <p class="price">59,99</p>
+                                    <p class="price">390</p>
                                 </div>
                                 <div class="flex flex-column flex-center">
-                                    <p class="devise">$ HT</p>
+                                    <p class="devise">€ HT</p>
                                     <p class="devise">/mois</p>
                                    
                                 </div>
                             </div>
-                            <div class="flex-center">
-                                <button>Commander</button>
+                            <div class="flex-center flex-column ">
+                                <button class="buy">Commander</button>
+                                <button class="compare">Comparer</button>
                             </div>
                             
                         </div>
 
-                        <div class="flex">
-                            <div class="flex-center" >
+                        <div class="flex m-40 bty" >
+                            <div class="flex-center mr-10" >
                                 <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
                             </div>
                             <div>
-                                <p class="sous-titre"> La performance de la fibre FTTH
+                                <p class="sous-titre"> La performance de la fibre dédiée
                                 </p>
-                                <p> essentielle à votre entreprise</p>
+                                <p class="sous-titre">  FTTO, SAV proactif inclus</p>
                             </div>
                             
                         </div>
 
-                        <div>
+                        <div class="m-40">
                             <div class="flex">
-                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
-                                <div><p class="sous-titre">Fibre mutualisée FTTH</p></div>
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div class="flex-center "><p class="sous-titre ">Fibre 100% dédiée FTTO</p></div>
                             </div>
                             
-                            <ul>
+                            <ul class="ml-40">
                                 <li>
                                     <div class="flex">
-                                        <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/down.svg') }}" alt=""></div>
                                         </div>
-                                        <div>
-                                            <p class="elt">J'usqua 1Gbps en descendant</p>
+                                        <div class="flex-center">
+                                            <p class="elt flex-center ">Débit de 10 Mbps à 1 Gbps selon zone</p>
                                         </div>
                                     </div>  
                                 </li>
                                 <li>
                                     <div class="flex">
-                                        <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/up.svg') }}" alt=""></div>
                                         </div>
                                         <div>
-                                            <p class="elt">J'usqua 20 Mbs en montant</p>
+                                            <p class="elt">Débit symétrique et garanti</p>
                                         </div>
                                     </div>  
                                 </li>
                                 <li>
                                     <div class="flex">
-                                        <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                         </div>
                                         <div>
-                                            <p class="elt">Garantie de temps d'intervention 8h</p>
+                                            <p class="elt">IP public inclus</p>
+                                        </div>
+                                    </div>  
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Garantie de Temps de Rétablissement 4H</p>
                                         </div>
                                     </div>  
                                 </li>
                             </ul>
-                        </div>
+                        </div>                  
 
-                    
-
-                        <div>
-                            <div class="flex">
-                                <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
-                                <div> <p class="sous-titre">Accompagnement proactif</p></div>
+                        <div class="m-40">
+                            <div class="flex ">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">Accompagnement proactif</p></div>
                             </div>
                            
-                            <ul>
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Supervision de votre accès 24h/7J</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Horaires étendus du support technique  :
+                                                Du lundi au samedi de 8h à 22h</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-40">
+                            <div class="flex btg">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">En option</p></div>
+                            </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Cyber-sécurité : Pare-feu nouvelle génération</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Fibre :</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Fibre ultra haut débit 10 Gbps</p>
+                                        </div>
+                                    </div> 
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Raccordement multi-site (SD-WAN, MPLS…)</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                     </article>
+                    
+                </div>
+                <div class="flex-center">
+                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO.svg") }}" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        
+
+
+    </section>
+
+    <section class="m-50">
+
+        <!-- bandeau jaune -->
+        <div class="bandeau-jaune">
+        </div>
+
+        <!-- offre Fibre-->
+        <div  id="id_fibre_FTTO" class="contenu-offre ">
+           
+
+            <div class="flex  space-around">
+                
+                <div class="offre ">
+                    <article class="">
+                        <div>
+                            <h1 class="titre">La Fibre Entreprise FTTO Redondée</h1>
+                            <p class="start"> A partir de </p>
+                            <div class="flex flex-center">
+                                <div class="flex flex-center">
+                                    <p class="price">390</p>
+                                </div>
+                                <div class="flex flex-column flex-center">
+                                    <p class="devise">€ HT</p>
+                                    <p class="devise">/mois</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="flex-center flex-column ">
+                                <button class="buy">Commander</button>
+                                <button class="compare">Comparer</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex m-40 bty" >
+                            <div class="flex-center mr-10" >
+                                <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <p class="sous-titre"> La performance de la fibre dédiée
+                                </p>
+                                <p class="sous-titre">  SAV proactif 6j/7 inclus</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="m-40">
+                            <div class="flex">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                                <div class="flex-center "><p class="sous-titre ">Fibre 100% dédiée FTTO</p></div>
+                            </div>
+                            
+                            <ul class="ml-40">
                                 <li>
                                     <div class="flex">
                                         <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/down.svg') }}" alt=""></div>
+                                        </div>
+                                        <div class="flex-center">
+                                            <p class="elt flex-center ">De 10 Mbps à 1 Gbps selon zone</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/up.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Débit symétrique et garanti</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt ">IP public inclus</p>
+                                        </div>
+                                    </div>  
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Garantie de Temps de Rétablissement 4H</p>
+                                        </div>
+                                    </div>  
+                                </li>
+
+                            </ul>
+                        </div> 
+                        
+                        
+                        <div class="m-40">
+                            <div class="flex ">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">Continuité de service</p></div>
+                            </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div ><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Back-up 4G/5G</p>
+                                        </div>
+                                    </div>                     
+                                </li>
+
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Bascule automatique en cas de coupure fibre</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Persistance de l’IP public en 4G/5G</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-40">
+                            <div class="flex ">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">Accompagnement proactif</p></div>
+                            </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div >
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                         </div>
                                         <div>
                                             <p class="elt">Supervision de votre accès 24h/7J</p>
@@ -299,7 +583,7 @@
                                 <li>
                                     <div class="flex">
                                         <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                         </div>
                                         <div>
                                             <p class="elt">Horaires étendus du support technique  :
@@ -310,7 +594,7 @@
                                 <li>
                                     <div class="flex">
                                         <div>
-                                            <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                         </div>
                                         <div>
                                             <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
@@ -319,50 +603,54 @@
                                 </li>
                             </ul>
                         </div>
-                     </article>
-                    <div class="bottom-offre">
-                        <div class="ma-80 space-around">
-                            <div>
-                                <div class="flex">
-                                    <div>
-                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
-                                    </div>
-                                    <div>
-                                        <h1>Possibilité en option</h1>
-                                    </div>
-                                </div> 
-                            </div>
 
-                            <div class="flex space-between">
-                                <div class="flex">
-                                    <div>
-                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
-                                    </div>
-                                    <div>
-                                        <p class="elt">Cybersécurité</p>
-                                    </div>
-                                </div> 
-                                <div class="flex">
-                                    <div>
-                                        <div><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt=""></div>
-                                    </div>
-                                    <div>
-                                        <p class="elt"> IP public</p>
-                                    </div>
-                                </div> 
-                                <div>
-                                    <h1 class=" elt">Pare-feu nouvelle génération</h1>
-                                </div>
-                                
+                        <div class="m-40">
+                            <div class="flex btg">
+                                <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                                <div class="flex-center"> <p class="sous-titre ">En option</p></div>
                             </div>
+                           
+                            <ul class="ml-40">
+                                <li>
+                                    <div class="flex">
+                                        <div class="mr-10">
+                                            <div ><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Cyber-sécurité : Pare-feu nouvelle génération</p>
+                                        </div>
+                                    </div>                     
+                                </li>
 
-                            
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Fibre :</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="flex">
+                                        <div>
+                                            <div class="mr-10"><img width="20px" height="20px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                        </div>
+                                        <div>
+                                            <p class="elt">Fibre ultra haut débit 10 Gbps</p>
+                                            <p class="elt">Raccordement multi-site</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
                         </div>
-                    </div>
+                     </article>
+                    
                 </div>
 
-                <div>
-                    <img class="" width="500px" height="670px" src="{{ url_for('static', filename="images/schema.svg") }}" alt="">
+                <div class="flex-center">
+                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO-redonde.svg") }}" alt="">
                 </div>
             </div>
 
@@ -414,16 +702,11 @@
                             <p>En cas d’incident sur l’accès internet fixe principal, la bascule est immédiate et transparente. Tous les appareils initialement connectés bénéficient à nouveau d’internet</p>
                         </div>
 
-                        <div class="flex-end">
-                            <div >
-                                <p class="notice"> Frais de mise en service backup : 60$ HT</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
                 <div class="flex-center img-box">
-                    <img height="300px" width="100%" class="" src="{{ url_for('static', filename="images/routeur.svg") }}" alt="">
+                    <img height="500px" width="100%" class="" src="{{ url_for('static', filename="images/routeur.svg") }}" alt="">
                 </div>
             </div>
 
@@ -448,51 +731,93 @@
                 <div>
                     <p>Profitez d'un accompagnement personnalisé</p>
                 </div>
-                <div>
-                    <a href="http://">identifiez vous </a>
+                <div class="flex">
+                    <div>
+                        <a href="http://">identifiez vous </a>
+                    </div>
+                    
+                    <div>
+                        <img src="" alt="" srcset="">
+                    </div>
                 </div>
             </div>
 
             <div class="p-20">
                 <form action="" method="post">
-                    <div class="flex-center">
-
-                        <div class="flex-center">
-                            <h2 class="subtitle">Fibre ou ADSL ? Testez votre éligibilité</h2> 
-                        </div>
-
-                        <div class="flex checkbox">
-                            <div class="flex-center">
-                                <input type="checkbox" id="scales" name="scales" checked>
-                                <label for="scales">Avec un numéro</label>
+                    <div class="flex ">
+                        
+    
+                        <div class="flex space-between flex-column">   
+                            <div class="">
+                                <h2 class="subtitle">Fibre ou ADSL ? Testez votre éligibilité</h2> 
+                            </div>  
+    
+                            <div class="flex-column ">
+                                <label for="">Numéro de téléphone</label>
+                                <input class="input-form" type="number" name="name" id="name" placeholder="">
+                                Ex : 06 00 00 00 00
                             </div>
-                            <div class="flex-center">
-                                <input type="checkbox" id="scales" name="scales" checked>
-                                <label for="scales">Avec une adresse</label>
+    
+                        </div>
+
+
+                        <div class="">
+                            <div class="flex ">
+        
+                                <div class="flex checkbox">
+                                    <div class="flex-center">
+                                        <input type="checkbox" id="scales" name="scales" checked>
+                                        <label for="scales">Avec un numéro</label>
+                                    </div>
+                                    <div class="flex-center">
+                                        <input type="checkbox" id="scales" name="scales" checked>
+                                        <label for="scales">Avec une adresse</label>
+                                    </div>
+                                </div>
+        
+        
+                            </div>
+    
+                            <div class=" flex-center ">
+                                <div class="  ">
+                                <button class="action-button " href="">Tester mon éligibilité</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="flex space-between">               
-                        <div class="flex-column flex-center">
-                            <label for="">Numéro de téléphone</label>
-                            <input class="input-form" type="text" name="name" id="name" placeholder="Votre nom">
-                            Ex : 06 00 00 00 00
-                        </div>
-
-                        <div class="action-button flex-center">
-                            <a class="" href="">Tester mon éligibilité</a>
-                        </div>
                     </div>
+                    
                 </form>
             </div>
         </div>
     </section>
     
     <footer class="flex space-between footer-section">
+
+        <div class="zone-info">
+            <ul>
+                <li><img width="100%" class="" src="{{ url_for('static', filename="./images/logo-black.svg") }}" alt=""></li> 
+                <li><p class="flex-center" >Fournisseurs d’accès</p></li> 
+            </ul>
+            <div class="flex-center">
+                <div class="flex space-between follow ">
+                    <a class="flex-center ml-20">Suivrez-Nous</a> 
+                </div>
+                <div> <a class="flex-center" href="http://"><img width="50px" height="50px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> </div>
+            </div>
+            
+            
+        </div>
         
 
         <div class="flex space-between zone-nav" >
+
+            <div>
+                <h1 class="title">Ressources</h1>
+                <p>Fiche router 4G</p>
+                <p>Fiche ROuteur 5G </p>
+                
+            </div>
 
             <div>
                 <h1 class="title">Navigation</h1>
@@ -513,34 +838,20 @@
 
         </div>
 
-        <div class="flex-column zone-action  space-around">
+        <div class="flex-column zone-action  ">
             <div class=" flex-column flex-center space-between">
-                <div class="flex follow ">
-                    <a class="flex-center">Suivrez-Nous</a> 
-                    <a class="" href="http://"><img width="50px" height="40px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> 
-                </div>
                 <div class="client"><a>Espace Client</a></div>
+                <div class="touch"><a>Commander</a></div>
                 <div class="call"><a>Etre rappelé</a></div> 
             </div>
         </div>
 
-        <div class="zone-info">
-            <ul>
-
-                <li><img width="100%" class="" src="{{ url_for('static', filename="./images/logo-black.svg") }}" alt=""></li> 
-                <li><p>72 Rue Sadi Carnot, 92170 Vanves</p></li> 
-                <li><p>© 2023 Métro Optic. Tous droits réservés</p></li>
-                <li><p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p></li>
-               
-            </ul>
-            
-        </div>
+        
     </footer>
 
     <div class="flex space-between">
         <a href="">2022 - Tous droits réservés</a>
         <a href="">Mentions légales et CGU | Politique de confidentialité | CGV | Cookies</a>
     </div>
-
 </body>
 </html>
