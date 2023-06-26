@@ -12,170 +12,72 @@
 </head>
 
 <body>
-    <section>
-        <nav class="navbar">
-            <div class="  flex space-between top-nav">
-                <div class="flex liens">
-                    <a href="/"><img class="mr-40"
-                            src="{{ url_for('static', filename='images/logo.svg') }}" alt=""></a>
-                    <div>
-                        <a class="options-select" href="/">A Propos</a>
-                        <a href=""><img class="" src="{{ url_for('static', filename='images/chevron.svg') }}"
-                                alt=""></a>
-                    </div>
-                </div>
-
-                <div class="flex options ">
-                    <div class="flex mr-20 ">
-                        <a class="mr-10" href="/"><img class=""
-                                src="{{ url_for('static', filename='images/telephone.svg') }}" alt=""></a>
-                        <a class="number" href="/contact">01.76.49.48.60</a>
-                    </div>
-                    <div class="flex space-between">
-                        <a class="button-devis mr-10 " href="/contact">Obtenir un devis</a>
-                        <a class="button-client" href="http://192.168.115.100:6001/">Espace client</a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex space-between">
-                <div class="service-bloc">
-                    <div>
-                        <div class="bloc-choice">
-                            <a class="mr-10" >Accès Internet</a>
-                            <a href="/"><img class=""
-                                    src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>
-                        </div>
-                        <div class="dropdown-content flex option-nav  space-between hide">
-                            
-                            <div class="service">
-                                <a href="/FTTH_pro">
-                                <img class="icone-service" src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                                <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
-                                </a>
-                            </div>
-                            
-
-                            <div class="line-sh"></div>
-
-                            <div class="service">
-                                <a href="/FTTO_pro">
-                                <img class="icone-service"
-                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                                <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
-                                </a>
-                            </div>
-
-                            <div class="line-sh"></div>
-
-                            <div class="service">
-                                <a href="/solution_data">
-                                <img class="icone-service"
-                                    src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
-                                <p class="subtitle">Solutions 4G/5G</p>
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="service-bloc">
-                    <div class="dropdown " >
-                        <div class="bloc-choice">
-                            <a href="securite" class="mr-10">Cyber-Sécurité</a>
-                            {# <a class="dropbtn" href="/"> 
-                                <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
-                           </a>  #}
-                        </div>
-                        {# <div class=" flex option-nav hide">
-                            
-                                <div class="service w-50">
-                                    <a href="securite">
-                                        <img class="icone-service"
-                                            src="{{ url_for('static', filename='images/securite-entreprise.svg') }}" alt="">
-                                        <p class="subtitle">Sécurité entreprise</p>
-                                    </a>
-                                </div>
-                     
-
-                            <div class="line-sh"></div>
-
-                            
-                            <div class="service w-50">
-                                <a href="/iot">
-                                    <img class="icone-service"
-                                        src="{{ url_for('static', filename='images/IoT.svg') }}" alt="">
-                                    <p class="subtitle">Solutions IoT</p>
-                                </a>
-                            </div>
-                            
-
-                        </div> #}
-                    </div>
-                </div>
-
-                <div class="service-bloc">
-                  
-                        <div class="bloc-choice">
-                            <a class="mr-10 " href="/iot">Solutions IoT</a>
-                            {# <a href="about.html"><img class=""
-                                    src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
-                        </div>
-
-                        {# <div class="dropdown-content flex space-between hide">
-                            <div class="service">
-                                <img class="icone-service"
-                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                                <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
-                            </div>
-                            <div class="line-sh" ></div>
-                            <div class="service">
-                                <img class="icone-service"
-                                    src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                                <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
-                            </div>
-                            <div class="line-sh" ></div>
-                            <div class="service">
-                                <img class="icone-service"
-                                    src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
-                                <p class="subtitle">Solutions 4G/5G</p>
-                            </div>
-                        </div>  #}
-                   
-                </div>
-
-                <div class="service-bloc">
-                  
-                    <div class="bloc-choice">
-                        <a class="mr-10 " href="/data_center">Data Center & Télécom</a>
-                        {# <a href="about.html"><img class=""
-                                src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt=""></a>  #}
-                    </div>
-
-                    {# <div class="dropdown-content flex space-between hide">
-                        <div class="service">
-                            <img class="icone-service"
-                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                            <p class="subtitle">Fibre sur réseau mutualisés (FTTH)</p>
-                        </div>
-                        <div class="line-sh" ></div>
-                        <div class="service">
-                            <img class="icone-service"
-                                src="{{ url_for('static', filename='images/iocne-fibre.svg') }}" alt="">
-                            <p class="subtitle">Fibre sur réseau dédiés (FTTO)</p>
-                        </div>
-                        <div class="line-sh" ></div>
-                        <div class="service">
-                            <img class="icone-service"
-                                src="{{ url_for('static', filename='images/icone-4G-5G.svg') }}" alt="">
-                            <p class="subtitle">Solutions 4G/5G</p>
-                        </div>
-                    </div>  #}
-               
+<!--Navbar-->
+<section>
+    <div class="navbar">
+        <div class="flex space-between  p-10">
+            <div class="flex-center">
+                <a href="/">
+                    <img height="40px" src="{{ url_for('static', filename='images/logo-short.svg') }}" alt="logo">
+                </a>
+                
             </div>
 
+            <div class="flex-center" id="menu" onclick="openNav()">
+                <img height="40px"  class="" src="{{ url_for('static', filename='images/menu.svg') }}" alt="menu">
             </div>
-        </nav>
+        </div>
+    </div>
+
+    <section id="menu-nav-phone" class="menu-nav-phone hide ">
+        <div class="flex-column flex-center">
+            <a class="pr-contact" href="/contact">Prendre contact</a>
+            <a class="btn-call" href="/contact">01.76.49.48.60</a>
+        </div>
+
+        <div class="ma-80">
+            <div class="flex space-between zone-menu">
+                <p class="titre">Accès Internet</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="/phone_ftth">Fibre sur reseaux mutualisés</a></li>
+                <li> <a href="/phone_ftth">Fibre sur réseau dédiée</a></li>
+                <li> <a href="/phone_iot">Solutions 4G/5G</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <div class="flex space-between zone-menu">
+                <p class="titre flex-center">Cyber Sécurité</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+
+            <ul>
+                <li> <a href="http://">Sécurité entreprise</a></li>
+                <li> <a href="http://">Solution IoT</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <a class="titre" href="http://"> Data center & Télécom </a>
+
+
+        </div>
     </section>
+
+
+    </section>
+
+    
+
+    <!--Navbar-->
 
     <section>
         <div class="flex space-between presentation-offre mtb">
@@ -207,7 +109,7 @@
     <section class="flex-center">
         <div class="annonce ">
            <div class="flex  conteneur">
-            <div>
+            <div class="offre-4G-5G">
                 <div>
                     <p>Votre accès internet est en panne ? </p>
                     <p>Nous vous déployons en urgence un</p>
@@ -218,7 +120,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="offre-4G-5G">
                 <div>
                     <p>Vous habitez une zone où la fibre n’est  </p>
                     <p>pas déployée ? Nous vous fournissons</p>
@@ -229,7 +131,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="offre-4G-5G">
                 <div>
                     <p>Vous avez déjà une fibre mais souhaitez</p>
                     <p>un accès secondaire de secours ? Nous</p>
@@ -242,7 +144,7 @@
         </div>
     </section>
 
-    <section class="m-50">
+    <section class="">
 
         <!-- bandeau noire -->
         <div class="bandeau-noire">
@@ -384,14 +286,14 @@
                     
                 </div>
                 <div class="flex-center">
-                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/illustration - sos 4G-5G.svg") }}" alt="">
+                    <img class="" width="100%"  src="{{ url_for('static', filename="images/illustration - sos 4G-5G.svg") }}" alt="">
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section class="m-50">
+    <section class="">
 
         <!-- bandeau jaune -->
         <div class="bandeau-jaune">
@@ -529,7 +431,7 @@
                     
                 </div>
                 <div class="flex-center">
-                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/schéma-explicatif-4g.svg") }}" alt="">
+                    <img class="" width="100%"  src="{{ url_for('static', filename="images/schéma-explicatif-4g.svg") }}" alt="">
                 </div>
             </div>
         </div>
@@ -537,10 +439,7 @@
 
     <section>
         <header class="flex space-between info_pub">
-            <div class="flex-column">
-                <div class="h-80"></div>
-                <div><img width="100px" height="80px" class=""  src="{{ url_for('static', filename="images/traits.svg") }}" alt=""></div>
-            </div>
+            
 
             <div class="flex-center flex-column">
                 <h1>Besoin d'informations ?</h1>
@@ -551,17 +450,13 @@
                 <button>Obtenir des informations</button>
             </div>
 
-            <div class="flex-column">
-                <div><img width="100px" height="80px" class=""  src="{{ url_for('static', filename="images/traits.svg") }}" alt=""></div>
-                <div class="h-80"></div>
-            </div>
         </header>
     </section>
 
     <section class="avantages">
-        <div class="flex">
+        <div class="">
 
-            <div class="avantage-box w-50">
+            <div class="avantage-box  m-auto">
                 <div class="flex flex-column flex-center">
                     <div class="flex ">
                         <div>
@@ -582,7 +477,7 @@
                 </div>
             </div>
 
-            <div class="avantage-box w-50">
+            <div class="avantage-box m-auto">
                 <div class="flex flex-column flex-center">
                     <div class="flex ">
                         <div><img class="" src="{{ url_for('static', filename='images/icone-plug-and-play.svg') }}" alt=""> </div>
@@ -603,8 +498,8 @@
         </div>
 
 
-        <div class="flex">
-            <div class="avantage-box w-50">
+        <div class="">
+            <div class="avantage-box m-auto">
                 <div class="flex flex-column flex-center">
                     <div class="flex ">
                         <div><img class="" src="{{ url_for('static', filename='images/icone-plug-and-play.svg') }}" alt=""> </div>
@@ -623,7 +518,7 @@
                 </div>
             </div>
 
-            <div class="avantage-box w-50">
+            <div class="avantage-box m-auto">
                 <div class="flex flex-column flex-center">
                     <div class="flex ">
                         <div><img class="" src="{{ url_for('static', filename='images/icone-plug-and-play.svg') }}" alt=""></div>
@@ -651,77 +546,87 @@
         </div>
 
         <div class="flex-center ">
-            <div class="flex">
-                <div class=" mr-20">
-                    <img class="" src="{{ url_for('static', filename='images/FTTO-4G-5G-ilustration.svg') }}" alt="">
+            <div class="">
+                <div class="">
+                    <img width="100%" class="" src="{{ url_for('static', filename='images/FTTO-4G-5G-ilustration.svg') }}" alt="">
                 </div>
     
                 <div>
-                    <img class="" src="{{ url_for('static', filename='images/FTTO-4G-5G-ilustration.svg') }}" alt="">
+                    <img width="100%" class="" src="{{ url_for('static', filename='images/FTTO-4G-5G-ilustration.svg') }}" alt="">
                 </div>
                 
             </div>
         </div>
 
-        
-        
     </section>
 
-    <footer class="flex space-between footer-section">
-
-        <div class="zone-info">
-            <ul>
-                <li><img width="100%" class="" src="{{ url_for('static', filename="./images/logo-black.svg") }}" alt=""></li> 
-                <li><p class="flex-center" >Fournisseurs d’accès</p></li> 
-            </ul>
-            <div class="flex-center">
-                <div class="flex space-between follow ">
-                    <a class="flex-center ml-20">Suivrez-Nous</a> 
+    <section class="footer">
+        <div class="flex-column ma-80">
+            <div class="bb-phone">
+                <div class="flex space-between">
+                    <p>Entreprise</p>
+                    <p onclick="closeCompanyLink()">X</p>
                 </div>
-                <div> <a class="flex-center" href="http://"><img width="50px" height="50px" class="" src="{{ url_for('static', filename="images/LinkedIn.svg") }}" alt=""></a> </div>
-            </div>
-            
-            
-        </div>
-        
 
-        <div class="flex space-between zone-nav" >
-
-            <div>
-                <h1 class="title">Ressources</h1>
-                <p>Fiche router 4G</p>
-                <p>Fiche ROuteur 5G </p>
-                
+                <div id="close_Company_link">
+                    <ul>
+                        <li> <a href="http://"> A propos</a> </li>
+                        <li><a href="http://">Blog </a> </li>
+                        <li><a href="http://">Contact </a> </li>
+                        <li><a href="http://">FAQ </a></li>
+                        <li><a href="">Devenir Partenaire</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div>
-                <h1 class="title">Navigation</h1>
-                <p>Acceuil</p>
-                <p>A propos </p>
-                <p>Blog </p>
-                <p>Contact </p>
+                <div class="flex space-between">
+                    <p>Offres</p>
+                    <p onclick="closeOffersLink()">X</p>
+                </div>
+
+                <div id="close_Offers_link">
+                    <div class="bb-phone">
+                        <ul>
+                            <li> <a href="http://">Secours 4G/5G</a> </li>
+                            <li> <a href="">Fibre Optique Pro</a> </li>
+                            <li> <a href="http://">Cyber-Défense</a> </li>
+                            <li><a href="http://">IoT </a> </li>
+                            <li><a href="http://">Cloud </a> </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+        <div class="flex space-between ma-80 mt-20">
+            <div class="flex space-between follow ">
+                <a class="flex-center ml-20">Suivrez-Nous</a>
+            </div>
+
+            <div class="client">
+                <a>Espace Client</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="footer-bottom">
+        <div class="ma-80 ">
+            <div>
+                <img width="80%" class="" src="{{ url_for('static', filename=" ./images/logo-black.svg") }}" alt="">
+
+                <p>72 Rue Sadi Carnot, 92170 Vanves</p>
             </div>
 
             <div>
-                <h1 class="title">Offres</h1>
-                <p>SOS 4G/5G</p>
-                <p>FIbre optique pro </p>
-                <p>Cloud </p>
-                <p>IoT </p>
-                <p>Devenir partenaire </p>
-            </div>
+                <p>© 2023 Métro Optic | Tous droits réservés</p>
 
-        </div>
-
-        <div class="flex-column zone-action  ">
-            <div class=" flex-column flex-center space-between">
-                <div class="client"><a>Espace Client</a></div>
-                <div class="touch"><a>Commander</a></div>
-                <div class="call"><a>Etre rappelé</a></div> 
+                <p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p>
             </div>
         </div>
 
-        
-    </footer>
+
+    </section>
 </body>
 </html>

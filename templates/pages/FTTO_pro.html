@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <script src="{{url_for('static', filename='js/index.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/get_screen_size.js') }}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
     <title>FTTH PRO</title>
 </head>
@@ -15,7 +16,7 @@
         <nav class="navbar">
             <div class="  flex space-between top-nav">
                 <div class="flex liens">
-                    <a href="/"><img class="mr-40"
+                    <a href="securite"><img class="mr-40"
                             src="{{ url_for('static', filename='images/logo.svg') }}" alt=""></a>
                     <div>
                         <a class="options-select" href="/">A Propos</a>
@@ -88,7 +89,7 @@
                         {# <div class=" flex option-nav hide">
                             
                                 <div class="service w-50">
-                                    <a href="/secutite">
+                                    <a href="securite">
                                         <img class="icone-service"
                                             src="{{ url_for('static', filename='images/securite-entreprise.svg') }}" alt="">
                                         <p class="subtitle">Sécurité entreprise</p>
@@ -411,7 +412,7 @@
                     
                 </div>
                 <div class="flex-center">
-                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO.svg") }}" alt="">
+                    <img class="img-schema" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO.svg") }}" alt="">
                 </div>
             </div>
 
@@ -650,7 +651,7 @@
                 </div>
 
                 <div class="flex-center">
-                    <img class="" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO-redonde.svg") }}" alt="">
+                    <img class="img-schema" width="700px" height="670px" src="{{ url_for('static', filename="images/Schéma-FTTO-redonde.svg") }}" alt="">
                 </div>
             </div>
 

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">
+
+     <script src="{{ url_for('static', filename='js/get_screen_size.js') }}"></script>
+    
     <title>Acceuil</title>
 </head>
 
@@ -81,7 +83,7 @@
                 <div class="service-bloc">
                     <div class="dropdown " >
                         <div class="bloc-choice">
-                            <a href="/" class="mr-10">Cyber-Sécurité</a>
+                            <a href="/securite" class="mr-10">Cyber-Sécurité</a>
                             {# <a class="dropbtn" href="/"> 
                                 <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
                            </a>  #}
@@ -89,7 +91,7 @@
                         {# <div class=" flex option-nav hide">
                             
                                 <div class="service w-50">
-                                    <a href="/secutite">
+                                    <a href="securite">
                                         <img class="icone-service"
                                             src="{{ url_for('static', filename='images/securite-entreprise.svg') }}" alt="">
                                         <p class="subtitle">Sécurité entreprise</p>
@@ -207,14 +209,14 @@
 
                 <div class="btn-action">
                     <ul class="flex">
-                        <li><a class="mr-20 rdv" href="">Obtenir un rendez vous </a> </li>
-                        <li><a class="devis" href="">Demander un devis</a> </li>
+                        <li><a class="mr-20 rdv" href="/contact">Obtenir un rendez vous </a> </li>
+                        <li><a class="devis" href="/contact">Demander un devis</a> </li>
                     </ul>
                 </div>
             </div>
 
             <div class="section-image">
-                <img width="85%" class="" src="{{ url_for('static', filename="images/illustration-offre.svg") }}"
+                <img width="100%" class="" src="{{ url_for('static', filename="images/illustration-offre.svg") }}"
                     alt="">
             </div>
 
@@ -223,7 +225,7 @@
 
 
     <section>
-        <div class="flex space-between pres-4g">
+        <div class="flex  pres-4g">
             <div class="nav-offer ">
                 <div class=" offer-box">
                     <div>
@@ -263,38 +265,40 @@
                 </div>
             </div>
 
-            <div class="offer-content">
-                <div>
-                    <h1>L'offre</h1>
-                    <p class="bold-12">SOS 4G/5G</p>
+            <div class="flex ml-40 space-around">
+                <div class="offer-content">
+                    <div>
+                        <h1>L'offre</h1>
+                        <p class="bold-12">SOS 4G/5G</p>
+                    </div>
+                    <div class="flex-column space-between zone-text" >
+                        <p class="urgence">Un besoin urgent ?</p>
+                        
+
+                        <p class="contenu"> Très bonne alternative lorsque vous etes dans une zone non couverte ou mal desservice par l'ADSL
+                            et la fibre.</p>
+
+                        <p class="contenu">
+                            Cette offre vous permet de ployer un accès internet très rapidement sans aucune installation et
+                            de bénéficier d'une connexion internet fiable et sécurisée.
+                        </p>
+
+                        <a class="more" href="/apropos">En savoir plus ></a> 
+                    </div>
+
                 </div>
-                <div class="flex-column space-between zone-text" >
-                    <p class="urgence">Un besoin urgent ?</p>
-                    
+                <div class="offre-image flex-center">
+                    <img width="100%" class="" src="{{ url_for('static', filename="images/illustration-4G-5G.png") }}"
+                        alt="">
 
-                    <p class="contenu"> Très bonne alternative lorsque vous etes dans une zone non couverte ou mal desservice par l'ADSL
-                        et la fibre.</p>
-
-                    <p class="contenu">
-                        Cette offre vous permet de ployer un accès internet très rapidement sans aucune installation et
-                        de bénéficier d'une connexion internet fiable et sécurisée.
-                    </p>
-
-                    <a class="more" href="">En savoir plus ></a> 
                 </div>
-
-            </div>
-            <div class="offre-image flex-center">
-                <img width="100%" class="" src="{{ url_for('static', filename="images/illustration-4G-5G.png") }}"
-                    alt="">
-
             </div>
         </div>
     </section>
 
     <section class="pres-why">
         <div class="flex space-between p-20">
-            <div class="flex w-30">
+            <div class="flex w-30 zone-service">
                 <div class="">
                     <div class="flex flex-column flex-center">
                         <div>
@@ -335,7 +339,7 @@
                 </div>
             </div>
 
-            <div class=" w-30">
+            <div class=" w-30 zone-service">
                 <div>
                     <div>
                         <img width="80px" height="80px" class="" src="{{ url_for('static', filename="images/femme-pouce.svg") }}" alt="">
@@ -416,7 +420,7 @@
             <div>
                 <h1 class="title">Ressources</h1>
                 <p>Fiche router 4G</p>
-                <p>Fiche ROuteur 5G </p>
+                <p>Fiche Routeur 5G </p>
                 
             </div>
 
@@ -441,18 +445,19 @@
 
         <div class="flex-column zone-action  ">
             <div class=" flex-column flex-center space-between">
-                <div class="client"><a>Espace Client</a></div>
-                <div class="touch"><a>Commander</a></div>
-                <div class="call"><a>Etre rappelé</a></div> 
+                <div class="client"><a href="/contact">Espace Client</a></div>
+                <div class="touch"><a href="/contact">Commander</a></div>
+                <div class="call"><a href="/contact">Etre rappelé</a></div> 
             </div>
         </div>
 
         
     </footer>
-</body>
+    </body>
             <div class="flex space-between ma-80">
                 <p>© 2023 Métro Optic. Tous droits réservés</p></li>
                 <p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p>
             </div>
-
+           
 </html>
+

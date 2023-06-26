@@ -738,6 +738,25 @@ body {
   margin-bottom: 100px;
 }
 
+/* media query for mobile */
+@media only screen and (max-width: 800px) {
+  .presentation-offre {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 80px;
+  }
+  .presentation-offre .w-50 {
+    width: 100%;
+  }
+  .presentation-offre .illustration {
+    height: 250px;
+    margin: auto;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+}
 .pres-fibre {
   padding-top: 195px;
   padding-bottom: 150px;
@@ -1045,6 +1064,14 @@ ul {
   background: #F6F8F9 0% 0% no-repeat padding-box;
 }
 
+.w-80 {
+  width: 80%;
+}
+
+.hoverpedia {
+  display: none;
+}
+
 /* medias query for tablette screen */
 @media (max-width: 1200px) {
   .pres-fibre {
@@ -1055,10 +1082,13 @@ ul {
     margin-top: 80px;
     width: 80%;
     font-family: Avenir-500;
+    margin: auto;
   }
   .pres-fibre .section-image {
     margin-top: 20px;
     width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
   }
   .pres-4g {
     display: flex;
@@ -1073,12 +1103,46 @@ ul {
     align-content: space-between;
     justify-content: space-between;
   }
+  .pres-4g .nav-offer .offer-box {
+    margin-bottom: 60px;
+  }
   .pres-4g .offer-content {
     margin-top: 40px;
     width: 100%;
   }
   .pres-4g .offre-image {
     width: 62%;
+    margin: auto;
+  }
+  .pres-why {
+    font: normal normal normal 22px Avenir-500;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .zone-service {
+    width: 100%;
+  }
+  .annonce .conteneur {
+    padding: 30px;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+  }
+  .annonce {
+    margin: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -20px 20px 1px 0px #FAE0A7;
+    opacity: 1;
+  }
+  .annonce .conteneur .zone-p {
+    height: 100%;
+  }
+  .hoverbox {
+    display: none;
+  }
+  .m-auto {
     margin: auto;
   }
 }
@@ -1114,6 +1178,7 @@ ul {
 }
 .contact-presentation .box {
   margin: 20px;
+  font: normal normal normal 18px Avenir-500;
 }
 .contact-presentation .box h1 {
   text-align: left;
@@ -1138,6 +1203,9 @@ input {
   width: 60%;
   background: #E5F0F5 0% 0% no-repeat padding-box;
   margin-bottom: 80px;
+}
+.form-content p {
+  font: normal normal normal 15px Avenir-500;
 }
 
 form {
@@ -1195,6 +1263,25 @@ form .send-form a {
   transform: translateY(-80px);
 }
 
+@media (max-width: 1200px) {
+  .form-content {
+    padding: 40px;
+    width: 100%;
+    background: #E5F0F5 0% 0% no-repeat padding-box;
+    margin-bottom: 80px;
+  }
+  .phone-form .form {
+    background-color: #FFAE00;
+  }
+  .phone-form .form label {
+    text-align: left;
+    font: normal normal normal 1px Avenir-500;
+    font-size: 18px;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 20px;
+  }
+}
 .footer-section {
   padding: 80px;
   background: #FBFBFD 0% 0% no-repeat padding-box;
@@ -1402,6 +1489,23 @@ form .send-form a {
   opacity: 1;
 }
 
+@media (max-width: 1200px) {
+  .pres-data {
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pres-data .w-50 {
+    width: 100%;
+  }
+  .pres-data img {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+  }
+}
 .iot-header {
   margin: 80px;
 }
@@ -1553,6 +1657,13 @@ form .send-form a {
     margin-bottom: 20px;
     background-color: #F6F8F9;
   }
+  .phone-pres .rdv {
+    padding: 15px;
+    border: 1px solid #3F8FB9;
+    border-radius: 5px;
+    opacity: 1;
+    color: #3F8FB9;
+  }
   .section-image {
     width: 100%;
     height: 100%;
@@ -1566,6 +1677,22 @@ form .send-form a {
   }
   .metro-why {
     background-color: #F6F8F9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .metro-why .title1 {
+    font: normal normal 500 20px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+  .metro-why .title2 {
+    font: normal normal 500 20px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    margin-bottom: 10px;
   }
   .zone-ftth {
     background-color: #F6F8F9;
@@ -1614,6 +1741,25 @@ form .send-form a {
     width: 90%;
     margin: auto;
     margin-top: 40px;
+  }
+  .box-add {
+    margin-bottom: 40px;
+  }
+  .box-add .box {
+    padding: 10px;
+    box-shadow: none;
+    background-color: #e5f0f5;
+  }
+  .box-add .box h1 {
+    text-align: left;
+    font: normal normal normal 18px Avenir-500;
+    letter-spacing: 0px;
+    color: #FFAE00;
+    opacity: 1;
+    font-size: 25px;
+  }
+  .box-add .box p {
+    font: normal normal normal 18px Avenir-500;
   }
   .backup4g .contenu-offre {
     width: 100%;
@@ -1761,6 +1907,224 @@ form .send-form a {
   }
   .zone-service .service .service-detail p {
     font: normal normal normal 18px Avenir-500;
+  }
+  .img-schema {
+    width: 100%;
+  }
+  .zone-pres-lot {
+    font: normal normal 900 25px Avenir-900;
+    background: #101041 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    width: 80%;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  .contact-bloc {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #FFAE00 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+  .contact-bloc p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    font: normal normal normal 20px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    width: 100%;
+  }
+  .pres-iot-phone .zone-text {
+    margin: 40px;
+  }
+  .pres-iot-phone .zone-text h1 {
+    font: normal normal 900 25px Avenir-900;
+  }
+  .pres-iot-phone .zone-text p {
+    font: normal normal 500 18px Avenir-100;
+  }
+  .zone-text {
+    margin: 40px;
+  }
+  .zone-text h1 {
+    font: normal normal 900 25px Avenir-900;
+  }
+  .zone-text p {
+    font: normal normal 500 18px Avenir-100;
+  }
+  .phone-form {
+    padding-top: 20px;
+    background-color: #e5f0f5;
+    padding-bottom: 20px;
+  }
+  .phone-form p {
+    font: normal normal 500 18px Avenir-500;
+  }
+  .phone-form form {
+    background-color: #e5f0f5;
+    margin: 20px;
+  }
+  .phone-form form .send-form a {
+    text-align: center;
+    width: 50%;
+    background: #3F8FB9 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 10px 10px;
+    color: #F7F8F9;
+    font: normal normal normal 17px Avenir-500;
+  }
+  .phone-form form input {
+    padding: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CFD6E0;
+    border-radius: 5px;
+    opacity: 1;
+    width: 95%;
+  }
+  .menu-nav-phone {
+    padding-top: 50px;
+    position: fixed;
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transform: translateY(40px);
+    z-index: 10;
+    top: 20px;
+  }
+  .menu-nav-phone .pr-contact {
+    background: #3F8FB9 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    width: 80%;
+    padding: 15px;
+    font: normal normal normal 17px Avenir-500;
+    color: #F7F8F9;
+    text-align: center;
+  }
+  .menu-nav-phone .btn-call {
+    margin-top: 20px;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    border: 2px solid #3F8FB9;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal normal 17px Avenir-500;
+    color: #3F8FB9;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+  }
+  .menu-nav-phone .titre {
+    text-align: left;
+    font: normal normal 900 25px Avenir;
+    letter-spacing: 0px;
+    color: #3F8FB9;
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+  .menu-nav-phone ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .menu-nav-phone ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-nav-phone ul li a {
+    font: normal normal 500 20px Avenir-100;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+  }
+  .menu-nav-phone .zone-menu {
+    border-bottom: 2px solid #3F8FB9;
+    opacity: 1;
+  }
+  .offre-data-center .demi-arc {
+    width: 150px;
+    border-radius: 0% 60% 60% 0%;
+    background-color: white;
+    height: 100%;
+    display: none;
+  }
+  .pres-fibre .section-text .title {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #101041;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .offre-data-center .demi-arc-g {
+    width: 150px;
+    border-radius: 60% 0% 0% 60%;
+    background-color: white;
+    margin-left: auto;
+    height: 100%;
+    display: none;
+  }
+  .offre-data-center {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* opacity: 1; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    border-radius: 25px;
+    opacity: 1;
+  }
+  .data-annonce .annonce {
+    margin-top: 60px;
+    margin-bottom: 180px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -20px 20px 1px 0px #FAE0A7;
+    opacity: 1;
+  }
+  .pres-data {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenant-blue .offre-data-center .zone-offre {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+  }
+  .info_pub {
+    padding: 35px;
+    background: #3F8FB9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .bb-phone {
+    border-bottom: 2px solid black;
+  }
+  .avantages .avantage-box .description {
+    text-align: center;
+    font: normal normal 500 16px Avenir-500;
+    letter-spacing: 0px;
+    color: #101041;
+    opacity: 1;
+    width: 100%;
+  }
+  .offre-4G-5G {
+    margin-bottom: 30px;
   }
 }
 

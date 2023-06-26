@@ -8,25 +8,94 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">
+    <script src="{{ url_for('static', filename='js/get_screen_size.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/phone.js') }}"></script>
     <title>Acceuil</title>
 </head>
 
 <body>
 
+   <!--Navbar-->
+   <section>
+    <div class="navbar">
+        <div class="flex space-between  p-10">
+            <div class="flex-center">
+                <a href="/">
+                    <img height="40px" src="{{ url_for('static', filename='images/logo-short.svg') }}" alt="logo">
+                </a>
+                
+            </div>
+
+            <div class="flex-center" id="menu" onclick="openNav()">
+                <img height="40px"  class="" src="{{ url_for('static', filename='images/menu.svg') }}" alt="menu">
+            </div>
+        </div>
+    </div>
+
+    <section id="menu-nav-phone" class="menu-nav-phone hide ">
+        <div class="flex-column flex-center">
+            <a class="pr-contact" href="/contact">Prendre contact</a>
+            <a class="btn-call" href="/contact">01.76.49.48.60</a>
+        </div>
+
+        <div class="ma-80">
+            <div class="flex space-between zone-menu">
+                <p class="titre">Accès Internet</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="/phone_ftth">Fibre sur reseaux mutualisés</a></li>
+                <li> <a href="/phone_ftth">Fibre sur réseau dédiée</a></li>
+                <li> <a href="/phone_iot">Solutions 4G/5G</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <div class="flex space-between zone-menu">
+                <p class="titre flex-center">Cyber Sécurité</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+
+            <ul>
+                <li> <a href="http://">Sécurité entreprise</a></li>
+                <li> <a href="http://">Solution IoT</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <a class="titre" href="http://"> Data center & Télécom </a>
+
+
+        </div>
+    </section>
+
+
+    </section>
+    <!--Navbar-->
+
     <section>
-        <div>
+        <div class="pres-iot-phone">
             <div class="section-image">
                 <div class="flex-center">
                     <img src="{{ url_for('static', filename='images/illustration_iot.svg') }}" alt="">
                 </div>
             </div>
 
-            <div>
-                <h1>CONNECTEZ TOUS VOS ÉQUIPEMENTS SUR DES RÉSEAUX PERFORMANTS.</h1>
-            </div>
+            <div class="zone-text">
+                <div>
+                    <h1>CONNECTEZ TOUS VOS ÉQUIPEMENTS SUR DES RÉSEAUX PERFORMANTS.</h1>
+                </div>
 
-            <div>
-                <p>Explorez un large éventail de solutions pour optimiser la sécurité de votre réseau d’entreprise</p>
+                <div>
+                    <p>Explorez un large éventail de solutions pour optimiser la sécurité de votre réseau d’entreprise
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -44,181 +113,202 @@
                         <div class="flex flex-column flex-center">
                             <p class="devise">€ HT</p>
                             <p class="devise">/mois</p>
-                           
+
                         </div>
                     </div>
                     <div class="flex-center flex-column ">
                         <button class="buy">Commander</button>
                         <button class="compare">Comparer</button>
                     </div>
-                    
+
                 </div>
 
-                <div class="flex m-40 bty" >
-                    <div class="flex-center mr-10" >
-                        <img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
+                <div class="flex m-40 bty">
+                    <div class="flex-center mr-10">
+                        <img width="40px" height="40px" class=""
+                            src="{{ url_for('static', filename='images/VPN.svg') }}" alt="">
                     </div>
                     <div>
                         <p class="sous-titre"> La performance de la fibre FTTH
                         </p>
-                        <p class="sous-titre">  essentielle à votre entreprise</p>
+                        <p class="sous-titre"> essentielle à votre entreprise</p>
                     </div>
-                    
+
                 </div>
 
                 <div class="m-40">
                     <div class="flex">
-                        <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
-                        <div class="flex-center "><p class="sous-titre ">Fibre mutualisée FTTH</p></div>
+                        <div class="mr-10"><img width="40px" height="40px" class=""
+                                src="{{ url_for('static', filename='images/fibre.svg') }}" alt=""></div>
+                        <div class="flex-center ">
+                            <p class="sous-titre ">Fibre mutualisée FTTH</p>
+                        </div>
                     </div>
-                    
+
                     <ul class="ml-40">
                         <li>
                             <div class="flex">
-                                <div >
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/down.svg') }}" alt=""></div>
+                                <div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/down.svg') }}" alt=""></div>
                                 </div>
                                 <div class="flex-center">
                                     <p class="elt flex-center ">J'usqu'à 1Gbps en descendant</p>
                                 </div>
-                            </div>  
+                            </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/up.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/up.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">J'usqu'à 20 Mbs en montant</p>
                                 </div>
-                            </div>  
+                            </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">Garantie de temps d'intervention 8h</p>
                                 </div>
-                            </div>  
+                            </div>
                         </li>
                     </ul>
-                </div>                  
+                </div>
 
                 <div class="m-40">
                     <div class="flex ">
-                        <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
-                        <div class="flex-center"> <p class="sous-titre ">Accompagnement proactif</p></div>
+                        <div class="mr-10"><img width="40px" height="40px" class=""
+                                src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                        <div class="flex-center">
+                            <p class="sous-titre ">Accompagnement proactif</p>
+                        </div>
                     </div>
-                   
+
                     <ul class="ml-40">
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10 "><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10 "><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">Supervision de votre accès 24h/7J</p>
                                 </div>
-                            </div>                     
+                            </div>
                         </li>
 
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
-                                    <p class="elt">Horaires étendus du support technique  :
+                                    <p class="elt">Horaires étendus du support technique :
                                         Du lundi au samedi de 8h à 22h</p>
                                 </div>
-                            </div> 
+                            </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
                                 </div>
-                            </div> 
+                            </div>
                         </li>
                     </ul>
                 </div>
 
                 <div class="m-40">
                     <div class="flex btg">
-                        <div class="mr-10"><img width="40px" height="40px" class="" src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
-                        <div class="flex-center"> <p class="sous-titre ">En option</p></div>
+                        <div class="mr-10"><img width="40px" height="40px" class=""
+                                src="{{ url_for('static', filename='images/accompagnement.svg') }}" alt=""></div>
+                        <div class="flex-center">
+                            <p class="sous-titre ">En option</p>
+                        </div>
                     </div>
-                   
+
                     <ul class="ml-40">
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">Cyber-sécurité : Pare-feu nouvelle génération</p>
                                 </div>
-                            </div>                     
+                            </div>
                         </li>
 
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">IP publique</p>
                                 </div>
-                            </div> 
+                            </div>
                         </li>
                         <li>
                             <div class="flex">
                                 <div>
-                                    <div class="mr-10"><img width="15px" height="15px" class="" src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
+                                    <div class="mr-10"><img width="15px" height="15px" class=""
+                                            src="{{ url_for('static', filename='images/check.svg') }}" alt=""></div>
                                 </div>
                                 <div>
                                     <p class="elt">Alerte par sms et e-mail en cas de coupure internet</p>
                                 </div>
-                            </div> 
+                            </div>
                         </li>
                     </ul>
                 </div>
-             </article>
-            
+            </article>
+
         </div>
     </section>
 
     <section>
-        <div class="ma-80">
+        <div class="ma-80 zone-text">
             <div>
                 <h1>Avec l’IoT MOPIOT : Connectez Tous Vos Équipements !</h1>
             </div>
-           
+
             <div>
                 <p>De nombreux cas d’usages existent et nécessitent un réseau IoT adapté aux contraintes métiers.</p>
             </div>
         </div>
-        
+
     </section>
 
     <section>
-        <div class="flex space-around avantage-content" >
-            
+        <div class="flex space-around avantage-content">
+
             <div class="zone-pres-lot">
                 <h1>Choisir notre solution Iot, c’est accéder à :</h1>
 
                 <div>
                     <div class="flex">
                         <div class="img-ilustra">
-                            <img class="" src="{{ url_for('static', filename='images/iot-connect.svg') }}" alt="">    
+                            <img class="" src="{{ url_for('static', filename='images/iot-connect.svg') }}" alt="">
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi iste saepe quidem voluptates!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam
+                                vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi
+                                iste saepe quidem voluptates!</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +319,9 @@
                             <img class="" src="{{ url_for('static', filename='images/iot-connect.svg') }}" alt="">
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi iste saepe quidem voluptates!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam
+                                vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi
+                                iste saepe quidem voluptates!</p>
                         </div>
                     </div>
                 </div>
@@ -240,7 +332,9 @@
                             <img class="" src="{{ url_for('static', filename='images/iot-connect.svg') }}" alt="">
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi iste saepe quidem voluptates!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam
+                                vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi
+                                iste saepe quidem voluptates!</p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +345,9 @@
                             <img class="" src="{{ url_for('static', filename='images/iot-connect.svg') }}" alt="">
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi iste saepe quidem voluptates!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum quasi officia aperiam
+                                vel dolor voluptas nobis ut. Quisquam qui voluptas corrupti ab magni. Voluptatum commodi
+                                iste saepe quidem voluptates!</p>
                         </div>
                     </div>
                 </div>
@@ -259,7 +355,7 @@
             </div>
 
 
-            
+
         </div>
     </section>
 
@@ -269,14 +365,85 @@
                 <div>
                     <h1>Contactez-nous</h1>
 
-                    <p>Nous vous invitons à nous contactez pour toutes Informations supplémentaires : 00.00.00.00.00 Disponible du lundi au samedi de 8h à 18h</p>
+                    <p>Nous vous invitons à nous contactez pour toutes Informations supplémentaires : 00.00.00.00.00
+                        Disponible du lundi au samedi de 8h à 18h</p>
 
-                    <a  class="btn-contact" href="/contact">Formulaire de contact</a>
+                    <a class="btn-contact" href="/contact">Formulaire de contact</a>
                 </div>
 
-                
+
             </div>
         </div>
+    </section>
+
+    <!--footer -->
+
+    <section class="footer">
+        <div class="flex-column ma-80">
+            <div>
+                <div class="flex space-between">
+                    <p>Entreprise</p>
+                    <p>X</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li> <a href="http://"> A propos</a> </li>
+                        <li><a href="http://">Blog </a> </li>
+                        <li><a href="http://">Contact </a> </li>
+                        <li><a href="http://">FAQ </a></li>
+                        <li><a href="">Devenir Partenaire</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex space-between">
+                    <p>Offres</p>
+                    <p>X</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li> <a href="http://">Secours 4G/5G</a> </li>
+                        <li> <a href="">Fibre Optique Pro</a> </li>
+                        <li> <a href="http://">Cyber-Défense</a> </li>
+                        <li><a href="http://">IoT </a> </li>
+                        <li><a href="http://">Cloud </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex space-between ma-80 mt-20">
+            <div class="flex space-between follow ">
+                <a class="flex-center ml-20">Suivrez-Nous</a>
+            </div>
+
+            <div class="client">
+                <a>Espace Client</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="footer-bottom">
+        <div class="ma-80 ">
+            <div>
+                <img width="80%" class="" src="{{ url_for('static', filename='/images/logo-black.svg') }}" alt="">
+
+                <p>72 Rue Sadi Carnot, 92170 Vanves</p>
+            </div>
+
+            <div>
+                <p>© 2023 Métro Optic | Tous droits réservés</p>
+
+                <p>Mentions légales & CGU | CGV - Cookies Politique de confidentialité</p>
+            </div>
+        </div>
+
+
     </section>
 
 </body>

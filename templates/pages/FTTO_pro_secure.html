@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <script src="{{url_for('static', filename='js/index.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/get_screen_size.js') }}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
     <title>FTTO PRO</title>
 </head>
@@ -80,7 +81,7 @@
                 <div class="service-bloc">
                     <div class="dropdown " >
                         <div class="bloc-choice">
-                            <a href="/" class="mr-10">Cyber-Sécurité</a>
+                            <a href="securite" class="mr-10">Cyber-Sécurité</a>
                             {# <a class="dropbtn" href="/"> 
                                 <img class="" src="{{ url_for('static', filename='images/chevron-black.svg') }}" alt="">
                            </a>  #}
@@ -88,7 +89,7 @@
                         {# <div class=" flex option-nav hide">
                             
                                 <div class="service w-50">
-                                    <a href="/secutite">
+                                    <a href="securite">
                                         <img class="icone-service"
                                             src="{{ url_for('static', filename='images/securite-entreprise.svg') }}" alt="">
                                         <p class="subtitle">Sécurité entreprise</p>

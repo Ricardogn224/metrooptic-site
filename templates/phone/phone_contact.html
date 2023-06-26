@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{ url_for('static', filename='js/phone.js') }}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='js/get_screen_size.js') }}"></script>
     <title>Contact</title>
 </head>
+
 <body>
+
+       <!--Navbar-->
+   <section>
+    <div class="navbar">
+        <div class="flex space-between  p-10">
+            <div class="flex-center">
+                <a href="/">
+                    <img height="40px" src="{{ url_for('static', filename='images/logo-short.svg') }}" alt="logo">
+                </a>
+                
+            </div>
+
+            <div class="flex-center" id="menu" onclick="openNav()">
+                <img height="40px"  class="" src="{{ url_for('static', filename='images/menu.svg') }}" alt="menu">
+            </div>
+        </div>
+    </div>
+
+    <section id="menu-nav-phone" class="menu-nav-phone hide ">
+        <div class="flex-column flex-center">
+            <a class="pr-contact" href="/contact">Prendre contact</a>
+            <a class="btn-call" href="/contact">01.76.49.48.60</a>
+        </div>
+
+        <div class="ma-80">
+            <div class="flex space-between zone-menu">
+                <p class="titre">Accès Internet</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="/phone_ftth">Fibre sur reseaux mutualisés</a></li>
+                <li> <a href="/phone_ftth">Fibre sur réseau dédiée</a></li>
+                <li> <a href="/phone_iot">Solutions 4G/5G</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <div class="flex space-between zone-menu">
+                <p class="titre flex-center">Cyber Sécurité</p>
+                <div class="flex-center">
+                    <div>chevron</div>
+                </div>
+            </div>
+
+            <ul>
+                <li> <a href="http://">Sécurité entreprise</a></li>
+                <li> <a href="http://">Solution IoT</a></li>
+            </ul>
+        </div>
+
+        <div class="ma-80">
+
+            <a class="titre" href="http://"> Data center & Télécom </a>
+
+
+        </div>
+    </section>
+
+
+    </section>
+
+    <!--Navbar-->
 
     <section>
         <div class="contact-presentation mtb">
@@ -21,49 +90,50 @@
     </section>
 
     <section>
-        <div class="box-add">
+        <div class="box-add ">
             <div class="box">
-               <h1>Besoin d'assistance ?</h1>
-
-               <div class="bb-2"></div>
-
-               <p>
-                   Des questions techniques? Nous sommes là pour vous donner un coup de main. Contactez notre équipe support à <b> support@metrooptic.fr </b>
-               </p>
-           </div>
-       </div>
+                <h1>Contact commercial</h1>
+                <div class="bb-2"></div>
+                <p>
+                    Des questions techniques? Nous sommes là pour vous donner un coup de main. Contactez notre équipe
+                    support à <b> support@metrooptic.fr </b>
+                </p>
+            </div>
+        </div>
     </section>
 
+  
 
-    <section>
+
+    <section class="phone-form">
         <div>
             <form action="" method="post">
                 <div>
                     <label for="">Nom & Premon<i class="c-red">*</i></label>
-                    <input type="button" value="">
+                    <input type="text" value="">
                 </div>
 
                 <div>
                     <label for="">Nom de l’entreprise<i class="c-red">*</i></label>
-                    <input type="button" value="">
+                    <input type="text" value="">
                 </div>
 
                 <div>
                     <label for="">Email<i class="c-red">*</i></label>
-                    <input type="button" value="">
+                    <input type="text" value="">
                 </div>
 
                 <div>
                     <label for="">Numéro de téléphone<i class="c-red">*</i></label>
-                    <input type="button" value="">
+                    <input type="text" value="">
                 </div>
 
                 <div>
                     <label for="">Sujet<i class="c-red">*</i></label>
-                    <input type="button" value="">
+                    <input type="text" value="">
                 </div>
 
-                <div class="flex-column " >
+                <div class="flex-column ">
                     <label for="">Votre message<i class="c-red">*</i></label>
                     <textarea class="w-99" name="" id="" cols="30" rows="10"></textarea>
                 </div>
@@ -73,12 +143,15 @@
                 </div>
 
                 <div>
-                    <p>* Champs obligatoires. La protection des données nous tient à coeur. Métro Optic utilise les informations que vous fournissez afin de vous proposer l’offre la plus adaptée à votre besoin. Pour plus d’informations, consultez notre politique de confidentialité.</p>
+                    <p>* Champs obligatoires. La protection des données nous tient à coeur. Métro Optic utilise les
+                        informations que vous fournissez afin de vous proposer l’offre la plus adaptée à votre besoin.
+                        Pour plus d’informations, consultez notre politique de confidentialité.</p>
                 </div>
-                
+
             </form>
         </div>
     </section>
 
 </body>
+
 </html>

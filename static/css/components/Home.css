@@ -305,6 +305,14 @@ ul {
   background: #F6F8F9 0% 0% no-repeat padding-box;
 }
 
+.w-80 {
+  width: 80%;
+}
+
+.hoverpedia {
+  display: none;
+}
+
 /* medias query for tablette screen */
 @media (max-width: 1200px) {
   .pres-fibre {
@@ -315,10 +323,13 @@ ul {
     margin-top: 80px;
     width: 80%;
     font-family: Avenir-500;
+    margin: auto;
   }
   .pres-fibre .section-image {
     margin-top: 20px;
     width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
   }
   .pres-4g {
     display: flex;
@@ -333,12 +344,46 @@ ul {
     align-content: space-between;
     justify-content: space-between;
   }
+  .pres-4g .nav-offer .offer-box {
+    margin-bottom: 60px;
+  }
   .pres-4g .offer-content {
     margin-top: 40px;
     width: 100%;
   }
   .pres-4g .offre-image {
     width: 62%;
+    margin: auto;
+  }
+  .pres-why {
+    font: normal normal normal 22px Avenir-500;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .zone-service {
+    width: 100%;
+  }
+  .annonce .conteneur {
+    padding: 30px;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+  }
+  .annonce {
+    margin: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -20px 20px 1px 0px #FAE0A7;
+    opacity: 1;
+  }
+  .annonce .conteneur .zone-p {
+    height: 100%;
+  }
+  .hoverbox {
+    display: none;
+  }
+  .m-auto {
     margin: auto;
   }
 }
